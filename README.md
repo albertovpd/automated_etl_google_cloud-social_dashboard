@@ -278,9 +278,11 @@ I am sure there are more themes than I used here that worth monitoring across th
 --------------------------------
 
 
-Project by Alberto Vargas.
+Project by Patricia Carmoona and Alberto Vargas.
 
-https://www.linkedin.com/in/alberto-vargas-pina/
+- https://www.linkedin.com/in/carmonapulidopatricia/
+
+- https://www.linkedin.com/in/alberto-vargas-pina/
 
 Many thanks to:
 
