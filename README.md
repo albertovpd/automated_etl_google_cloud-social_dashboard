@@ -293,25 +293,31 @@ I am sure there are more themes than I used here that worth monitoring across th
 - A great tutorial https://searchengineland.com/learn-how-to-chart-and-track-google-trends-in-data-studio-using-python-329119
 
 
+
+--------------------------------
 --------------------------------
 
 
-Project by Patricia Carmoona and Alberto Vargas.
-
-- https://www.linkedin.com/in/carmonapulidopatricia/
-
-- https://www.linkedin.com/in/alberto-vargas-pina/
 
 Many thanks to:
 
-- Alex Masip, Head of Data at Labelium España https://www.linkedin.com/in/alexmasip/
-- César Castañón: https://www.linkedin.com/in/cesar-castanon/
+- **Alex Masip**, Head of Data at Labelium España https://www.linkedin.com/in/alexmasip/
+- **César Castañón**: https://www.linkedin.com/in/cesar-castanon/
 
 
 ---------------------
 
 
+Project by **Patricia Carmona** and **Alberto Vargas**.
 
-![alt](pics/mrdogscience.jpeg)
+
+- https://www.linkedin.com/in/carmonapulidopatricia/
+
+- https://www.linkedin.com/in/alberto-vargas-pina/
+
+![alt](pics/monguerteam.png " ")
+
+----------------------
+
 
 
