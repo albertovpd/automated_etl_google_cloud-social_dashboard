@@ -1,24 +1,55 @@
 # Socioeconomic Pytrends project.
 
-This is a personal project to learn how to work with the different tools available in Google Cloud for an automated ETL process: From raw data acquisition to the final dashboard. Thanks to it, I've been fighting by my own with credentials, permissions, storage locations, processing locations, 3rd party authentications, pipelines, trigger schedulers with different time format... It's fun.
+This is a personal project to learn how to work with the different tools available in Google Cloud for an automated ETL process: From raw data acquisition to the final dashboard. Thanks to it, we've been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, pipelines, trigger schedulers with different time format... It's fun.
 
-1. Introduction
-2. How to use
-3. Results
-4. Analyzing results
-5. Conclusion
-6. Further improvements
-7. Documentation
+
+1. **Introduction**
+2. **How to use**
+3. **Results**
+4. **Analyzing results**
+5. **Conclusion**
+6. **Further improvements**
+7. **Documentation**
+
+
+
+
 
 
 ![alt](pics/trends_example.png)
+An automated dashboard is worth a thousand words. Dashboard in progress.
 
-- Sometimes the dashboard seems not up to date, it is because I assign a quota to my leisure projects and some functions stop when it is reached (I'm not Amancio Ortega to spend infinite money in the Cloud).
 
-- ### https://datastudio.google.com/s/iV7dE0FHYSM 
+
+---------------------------
+---------------------------
+-----------------------------
+
+# Developer notes. 
+
+***Stuff we need to have at hand: Running schedules:***
+
+**Python script.** The old ones, modify to **mondays**
+
+- Cloud Scheduler: 00 20 * * 0 Europe(Paris). It means it will run every sunday at 20:00. Run the job in cloud scheduler doesn't mean the cloud function that is activated for that runs. It means it can do it right (as far as I am concerned at 09.05.20).
+
+- Cloud Function: Testing it will modify the outcome in Cloud Storage.
+
+- Dataprep: Weekly at sundays 8:30 pm, Europe/Paris (it has a different time format than Cloud Scheduler). Running jobs will modify what is in BigQuery.
+
+- BigQuery: This schedule will run Every Sun at 21:00 Europe/Paris, starting Sun May 10 2020
+
+**Gdelt BigQuery.**
+
+(Still in development)
+
+------------------
+------------------
+-----------------
 
 
 ------------------------------
+
 
 # 1. Introduction.
 
@@ -60,7 +91,7 @@ https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-o
 ### Used tools to analyse the internet in Spain:
 
 
-***Google Trends***:
+***Google Trends***: Python. Pytrends library.
 
 Google Trends is a Google tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
 
@@ -70,34 +101,15 @@ Google trends searches the maximum on the specified period, makes that maximum t
 
 - If you request each of your keywords separately, each keyword will be averaged on time by its own top.
 
-***Gdelt Project***:
+***Gdelt Project***: SQL. Bigquery.
 
 The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available via BigQuery.
 
+***Twitter***: Python. " " library.
 
----------------------------
----------------------------
------------------------------
+*PatriPatriPatriPatriPatriPatriPatriPatriPatriPatri*
 
-***Stuff for myself from the future. Running schedules:***
 
-**Python script.**
-
-- Cloud Scheduler: 00 20 * * 0 Europe(Paris). It means it will run every sunday at 20:00. Run the job in cloud scheduler doesn't mean the cloud function that is activated for that runs. It means it can do it right (as far as I am concerned at 09.05.20).
-
-- Cloud Function: Testing it will modify the outcome in Cloud Storage.
-
-- Dataprep: Weekly at sundays 8:30 pm, Europe/Paris (it has a different time format than Cloud Scheduler). Running jobs will modify what is in BigQuery.
-
-- BigQuery: This schedule will run Every Sun at 21:00 Europe/Paris, starting Sun May 10 2020
-
-**Gdelt BigQuery.**
-
-(Still in development)
-
-------------------
-------------------
------------------
 
 
 # 2. How to:
@@ -126,7 +138,7 @@ https://console.cloud.google.com/storage/create-bucket?
 ### Pytrends (keywords without accents or capital letters). The chosen keywords for this project:
 
     - Videocalls: Zoom, Skype, Hangouts.
-    - Politics: refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica.
+    - Politics: refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica, protesta, manifestación.
     - Political parties: VOX, PP, PSOE, Podemos, ERC, Bildu. 
     - Employment: teletrabajo, remoto, cursos online, productividad, autónomos, negocios online, emprendimiento,
     - Unemployment / Consequences: erte, paro, SEPE, desempleo, formación, deshaucio, comedor social, banco alimentos,
