@@ -2,4 +2,5 @@ ipynb_checkpoints/
 tmp
 .env
 env
-cloud_function_real
+cloud_function/*.json
+*.json

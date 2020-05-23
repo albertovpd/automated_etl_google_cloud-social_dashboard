@@ -1,6 +1,8 @@
 # Socioeconomic Pytrends project.
 
-This is a personal project to learn how to work with the different tools available in Google Cloud for an automated ETL process: From raw data acquisition to the final dashboard. Thanks to it, we've been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, pipelines, trigger schedulers with different time format... It's fun.
+This is a personal to develop an ETL process in Google Cloud: From raw data acquisition to the final dashboard. Thanks to it, we've been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, pipelines, trigger schedulers with different time format... Quaratine fun.
+
+![alt](pics/monguerteam.png " ")
 
 
 1. **Introduction**
@@ -13,11 +15,9 @@ This is a personal project to learn how to work with the different tools availab
 
 
 
-
-
-
+- Dashboard in progress:
 ![alt](pics/trends_example.png)
-An automated dashboard is worth a thousand words. Dashboard in progress.
+*An automated dashboard is worth a thousand words.* 
 
 
 
@@ -138,28 +138,48 @@ https://console.cloud.google.com/storage/create-bucket?
 ### Pytrends (keywords without accents or capital letters). The chosen keywords for this project:
 
     - Videocalls: Zoom, Skype, Hangouts.
+
     - Politics: refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica, protesta, manifestación.
-    - Political parties: VOX, PP, PSOE, Podemos, ERC, Bildu. 
-    - Employment: teletrabajo, remoto, cursos online, productividad, autónomos, negocios online, emprendimiento,
-    - Unemployment / Consequences: erte, paro, SEPE, desempleo, formación, deshaucio, comedor social, banco alimentos,
-    - Home: ayuda alquiler,  pisos pequeños, divorcios, embarazo, hipoteca
-    - Health: coronavirus, pandemia, infeccion, médico, residencias ancianos, desescalada.
-    - Services: Amazon,  Cabify, taxi, 
+
+    - Political parties: Bildu, Ciudadanos Compromís, ERC, Más País, PNV, Podemos, PP, PSOE, VOX.
+
+    - Employment: teletrabajo, remoto, cursos online, productividad, autónomo, negocio online, emprendimiento,formación.
+
+    - Unemployment / Consequences: ERTE, paro, SEPE, desempleo, deshaucio, comedor social, banco alimentos, Cruz Roja, Cáritas.
+
+    - Home: Ayuda alquiler,  compartir piso, divorcio, embarazo, hipoteca, idealista, Badi, piso barato.
+
+    - Health: coronavirus, pandemia, infección, médico, residencia ancianos, desescalada. 
+
     - Education: clases online, exámenes, menú escolar, bullying.
-    - Hobbies / Leisure: Netflix, HBO, Steam, Glovo, Just Eat, Deliveroo, Uber Eats, hacer deporte, yoga, meditación, videollamada, videoconferencia, Tinder, meetic.
+
+    - Leisure / Habits: Netflix, Disney, Amazon, Cabify, Uber, Taxi, HBO, Steam, Glovo, Just Eat, Deliveroo, Uber Eats, hacer deporte, en casa, yoga, meditación, videollamada, videoconferencia, Tinder, Meetic, en familia.
 
 
+- Google Trends has the option of selection in which category you want to find your keywords. We have our reasons to not include categories in the code.
 
+- Moreover, instead of appending new information to our tables each week, we are overwriting them intentionally. This is due to how Google process and delivers information from Trends.
 
-- We have our reasons to not include keyword category within the code.
+If you want another approach, this is an awesome tutorial:
 
-- We are intentionally requesting all information from the same start date while end date varies with time, we believe this is the most accurate way of requesting from Google Trends due to how Google process the asked data.
+- https://searchengineland.com/learn-how-to-chart-and-track-google-trends-in-data-studio-using-python-329119
 
-- Why this folder has this structure can be found here:
+The structure of the Cloud Function folder must follow concrete indications: 
 
-        https://github.com/albertovpd/pytrends_cloud_function_example
+- https://github.com/albertovpd/pytrends_cloud_function_example
 
-- Python script is available in this folder.
+(Python script available in Cloud Function folder)
+
+234
+324
+234
+234
+23
+423
+4
+324
+324234
+234234
 
 
 ### Deploy the scripts on Google Cloud Function:
@@ -315,7 +335,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - https://www.linkedin.com/in/alberto-vargas-pina/
 
-![alt](pics/monguerteam.png " ")
+
 
 ----------------------
 

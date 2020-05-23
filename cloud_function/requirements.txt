@@ -1,0 +1,6 @@
+gcsfs==0.6.1  
+pandas==1.0.3 
+pytrends==4.7.2
+importlib-metadata==1.6.0
+
+
