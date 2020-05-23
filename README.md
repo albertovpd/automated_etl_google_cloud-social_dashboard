@@ -125,15 +125,19 @@ https://console.cloud.google.com/storage/create-bucket?
 
 ### Pytrends (keywords without accents or capital letters). The chosen keywords for this project:
 
-    - Videocalls: Zoom, Teams, Skype, Hangouts.
-    - Messaging apps: WhatsApp, Telegram, Viber, Tiktok.
-    - Politics: refugiados, inmigración, nacionalismo, corrupción, juicio, guerra comercial.
-    - Employment: teletrabajo, 
-    - Unemployment: erte, paro, autónomos, 
-    - Health: coronavirus, pandemia, infeccion, médico.
-    - Services: Amazon, Netflix, HBO, Rakuten, Steam, Cabify, taxi, Glovo, Just Eat, Deliveroo, Uber Eats.
-    - Habits: Comida a domicilio, hacer deporte, yoga, meditación.
-    - Improvement: Teletrabajo, videollamada, videoconferencia, cursos online.
+    - Videocalls: Zoom, Skype, Hangouts.
+    - Politics: refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica.
+    - Political parties: VOX, PP, PSOE, Podemos, ERC, Bildu. 
+    - Employment: teletrabajo, remoto, cursos online, productividad, autónomos, negocios online, emprendimiento,
+    - Unemployment / Consequences: erte, paro, SEPE, desempleo, formación, deshaucio, comedor social, banco alimentos,
+    - Home: ayuda alquiler,  pisos pequeños, divorcios, embarazo, hipoteca
+    - Health: coronavirus, pandemia, infeccion, médico, residencias ancianos, desescalada.
+    - Services: Amazon,  Cabify, taxi, 
+    - Education: clases online, exámenes, menú escolar, bullying.
+    - Hobbies / Leisure: Netflix, HBO, Steam, Glovo, Just Eat, Deliveroo, Uber Eats, hacer deporte, yoga, meditación, videollamada, videoconferencia, Tinder, meetic.
+
+
+
 
 - We have our reasons to not include keyword category within the code.
 
