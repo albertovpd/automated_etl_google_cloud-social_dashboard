@@ -128,6 +128,8 @@ https://console.cloud.google.com/storage/create-bucket?
     - Videocalls: Zoom, Teams, Skype, Hangouts.
     - Messaging apps: WhatsApp, Telegram, Viber, Tiktok.
     - Politics: refugiados, inmigración, nacionalismo, corrupción, juicio, guerra comercial.
+    - Employment: teletrabajo, 
+    - Unemployment: erte, paro, autónomos, 
     - Health: coronavirus, pandemia, infeccion, médico.
     - Services: Amazon, Netflix, HBO, Rakuten, Steam, Cabify, taxi, Glovo, Just Eat, Deliveroo, Uber Eats.
     - Habits: Comida a domicilio, hacer deporte, yoga, meditación.
