@@ -31,6 +31,14 @@ This is a personal to develop an ETL process in Google Cloud: From raw data acqu
 
 **Python script.** The old ones, modify to **mondays**
 
+- Cloud Storage: Region (lowest latency). Bucket in Europe West1
+
+- Dataprep settings: Europe West1-a
+
+- Dataprep project:
+
+===============
+
 - Cloud Scheduler: 00 20 * * 0 Europe(Paris). It means it will run every sunday at 20:00. Run the job in cloud scheduler doesn't mean the cloud function that is activated for that runs. It means it can do it right (as far as I am concerned at 09.05.20).
 
 - Cloud Function: Testing it will modify the outcome in Cloud Storage.
@@ -91,7 +99,10 @@ https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-o
 ### Used tools to analyse the internet in Spain:
 
 
-***Google Trends***: Python. Pytrends library.
+***Google Trends***:
+
+-  Python. 
+- Pytrends library.
 
 Google Trends is a Google tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
 
@@ -101,14 +112,29 @@ Google trends searches the maximum on the specified period, makes that maximum t
 
 - If you request each of your keywords separately, each keyword will be averaged on time by its own top.
 
-***Gdelt Project***: SQL. Bigquery.
 
-The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available via BigQuery.
+-----------------------
 
-***Twitter***: Python. " " library.
+***Gdelt Project***: 
 
-*PatriPatriPatriPatriPatriPatriPatriPatriPatriPatri*
+- SQL. 
+- Bigquery.
 
+The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available in almost 70 languages via BigQuery.
+
+------------------------------
+
+***Twitter***: 
+
+- Python. 
+- "****" library.
+
+This if the price of working with Twitter:
+
+![alt](pics/twitter_fees.png " ")
+This is the price of curiosity. We are eager to work hard and enjoy for fun programming, but we are not Amancio Ortega.
+
+*PatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriText*
 
 
 
@@ -124,15 +150,15 @@ In Cloud environment, select your project, go to billing, and take a glance. Jus
 
 https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?_ga=2.187077160.1256540572.1587286598-806021438.1579453370&pli=1&supportedpurview=project
 
-- Service Account: Give it a nice name
-- Grant this service account access to the project: Just the required roles for Cloud Storage and Cloud Function.
+- Service Account: Give it a nice name.
+- Role: Storage Object Admin (Full control of GCS objects).
 
 
 ### Create a bucket in Cloud Storage
 
 https://console.cloud.google.com/storage/create-bucket?
         
-- Configure it: Due to our requirements we will use region location, but be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
+- Configure it: Due to our requirements we will use region location (Europe West1), but be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
 
 
 ### Pytrends (keywords without accents or capital letters). The chosen keywords for this project:

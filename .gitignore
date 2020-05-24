@@ -1,6 +1,5 @@
 ipynb_checkpoints/
 tmp
 .env
-env
-cloud_function/*.json
 *.json
+upload_gcs_real.py
