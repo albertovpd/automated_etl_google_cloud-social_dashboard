@@ -21,39 +21,6 @@ This is a personal to develop an ETL process in Google Cloud: From raw data acqu
 
 
 
----------------------------
----------------------------
------------------------------
-
-# Developer notes. 
-
-***Stuff we need to have at hand: Running schedules:***
-
-**Python script.** The old ones, modify to **mondays**
-
-- Cloud Storage: Region (lowest latency). Bucket in Europe West1
-
-- Dataprep settings: Europe West1-a
-
-- Dataprep project:
-
-===============
-
-- Cloud Scheduler: 00 20 * * 0 Europe(Paris). It means it will run every sunday at 20:00. Run the job in cloud scheduler doesn't mean the cloud function that is activated for that runs. It means it can do it right (as far as I am concerned at 09.05.20).
-
-- Cloud Function: Testing it will modify the outcome in Cloud Storage.
-
-- Dataprep: Weekly at sundays 8:30 pm, Europe/Paris (it has a different time format than Cloud Scheduler). Running jobs will modify what is in BigQuery.
-
-- BigQuery: This schedule will run Every Sun at 21:00 Europe/Paris, starting Sun May 10 2020
-
-**Gdelt BigQuery.**
-
-(Still in development)
-
-------------------
-------------------
------------------
 
 
 ------------------------------
@@ -79,11 +46,11 @@ Let's show a social point of view of the pandemic's impact in Spain, through an 
 
 The Python ETL pipeline is based on this article:
 
-https://towardsdatascience.com/creation-of-an-etl-in-google-cloud-platform-for-automated-reporting-8a0309ee8a78
+- **https://towardsdatascience.com/creation-of-an-etl-in-google-cloud-platform-for-automated-reporting-8a0309ee8a78**
 
 The Gdelt Queries are based on the shared knowledge with the Data Team of Labelium España:
 
-https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-of-marketing-analysts-62e586cc0343
+- **https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-of-marketing-analysts-62e586cc0343**
 
 -------------------------
 
@@ -136,7 +103,8 @@ This is the price of curiosity. We are eager to work hard and enjoy for fun prog
 
 *PatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriText*
 
-
+-------------------------------
+-------------------------------
 
 # 2. How to:
 
@@ -151,33 +119,33 @@ In Cloud environment, select your project, go to billing, and take a glance. Jus
 https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?_ga=2.187077160.1256540572.1587286598-806021438.1579453370&pli=1&supportedpurview=project
 
 - Service Account: Give it a nice name.
-- Role: Storage Object Admin (Full control of GCS objects).
+- Role: Storage Object Admin, Cloud Function
 
 
 ### Create a bucket in Cloud Storage
 
 https://console.cloud.google.com/storage/create-bucket?
         
-- Configure it: Due to our requirements we will use region location (Europe West1), but be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
+- Configure it: Due to our requirements we will use region location (**Europe West1**). Be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
 
 
-### Pytrends (keywords without accents or capital letters). The chosen keywords for this project:
+### Pytrends (keywords without accents or capital letters. Script available in Cloud Function). The chosen keywords for this project:
 
     - Videocalls: Zoom, Skype, Hangouts.
 
-    - Politics: refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica, protesta, manifestación.
+    - Politics: Refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica, protesta, manifestación.
 
     - Political parties: Bildu, Ciudadanos Compromís, ERC, Más País, PNV, Podemos, PP, PSOE, VOX.
 
-    - Employment: teletrabajo, remoto, cursos online, productividad, autónomo, negocio online, emprendimiento,formación.
+    - Employment: Teletrabajo, remoto, cursos online, productividad, autónomo, negocio online, emprendimiento,formación.
 
     - Unemployment / Consequences: ERTE, paro, SEPE, desempleo, deshaucio, comedor social, banco alimentos, Cruz Roja, Cáritas.
 
     - Home: Ayuda alquiler,  compartir piso, divorcio, embarazo, hipoteca, idealista, Badi, piso barato.
 
-    - Health: coronavirus, pandemia, infección, médico, residencia ancianos, desescalada. 
+    - Health: Coronavirus, pandemia, infección, médico, residencia ancianos, desescalada. 
 
-    - Education: clases online, exámenes, menú escolar, bullying.
+    - Education: Clases online, exámenes, menú escolar, bullying.
 
     - Leisure / Habits: Netflix, Disney, Amazon, Cabify, Uber, Taxi, HBO, Steam, Glovo, Just Eat, Deliveroo, Uber Eats, hacer deporte, en casa, yoga, meditación, videollamada, videoconferencia, Tinder, Meetic, en familia.
 
@@ -190,43 +158,47 @@ If you want another approach, this is an awesome tutorial:
 
 - https://searchengineland.com/learn-how-to-chart-and-track-google-trends-in-data-studio-using-python-329119
 
-The structure of the Cloud Function folder must follow concrete indications: 
-
-- https://github.com/albertovpd/pytrends_cloud_function_example
-
-(Python script available in Cloud Function folder)
-
-234
-324
-234
-234
-23
-423
-4
-324
-324234
-234234
 
 
 ### Deploy the scripts on Google Cloud Function:
 
 1. Create a function here
         
-                https://console.cloud.google.com/functions/add?
+- https://console.cloud.google.com/functions/add?
          
 2. Trigger: Pub/sub
-3. Give a name to your pub/sub topic
+3. Give a name to your pub/sub topic and select it
 4. Runtime: Python 3.7
 5. Stage bucket: The bucket you created in GCS
-6. Advanced options:
-    - Region: Select the same region than the created bucket in GCS (this is very important)
-    - Environment variables: In the code, for private stuff like paths or keywords, instead of writing them, do something like <os.getenv("PROJECT_NAME")> (check the code). Then in this section, write PROJECT_NAME and its real value, both without the str symbol (" "). It looks like it does not work with os.dotenv.
+6. Advanced options. Region: Select the same region than the created bucket in GCS (**this is very important**)
+7. Service account: The same which you used to export your json credentials.
+8. Advanced options. Environment variables: In the code, for private stuff like paths or keywords, instead of writing them, do something like <os.getenv("PROJECT_NAME")> (check the code). Then in this section, write PROJECT_NAME and its real value, both without the str symbol (" "). It looks like it does not work with os.dotenv.
+9. Function to execute: main
  
+ Why the pub/sub topic is **main** or questions about the script structure can be found here:
+
+- https://github.com/albertovpd/pytrends_cloud_function_example
+
+(Python script available in Cloud Function folder)
+
+At this point the script works perfectly writing form my pc to cloud storage, nevertheless it fails when I use the cloud function. I'm following this thread and I'll write the causes and how to avoid them (when I know)
+
+- https://stackoverflow.com/questions/61284352/an-unknown-error-has-occurred-in-cloud-function-gcp-python
+
+
+![alt](pics/cloud_function_error.png " ")
+
+I am starting to give more access than "originally necessary" to credentials and playing with timeouts... I'll stop until support team answers before keep doing black magic.
+
+![alt](pics/roles.png " ")
+
+
+
 
 
 ### Go to Cloud Scheduler to schedule your topic
 
-                https://console.cloud.google.com/cloudscheduler/appengine
+- https://console.cloud.google.com/cloudscheduler/appengine
 
 1. Select the same region than all before
 2. Follow instructions and check your cronjob works :)
@@ -363,7 +335,41 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 
 
-----------------------
+
+
+---------------------------
+---------------------------
+-----------------------------
+
+# Developer notes. 
+
+***Stuff we need to have at hand: Running schedules:***
+
+**Python script.** The old ones, modify to **mondays**
+
+- Cloud Storage: Region (lowest latency). Bucket in Europe West1
+
+- Dataprep settings: Europe West1-a
+
+- Dataprep project:
+
+===============
+
+- Cloud Scheduler: 00 20 * * 0 Europe(Paris). It means it will run every sunday at 20:00. Run the job in cloud scheduler doesn't mean the cloud function that is activated for that runs. It means it can do it right (as far as I am concerned at 09.05.20).
+
+- Cloud Function: Testing it will modify the outcome in Cloud Storage.
+
+- Dataprep: Weekly at sundays 8:30 pm, Europe/Paris (it has a different time format than Cloud Scheduler). Running jobs will modify what is in BigQuery.
+
+- BigQuery: This schedule will run Every Sun at 21:00 Europe/Paris, starting Sun May 10 2020
+
+**Gdelt BigQuery.**
+
+(Still in development)
+
+------------------
+------------------
+-----------------
 
 
 

@@ -3,3 +3,4 @@ tmp
 .env
 *.json
 upload_gcs_real.py
+*.zip
