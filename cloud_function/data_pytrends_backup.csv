@@ -1,0 +1,5841 @@
+,keyword,date,trend_index
+0,zoom,2019-01-06,5
+1,zoom,2019-01-13,5
+2,zoom,2019-01-20,4
+3,zoom,2019-01-27,4
+4,zoom,2019-02-03,4
+5,zoom,2019-02-10,4
+6,zoom,2019-02-17,4
+7,zoom,2019-02-24,4
+8,zoom,2019-03-03,3
+9,zoom,2019-03-10,4
+10,zoom,2019-03-17,4
+11,zoom,2019-03-24,4
+12,zoom,2019-03-31,4
+13,zoom,2019-04-07,4
+14,zoom,2019-04-14,4
+15,zoom,2019-04-21,4
+16,zoom,2019-04-28,4
+17,zoom,2019-05-05,4
+18,zoom,2019-05-12,4
+19,zoom,2019-05-19,4
+20,zoom,2019-05-26,4
+21,zoom,2019-06-02,4
+22,zoom,2019-06-09,4
+23,zoom,2019-06-16,4
+24,zoom,2019-06-23,4
+25,zoom,2019-06-30,5
+26,zoom,2019-07-07,4
+27,zoom,2019-07-14,4
+28,zoom,2019-07-21,4
+29,zoom,2019-07-28,4
+30,zoom,2019-08-04,4
+31,zoom,2019-08-11,4
+32,zoom,2019-08-18,4
+33,zoom,2019-08-25,4
+34,zoom,2019-09-01,4
+35,zoom,2019-09-08,5
+36,zoom,2019-09-15,4
+37,zoom,2019-09-22,5
+38,zoom,2019-09-29,5
+39,zoom,2019-10-06,5
+40,zoom,2019-10-13,5
+41,zoom,2019-10-20,5
+42,zoom,2019-10-27,5
+43,zoom,2019-11-03,5
+44,zoom,2019-11-10,5
+45,zoom,2019-11-17,5
+46,zoom,2019-11-24,6
+47,zoom,2019-12-01,5
+48,zoom,2019-12-08,6
+49,zoom,2019-12-15,5
+50,zoom,2019-12-22,5
+51,zoom,2019-12-29,5
+52,zoom,2020-01-05,6
+53,zoom,2020-01-12,6
+54,zoom,2020-01-19,5
+55,zoom,2020-01-26,5
+56,zoom,2020-02-02,5
+57,zoom,2020-02-09,5
+58,zoom,2020-02-16,5
+59,zoom,2020-02-23,5
+60,zoom,2020-03-01,5
+61,zoom,2020-03-08,9
+62,zoom,2020-03-15,53
+63,zoom,2020-03-22,76
+64,zoom,2020-03-29,91
+65,zoom,2020-04-05,100
+66,zoom,2020-04-12,75
+67,zoom,2020-04-19,73
+68,zoom,2020-04-26,62
+69,zoom,2020-05-03,55
+70,zoom,2020-05-10,49
+71,zoom,2020-05-17,45
+72,zoom,2020-05-24,34
+73,skype,2019-01-06,7
+74,skype,2019-01-13,7
+75,skype,2019-01-20,6
+76,skype,2019-01-27,7
+77,skype,2019-02-03,7
+78,skype,2019-02-10,8
+79,skype,2019-02-17,7
+80,skype,2019-02-24,7
+81,skype,2019-03-03,7
+82,skype,2019-03-10,8
+83,skype,2019-03-17,7
+84,skype,2019-03-24,7
+85,skype,2019-03-31,6
+86,skype,2019-04-07,7
+87,skype,2019-04-14,5
+88,skype,2019-04-21,6
+89,skype,2019-04-28,7
+90,skype,2019-05-05,7
+91,skype,2019-05-12,6
+92,skype,2019-05-19,7
+93,skype,2019-05-26,6
+94,skype,2019-06-02,7
+95,skype,2019-06-09,7
+96,skype,2019-06-16,7
+97,skype,2019-06-23,7
+98,skype,2019-06-30,7
+99,skype,2019-07-07,7
+100,skype,2019-07-14,6
+101,skype,2019-07-21,6
+102,skype,2019-07-28,5
+103,skype,2019-08-04,5
+104,skype,2019-08-11,4
+105,skype,2019-08-18,5
+106,skype,2019-08-25,5
+107,skype,2019-09-01,6
+108,skype,2019-09-08,6
+109,skype,2019-09-15,7
+110,skype,2019-09-22,6
+111,skype,2019-09-29,7
+112,skype,2019-10-06,7
+113,skype,2019-10-13,7
+114,skype,2019-10-20,6
+115,skype,2019-10-27,6
+116,skype,2019-11-03,7
+117,skype,2019-11-10,6
+118,skype,2019-11-17,6
+119,skype,2019-11-24,6
+120,skype,2019-12-01,5
+121,skype,2019-12-08,6
+122,skype,2019-12-15,6
+123,skype,2019-12-22,5
+124,skype,2019-12-29,5
+125,skype,2020-01-05,6
+126,skype,2020-01-12,5
+127,skype,2020-01-19,5
+128,skype,2020-01-26,6
+129,skype,2020-02-02,6
+130,skype,2020-02-09,6
+131,skype,2020-02-16,6
+132,skype,2020-02-23,6
+133,skype,2020-03-01,6
+134,skype,2020-03-08,25
+135,skype,2020-03-15,100
+136,skype,2020-03-22,61
+137,skype,2020-03-29,47
+138,skype,2020-04-05,40
+139,skype,2020-04-12,37
+140,skype,2020-04-19,34
+141,skype,2020-04-26,27
+142,skype,2020-05-03,22
+143,skype,2020-05-10,20
+144,skype,2020-05-17,17
+145,skype,2020-05-24,14
+146,hangouts,2019-01-06,5
+147,hangouts,2019-01-13,5
+148,hangouts,2019-01-20,4
+149,hangouts,2019-01-27,4
+150,hangouts,2019-02-03,5
+151,hangouts,2019-02-10,4
+152,hangouts,2019-02-17,5
+153,hangouts,2019-02-24,5
+154,hangouts,2019-03-03,5
+155,hangouts,2019-03-10,5
+156,hangouts,2019-03-17,5
+157,hangouts,2019-03-24,5
+158,hangouts,2019-03-31,5
+159,hangouts,2019-04-07,5
+160,hangouts,2019-04-14,4
+161,hangouts,2019-04-21,4
+162,hangouts,2019-04-28,3
+163,hangouts,2019-05-05,4
+164,hangouts,2019-05-12,4
+165,hangouts,2019-05-19,5
+166,hangouts,2019-05-26,4
+167,hangouts,2019-06-02,5
+168,hangouts,2019-06-09,5
+169,hangouts,2019-06-16,4
+170,hangouts,2019-06-23,5
+171,hangouts,2019-06-30,4
+172,hangouts,2019-07-07,3
+173,hangouts,2019-07-14,4
+174,hangouts,2019-07-21,4
+175,hangouts,2019-07-28,5
+176,hangouts,2019-08-04,3
+177,hangouts,2019-08-11,3
+178,hangouts,2019-08-18,3
+179,hangouts,2019-08-25,4
+180,hangouts,2019-09-01,4
+181,hangouts,2019-09-08,5
+182,hangouts,2019-09-15,5
+183,hangouts,2019-09-22,5
+184,hangouts,2019-09-29,5
+185,hangouts,2019-10-06,5
+186,hangouts,2019-10-13,6
+187,hangouts,2019-10-20,5
+188,hangouts,2019-10-27,5
+189,hangouts,2019-11-03,6
+190,hangouts,2019-11-10,6
+191,hangouts,2019-11-17,5
+192,hangouts,2019-11-24,5
+193,hangouts,2019-12-01,6
+194,hangouts,2019-12-08,4
+195,hangouts,2019-12-15,5
+196,hangouts,2019-12-22,4
+197,hangouts,2019-12-29,4
+198,hangouts,2020-01-05,4
+199,hangouts,2020-01-12,5
+200,hangouts,2020-01-19,6
+201,hangouts,2020-01-26,6
+202,hangouts,2020-02-02,6
+203,hangouts,2020-02-09,5
+204,hangouts,2020-02-16,6
+205,hangouts,2020-02-23,6
+206,hangouts,2020-03-01,5
+207,hangouts,2020-03-08,26
+208,hangouts,2020-03-15,100
+209,hangouts,2020-03-22,77
+210,hangouts,2020-03-29,61
+211,hangouts,2020-04-05,45
+212,hangouts,2020-04-12,57
+213,hangouts,2020-04-19,50
+214,hangouts,2020-04-26,39
+215,hangouts,2020-05-03,34
+216,hangouts,2020-05-10,29
+217,hangouts,2020-05-17,29
+218,hangouts,2020-05-24,25
+219,refugiados,2019-01-06,48
+220,refugiados,2019-01-13,66
+221,refugiados,2019-01-20,40
+222,refugiados,2019-01-27,42
+223,refugiados,2019-02-03,46
+224,refugiados,2019-02-10,42
+225,refugiados,2019-02-17,44
+226,refugiados,2019-02-24,46
+227,refugiados,2019-03-03,34
+228,refugiados,2019-03-10,47
+229,refugiados,2019-03-17,47
+230,refugiados,2019-03-24,43
+231,refugiados,2019-03-31,46
+232,refugiados,2019-04-07,49
+233,refugiados,2019-04-14,34
+234,refugiados,2019-04-21,45
+235,refugiados,2019-04-28,35
+236,refugiados,2019-05-05,45
+237,refugiados,2019-05-12,49
+238,refugiados,2019-05-19,53
+239,refugiados,2019-05-26,34
+240,refugiados,2019-06-02,40
+241,refugiados,2019-06-09,41
+242,refugiados,2019-06-16,59
+243,refugiados,2019-06-23,33
+244,refugiados,2019-06-30,41
+245,refugiados,2019-07-07,28
+246,refugiados,2019-07-14,27
+247,refugiados,2019-07-21,24
+248,refugiados,2019-07-28,25
+249,refugiados,2019-08-04,38
+250,refugiados,2019-08-11,42
+251,refugiados,2019-08-18,65
+252,refugiados,2019-08-25,36
+253,refugiados,2019-09-01,33
+254,refugiados,2019-09-08,28
+255,refugiados,2019-09-15,29
+256,refugiados,2019-09-22,28
+257,refugiados,2019-09-29,33
+258,refugiados,2019-10-06,40
+259,refugiados,2019-10-13,32
+260,refugiados,2019-10-20,41
+261,refugiados,2019-10-27,39
+262,refugiados,2019-11-03,41
+263,refugiados,2019-11-10,45
+264,refugiados,2019-11-17,46
+265,refugiados,2019-11-24,57
+266,refugiados,2019-12-01,47
+267,refugiados,2019-12-08,31
+268,refugiados,2019-12-15,32
+269,refugiados,2019-12-22,21
+270,refugiados,2019-12-29,23
+271,refugiados,2020-01-05,43
+272,refugiados,2020-01-12,44
+273,refugiados,2020-01-19,44
+274,refugiados,2020-01-26,51
+275,refugiados,2020-02-02,36
+276,refugiados,2020-02-09,39
+277,refugiados,2020-02-16,36
+278,refugiados,2020-02-23,45
+279,refugiados,2020-03-01,100
+280,refugiados,2020-03-08,53
+281,refugiados,2020-03-15,34
+282,refugiados,2020-03-22,51
+283,refugiados,2020-03-29,47
+284,refugiados,2020-04-05,37
+285,refugiados,2020-04-12,40
+286,refugiados,2020-04-19,38
+287,refugiados,2020-04-26,41
+288,refugiados,2020-05-03,31
+289,refugiados,2020-05-10,44
+290,refugiados,2020-05-17,45
+291,refugiados,2020-05-24,24
+292,inmigracion,2019-01-06,76
+293,inmigracion,2019-01-13,82
+294,inmigracion,2019-01-20,66
+295,inmigracion,2019-01-27,47
+296,inmigracion,2019-02-03,66
+297,inmigracion,2019-02-10,71
+298,inmigracion,2019-02-17,63
+299,inmigracion,2019-02-24,51
+300,inmigracion,2019-03-03,50
+301,inmigracion,2019-03-10,63
+302,inmigracion,2019-03-17,58
+303,inmigracion,2019-03-24,49
+304,inmigracion,2019-03-31,58
+305,inmigracion,2019-04-07,48
+306,inmigracion,2019-04-14,44
+307,inmigracion,2019-04-21,89
+308,inmigracion,2019-04-28,80
+309,inmigracion,2019-05-05,64
+310,inmigracion,2019-05-12,61
+311,inmigracion,2019-05-19,65
+312,inmigracion,2019-05-26,60
+313,inmigracion,2019-06-02,55
+314,inmigracion,2019-06-09,62
+315,inmigracion,2019-06-16,38
+316,inmigracion,2019-06-23,38
+317,inmigracion,2019-06-30,47
+318,inmigracion,2019-07-07,34
+319,inmigracion,2019-07-14,28
+320,inmigracion,2019-07-21,30
+321,inmigracion,2019-07-28,38
+322,inmigracion,2019-08-04,37
+323,inmigracion,2019-08-11,61
+324,inmigracion,2019-08-18,71
+325,inmigracion,2019-08-25,64
+326,inmigracion,2019-09-01,44
+327,inmigracion,2019-09-08,34
+328,inmigracion,2019-09-15,44
+329,inmigracion,2019-09-22,53
+330,inmigracion,2019-09-29,54
+331,inmigracion,2019-10-06,53
+332,inmigracion,2019-10-13,56
+333,inmigracion,2019-10-20,48
+334,inmigracion,2019-10-27,55
+335,inmigracion,2019-11-03,100
+336,inmigracion,2019-11-10,100
+337,inmigracion,2019-11-17,71
+338,inmigracion,2019-11-24,65
+339,inmigracion,2019-12-01,43
+340,inmigracion,2019-12-08,51
+341,inmigracion,2019-12-15,56
+342,inmigracion,2019-12-22,18
+343,inmigracion,2019-12-29,34
+344,inmigracion,2020-01-05,59
+345,inmigracion,2020-01-12,58
+346,inmigracion,2020-01-19,57
+347,inmigracion,2020-01-26,59
+348,inmigracion,2020-02-02,44
+349,inmigracion,2020-02-09,46
+350,inmigracion,2020-02-16,64
+351,inmigracion,2020-02-23,56
+352,inmigracion,2020-03-01,49
+353,inmigracion,2020-03-08,38
+354,inmigracion,2020-03-15,30
+355,inmigracion,2020-03-22,38
+356,inmigracion,2020-03-29,33
+357,inmigracion,2020-04-05,37
+358,inmigracion,2020-04-12,46
+359,inmigracion,2020-04-19,56
+360,inmigracion,2020-04-26,39
+361,inmigracion,2020-05-03,47
+362,inmigracion,2020-05-10,49
+363,inmigracion,2020-05-17,54
+364,inmigracion,2020-05-24,68
+365,nacionalismo,2019-01-06,32
+366,nacionalismo,2019-01-13,31
+367,nacionalismo,2019-01-20,31
+368,nacionalismo,2019-01-27,25
+369,nacionalismo,2019-02-03,28
+370,nacionalismo,2019-02-10,37
+371,nacionalismo,2019-02-17,36
+372,nacionalismo,2019-02-24,35
+373,nacionalismo,2019-03-03,26
+374,nacionalismo,2019-03-10,28
+375,nacionalismo,2019-03-17,25
+376,nacionalismo,2019-03-24,29
+377,nacionalismo,2019-03-31,23
+378,nacionalismo,2019-04-07,22
+379,nacionalismo,2019-04-14,31
+380,nacionalismo,2019-04-21,31
+381,nacionalismo,2019-04-28,42
+382,nacionalismo,2019-05-05,23
+383,nacionalismo,2019-05-12,33
+384,nacionalismo,2019-05-19,34
+385,nacionalismo,2019-05-26,26
+386,nacionalismo,2019-06-02,25
+387,nacionalismo,2019-06-09,16
+388,nacionalismo,2019-06-16,17
+389,nacionalismo,2019-06-23,15
+390,nacionalismo,2019-06-30,8
+391,nacionalismo,2019-07-07,10
+392,nacionalismo,2019-07-14,11
+393,nacionalismo,2019-07-21,16
+394,nacionalismo,2019-07-28,14
+395,nacionalismo,2019-08-04,15
+396,nacionalismo,2019-08-11,13
+397,nacionalismo,2019-08-18,10
+398,nacionalismo,2019-08-25,14
+399,nacionalismo,2019-09-01,10
+400,nacionalismo,2019-09-08,13
+401,nacionalismo,2019-09-15,16
+402,nacionalismo,2019-09-22,15
+403,nacionalismo,2019-09-29,16
+404,nacionalismo,2019-10-06,23
+405,nacionalismo,2019-10-13,100
+406,nacionalismo,2019-10-20,74
+407,nacionalismo,2019-10-27,55
+408,nacionalismo,2019-11-03,58
+409,nacionalismo,2019-11-10,73
+410,nacionalismo,2019-11-17,42
+411,nacionalismo,2019-11-24,53
+412,nacionalismo,2019-12-01,48
+413,nacionalismo,2019-12-08,41
+414,nacionalismo,2019-12-15,27
+415,nacionalismo,2019-12-22,16
+416,nacionalismo,2019-12-29,17
+417,nacionalismo,2020-01-05,28
+418,nacionalismo,2020-01-12,34
+419,nacionalismo,2020-01-19,28
+420,nacionalismo,2020-01-26,32
+421,nacionalismo,2020-02-02,40
+422,nacionalismo,2020-02-09,32
+423,nacionalismo,2020-02-16,27
+424,nacionalismo,2020-02-23,28
+425,nacionalismo,2020-03-01,29
+426,nacionalismo,2020-03-08,22
+427,nacionalismo,2020-03-15,37
+428,nacionalismo,2020-03-22,40
+429,nacionalismo,2020-03-29,35
+430,nacionalismo,2020-04-05,29
+431,nacionalismo,2020-04-12,36
+432,nacionalismo,2020-04-19,37
+433,nacionalismo,2020-04-26,46
+434,nacionalismo,2020-05-03,50
+435,nacionalismo,2020-05-10,50
+436,nacionalismo,2020-05-17,56
+437,nacionalismo,2020-05-24,49
+438,corrupcion,2019-01-06,26
+439,corrupcion,2019-01-13,36
+440,corrupcion,2019-01-20,28
+441,corrupcion,2019-01-27,32
+442,corrupcion,2019-02-03,32
+443,corrupcion,2019-02-10,47
+444,corrupcion,2019-02-17,52
+445,corrupcion,2019-02-24,38
+446,corrupcion,2019-03-03,31
+447,corrupcion,2019-03-10,31
+448,corrupcion,2019-03-17,36
+449,corrupcion,2019-03-24,29
+450,corrupcion,2019-03-31,34
+451,corrupcion,2019-04-07,44
+452,corrupcion,2019-04-14,34
+453,corrupcion,2019-04-21,67
+454,corrupcion,2019-04-28,61
+455,corrupcion,2019-05-05,39
+456,corrupcion,2019-05-12,45
+457,corrupcion,2019-05-19,51
+458,corrupcion,2019-05-26,42
+459,corrupcion,2019-06-02,34
+460,corrupcion,2019-06-09,29
+461,corrupcion,2019-06-16,30
+462,corrupcion,2019-06-23,24
+463,corrupcion,2019-06-30,29
+464,corrupcion,2019-07-07,28
+465,corrupcion,2019-07-14,23
+466,corrupcion,2019-07-21,44
+467,corrupcion,2019-07-28,25
+468,corrupcion,2019-08-04,21
+469,corrupcion,2019-08-11,50
+470,corrupcion,2019-08-18,33
+471,corrupcion,2019-08-25,20
+472,corrupcion,2019-09-01,32
+473,corrupcion,2019-09-08,20
+474,corrupcion,2019-09-15,24
+475,corrupcion,2019-09-22,28
+476,corrupcion,2019-09-29,26
+477,corrupcion,2019-10-06,34
+478,corrupcion,2019-10-13,32
+479,corrupcion,2019-10-20,39
+480,corrupcion,2019-10-27,27
+481,corrupcion,2019-11-03,54
+482,corrupcion,2019-11-10,65
+483,corrupcion,2019-11-17,100
+484,corrupcion,2019-11-24,29
+485,corrupcion,2019-12-01,35
+486,corrupcion,2019-12-08,30
+487,corrupcion,2019-12-15,45
+488,corrupcion,2019-12-22,25
+489,corrupcion,2019-12-29,36
+490,corrupcion,2020-01-05,31
+491,corrupcion,2020-01-12,47
+492,corrupcion,2020-01-19,35
+493,corrupcion,2020-01-26,27
+494,corrupcion,2020-02-02,21
+495,corrupcion,2020-02-09,25
+496,corrupcion,2020-02-16,28
+497,corrupcion,2020-02-23,26
+498,corrupcion,2020-03-01,32
+499,corrupcion,2020-03-08,28
+500,corrupcion,2020-03-15,57
+501,corrupcion,2020-03-22,44
+502,corrupcion,2020-03-29,40
+503,corrupcion,2020-04-05,40
+504,corrupcion,2020-04-12,38
+505,corrupcion,2020-04-19,40
+506,corrupcion,2020-04-26,51
+507,corrupcion,2020-05-03,46
+508,corrupcion,2020-05-10,48
+509,corrupcion,2020-05-17,50
+510,corrupcion,2020-05-24,33
+511,estado de alarma,2019-01-06,0
+512,estado de alarma,2019-01-13,0
+513,estado de alarma,2019-01-20,0
+514,estado de alarma,2019-01-27,0
+515,estado de alarma,2019-02-03,0
+516,estado de alarma,2019-02-10,0
+517,estado de alarma,2019-02-17,0
+518,estado de alarma,2019-02-24,0
+519,estado de alarma,2019-03-03,0
+520,estado de alarma,2019-03-10,0
+521,estado de alarma,2019-03-17,0
+522,estado de alarma,2019-03-24,0
+523,estado de alarma,2019-03-31,0
+524,estado de alarma,2019-04-07,0
+525,estado de alarma,2019-04-14,0
+526,estado de alarma,2019-04-21,0
+527,estado de alarma,2019-04-28,0
+528,estado de alarma,2019-05-05,0
+529,estado de alarma,2019-05-12,0
+530,estado de alarma,2019-05-19,0
+531,estado de alarma,2019-05-26,0
+532,estado de alarma,2019-06-02,0
+533,estado de alarma,2019-06-09,0
+534,estado de alarma,2019-06-16,0
+535,estado de alarma,2019-06-23,0
+536,estado de alarma,2019-06-30,0
+537,estado de alarma,2019-07-07,0
+538,estado de alarma,2019-07-14,0
+539,estado de alarma,2019-07-21,0
+540,estado de alarma,2019-07-28,0
+541,estado de alarma,2019-08-04,0
+542,estado de alarma,2019-08-11,0
+543,estado de alarma,2019-08-18,0
+544,estado de alarma,2019-08-25,0
+545,estado de alarma,2019-09-01,0
+546,estado de alarma,2019-09-08,0
+547,estado de alarma,2019-09-15,0
+548,estado de alarma,2019-09-22,0
+549,estado de alarma,2019-09-29,0
+550,estado de alarma,2019-10-06,0
+551,estado de alarma,2019-10-13,1
+552,estado de alarma,2019-10-20,0
+553,estado de alarma,2019-10-27,0
+554,estado de alarma,2019-11-03,0
+555,estado de alarma,2019-11-10,0
+556,estado de alarma,2019-11-17,0
+557,estado de alarma,2019-11-24,0
+558,estado de alarma,2019-12-01,0
+559,estado de alarma,2019-12-08,0
+560,estado de alarma,2019-12-15,0
+561,estado de alarma,2019-12-22,0
+562,estado de alarma,2019-12-29,0
+563,estado de alarma,2020-01-05,0
+564,estado de alarma,2020-01-12,0
+565,estado de alarma,2020-01-19,0
+566,estado de alarma,2020-01-26,0
+567,estado de alarma,2020-02-02,0
+568,estado de alarma,2020-02-09,0
+569,estado de alarma,2020-02-16,0
+570,estado de alarma,2020-02-23,0
+571,estado de alarma,2020-03-01,0
+572,estado de alarma,2020-03-08,100
+573,estado de alarma,2020-03-15,82
+574,estado de alarma,2020-03-22,58
+575,estado de alarma,2020-03-29,61
+576,estado de alarma,2020-04-05,46
+577,estado de alarma,2020-04-12,43
+578,estado de alarma,2020-04-19,36
+579,estado de alarma,2020-04-26,44
+580,estado de alarma,2020-05-03,66
+581,estado de alarma,2020-05-10,27
+582,estado de alarma,2020-05-17,35
+583,estado de alarma,2020-05-24,24
+584,comparecencia,2019-01-06,1
+585,comparecencia,2019-01-13,1
+586,comparecencia,2019-01-20,2
+587,comparecencia,2019-01-27,1
+588,comparecencia,2019-02-03,1
+589,comparecencia,2019-02-10,3
+590,comparecencia,2019-02-17,1
+591,comparecencia,2019-02-24,1
+592,comparecencia,2019-03-03,1
+593,comparecencia,2019-03-10,1
+594,comparecencia,2019-03-17,1
+595,comparecencia,2019-03-24,1
+596,comparecencia,2019-03-31,1
+597,comparecencia,2019-04-07,1
+598,comparecencia,2019-04-14,1
+599,comparecencia,2019-04-21,1
+600,comparecencia,2019-04-28,3
+601,comparecencia,2019-05-05,1
+602,comparecencia,2019-05-12,1
+603,comparecencia,2019-05-19,1
+604,comparecencia,2019-05-26,1
+605,comparecencia,2019-06-02,1
+606,comparecencia,2019-06-09,1
+607,comparecencia,2019-06-16,1
+608,comparecencia,2019-06-23,1
+609,comparecencia,2019-06-30,1
+610,comparecencia,2019-07-07,1
+611,comparecencia,2019-07-14,1
+612,comparecencia,2019-07-21,1
+613,comparecencia,2019-07-28,0
+614,comparecencia,2019-08-04,0
+615,comparecencia,2019-08-11,0
+616,comparecencia,2019-08-18,1
+617,comparecencia,2019-08-25,2
+618,comparecencia,2019-09-01,0
+619,comparecencia,2019-09-08,1
+620,comparecencia,2019-09-15,1
+621,comparecencia,2019-09-22,1
+622,comparecencia,2019-09-29,1
+623,comparecencia,2019-10-06,1
+624,comparecencia,2019-10-13,3
+625,comparecencia,2019-10-20,1
+626,comparecencia,2019-10-27,1
+627,comparecencia,2019-11-03,1
+628,comparecencia,2019-11-10,5
+629,comparecencia,2019-11-17,2
+630,comparecencia,2019-11-24,1
+631,comparecencia,2019-12-01,1
+632,comparecencia,2019-12-08,1
+633,comparecencia,2019-12-15,1
+634,comparecencia,2019-12-22,0
+635,comparecencia,2019-12-29,1
+636,comparecencia,2020-01-05,1
+637,comparecencia,2020-01-12,1
+638,comparecencia,2020-01-19,1
+639,comparecencia,2020-01-26,1
+640,comparecencia,2020-02-02,1
+641,comparecencia,2020-02-09,1
+642,comparecencia,2020-02-16,1
+643,comparecencia,2020-02-23,1
+644,comparecencia,2020-03-01,2
+645,comparecencia,2020-03-08,100
+646,comparecencia,2020-03-15,27
+647,comparecencia,2020-03-22,21
+648,comparecencia,2020-03-29,16
+649,comparecencia,2020-04-05,8
+650,comparecencia,2020-04-12,23
+651,comparecencia,2020-04-19,14
+652,comparecencia,2020-04-26,36
+653,comparecencia,2020-05-03,14
+654,comparecencia,2020-05-10,7
+655,comparecencia,2020-05-17,6
+656,comparecencia,2020-05-24,5
+657,independentismo,2019-01-06,13
+658,independentismo,2019-01-13,9
+659,independentismo,2019-01-20,3
+660,independentismo,2019-01-27,10
+661,independentismo,2019-02-03,9
+662,independentismo,2019-02-10,17
+663,independentismo,2019-02-17,12
+664,independentismo,2019-02-24,8
+665,independentismo,2019-03-03,17
+666,independentismo,2019-03-10,15
+667,independentismo,2019-03-17,16
+668,independentismo,2019-03-24,14
+669,independentismo,2019-03-31,13
+670,independentismo,2019-04-07,11
+671,independentismo,2019-04-14,8
+672,independentismo,2019-04-21,14
+673,independentismo,2019-04-28,20
+674,independentismo,2019-05-05,8
+675,independentismo,2019-05-12,10
+676,independentismo,2019-05-19,10
+677,independentismo,2019-05-26,19
+678,independentismo,2019-06-02,9
+679,independentismo,2019-06-09,6
+680,independentismo,2019-06-16,9
+681,independentismo,2019-06-23,10
+682,independentismo,2019-06-30,12
+683,independentismo,2019-07-07,6
+684,independentismo,2019-07-14,8
+685,independentismo,2019-07-21,10
+686,independentismo,2019-07-28,13
+687,independentismo,2019-08-04,8
+688,independentismo,2019-08-11,9
+689,independentismo,2019-08-18,9
+690,independentismo,2019-08-25,6
+691,independentismo,2019-09-01,6
+692,independentismo,2019-09-08,12
+693,independentismo,2019-09-15,5
+694,independentismo,2019-09-22,12
+695,independentismo,2019-09-29,17
+696,independentismo,2019-10-06,12
+697,independentismo,2019-10-13,100
+698,independentismo,2019-10-20,48
+699,independentismo,2019-10-27,30
+700,independentismo,2019-11-03,25
+701,independentismo,2019-11-10,31
+702,independentismo,2019-11-17,14
+703,independentismo,2019-11-24,9
+704,independentismo,2019-12-01,11
+705,independentismo,2019-12-08,14
+706,independentismo,2019-12-15,11
+707,independentismo,2019-12-22,10
+708,independentismo,2019-12-29,10
+709,independentismo,2020-01-05,8
+710,independentismo,2020-01-12,11
+711,independentismo,2020-01-19,8
+712,independentismo,2020-01-26,10
+713,independentismo,2020-02-02,10
+714,independentismo,2020-02-09,6
+715,independentismo,2020-02-16,9
+716,independentismo,2020-02-23,4
+717,independentismo,2020-03-01,9
+718,independentismo,2020-03-08,4
+719,independentismo,2020-03-15,8
+720,independentismo,2020-03-22,7
+721,independentismo,2020-03-29,4
+722,independentismo,2020-04-05,2
+723,independentismo,2020-04-12,7
+724,independentismo,2020-04-19,8
+725,independentismo,2020-04-26,6
+726,independentismo,2020-05-03,5
+727,independentismo,2020-05-10,7
+728,independentismo,2020-05-17,6
+729,independentismo,2020-05-24,10
+730,crisis política,2019-01-06,61
+731,crisis política,2019-01-13,29
+732,crisis política,2019-01-20,0
+733,crisis política,2019-01-27,28
+734,crisis política,2019-02-03,0
+735,crisis política,2019-02-10,29
+736,crisis política,2019-02-17,0
+737,crisis política,2019-02-24,0
+738,crisis política,2019-03-03,30
+739,crisis política,2019-03-10,30
+740,crisis política,2019-03-17,30
+741,crisis política,2019-03-24,30
+742,crisis política,2019-03-31,29
+743,crisis política,2019-04-07,29
+744,crisis política,2019-04-14,30
+745,crisis política,2019-04-21,0
+746,crisis política,2019-04-28,0
+747,crisis política,2019-05-05,38
+748,crisis política,2019-05-12,29
+749,crisis política,2019-05-19,38
+750,crisis política,2019-05-26,0
+751,crisis política,2019-06-02,0
+752,crisis política,2019-06-09,56
+753,crisis política,2019-06-16,29
+754,crisis política,2019-06-23,60
+755,crisis política,2019-06-30,0
+756,crisis política,2019-07-07,0
+757,crisis política,2019-07-14,0
+758,crisis política,2019-07-21,30
+759,crisis política,2019-07-28,0
+760,crisis política,2019-08-04,0
+761,crisis política,2019-08-11,0
+762,crisis política,2019-08-18,0
+763,crisis política,2019-08-25,0
+764,crisis política,2019-09-01,0
+765,crisis política,2019-09-08,27
+766,crisis política,2019-09-15,0
+767,crisis política,2019-09-22,0
+768,crisis política,2019-09-29,27
+769,crisis política,2019-10-06,53
+770,crisis política,2019-10-13,0
+771,crisis política,2019-10-20,26
+772,crisis política,2019-10-27,26
+773,crisis política,2019-11-03,26
+774,crisis política,2019-11-10,0
+775,crisis política,2019-11-17,0
+776,crisis política,2019-11-24,0
+777,crisis política,2019-12-01,0
+778,crisis política,2019-12-08,27
+779,crisis política,2019-12-15,0
+780,crisis política,2019-12-22,30
+781,crisis política,2019-12-29,0
+782,crisis política,2020-01-05,27
+783,crisis política,2020-01-12,0
+784,crisis política,2020-01-19,24
+785,crisis política,2020-01-26,0
+786,crisis política,2020-02-02,0
+787,crisis política,2020-02-09,25
+788,crisis política,2020-02-16,0
+789,crisis política,2020-02-23,25
+790,crisis política,2020-03-01,0
+791,crisis política,2020-03-08,24
+792,crisis política,2020-03-15,55
+793,crisis política,2020-03-22,100
+794,crisis política,2020-03-29,44
+795,crisis política,2020-04-05,69
+796,crisis política,2020-04-12,67
+797,crisis política,2020-04-19,87
+798,crisis política,2020-04-26,59
+799,crisis política,2020-05-03,66
+800,crisis política,2020-05-10,44
+801,crisis política,2020-05-17,100
+802,crisis política,2020-05-24,81
+803,barometro,2019-01-06,35
+804,barometro,2019-01-13,32
+805,barometro,2019-01-20,28
+806,barometro,2019-01-27,59
+807,barometro,2019-02-03,47
+808,barometro,2019-02-10,51
+809,barometro,2019-02-17,61
+810,barometro,2019-02-24,46
+811,barometro,2019-03-03,41
+812,barometro,2019-03-10,37
+813,barometro,2019-03-17,35
+814,barometro,2019-03-24,35
+815,barometro,2019-03-31,72
+816,barometro,2019-04-07,92
+817,barometro,2019-04-14,42
+818,barometro,2019-04-21,100
+819,barometro,2019-04-28,45
+820,barometro,2019-05-05,44
+821,barometro,2019-05-12,33
+822,barometro,2019-05-19,16
+823,barometro,2019-05-26,18
+824,barometro,2019-06-02,23
+825,barometro,2019-06-09,26
+826,barometro,2019-06-16,19
+827,barometro,2019-06-23,29
+828,barometro,2019-06-30,34
+829,barometro,2019-07-07,24
+830,barometro,2019-07-14,19
+831,barometro,2019-07-21,23
+832,barometro,2019-07-28,39
+833,barometro,2019-08-04,18
+834,barometro,2019-08-11,30
+835,barometro,2019-08-18,28
+836,barometro,2019-08-25,28
+837,barometro,2019-09-01,16
+838,barometro,2019-09-08,28
+839,barometro,2019-09-15,36
+840,barometro,2019-09-22,35
+841,barometro,2019-09-29,26
+842,barometro,2019-10-06,34
+843,barometro,2019-10-13,30
+844,barometro,2019-10-20,46
+845,barometro,2019-10-27,81
+846,barometro,2019-11-03,72
+847,barometro,2019-11-10,41
+848,barometro,2019-11-17,46
+849,barometro,2019-11-24,37
+850,barometro,2019-12-01,31
+851,barometro,2019-12-08,27
+852,barometro,2019-12-15,27
+853,barometro,2019-12-22,38
+854,barometro,2019-12-29,15
+855,barometro,2020-01-05,42
+856,barometro,2020-01-12,49
+857,barometro,2020-01-19,23
+858,barometro,2020-01-26,32
+859,barometro,2020-02-02,29
+860,barometro,2020-02-09,21
+861,barometro,2020-02-16,26
+862,barometro,2020-02-23,31
+863,barometro,2020-03-01,30
+864,barometro,2020-03-08,22
+865,barometro,2020-03-15,14
+866,barometro,2020-03-22,30
+867,barometro,2020-03-29,14
+868,barometro,2020-04-05,47
+869,barometro,2020-04-12,45
+870,barometro,2020-04-19,31
+871,barometro,2020-04-26,34
+872,barometro,2020-05-03,38
+873,barometro,2020-05-10,34
+874,barometro,2020-05-17,48
+875,barometro,2020-05-24,32
+876,crisis economica,2019-01-06,12
+877,crisis economica,2019-01-13,12
+878,crisis economica,2019-01-20,11
+879,crisis economica,2019-01-27,16
+880,crisis economica,2019-02-03,19
+881,crisis economica,2019-02-10,12
+882,crisis economica,2019-02-17,17
+883,crisis economica,2019-02-24,14
+884,crisis economica,2019-03-03,17
+885,crisis economica,2019-03-10,20
+886,crisis economica,2019-03-17,25
+887,crisis economica,2019-03-24,16
+888,crisis economica,2019-03-31,18
+889,crisis economica,2019-04-07,18
+890,crisis economica,2019-04-14,16
+891,crisis economica,2019-04-21,17
+892,crisis economica,2019-04-28,30
+893,crisis economica,2019-05-05,15
+894,crisis economica,2019-05-12,18
+895,crisis economica,2019-05-19,23
+896,crisis economica,2019-05-26,14
+897,crisis economica,2019-06-02,10
+898,crisis economica,2019-06-09,16
+899,crisis economica,2019-06-16,14
+900,crisis economica,2019-06-23,8
+901,crisis economica,2019-06-30,8
+902,crisis economica,2019-07-07,9
+903,crisis economica,2019-07-14,13
+904,crisis economica,2019-07-21,13
+905,crisis economica,2019-07-28,13
+906,crisis economica,2019-08-04,14
+907,crisis economica,2019-08-11,41
+908,crisis economica,2019-08-18,26
+909,crisis economica,2019-08-25,25
+910,crisis economica,2019-09-01,23
+911,crisis economica,2019-09-08,15
+912,crisis economica,2019-09-15,16
+913,crisis economica,2019-09-22,19
+914,crisis economica,2019-09-29,26
+915,crisis economica,2019-10-06,44
+916,crisis economica,2019-10-13,18
+917,crisis economica,2019-10-20,23
+918,crisis economica,2019-10-27,22
+919,crisis economica,2019-11-03,23
+920,crisis economica,2019-11-10,26
+921,crisis economica,2019-11-17,19
+922,crisis economica,2019-11-24,14
+923,crisis economica,2019-12-01,17
+924,crisis economica,2019-12-08,18
+925,crisis economica,2019-12-15,14
+926,crisis economica,2019-12-22,7
+927,crisis economica,2019-12-29,10
+928,crisis economica,2020-01-05,14
+929,crisis economica,2020-01-12,13
+930,crisis economica,2020-01-19,11
+931,crisis economica,2020-01-26,10
+932,crisis economica,2020-02-02,12
+933,crisis economica,2020-02-09,11
+934,crisis economica,2020-02-16,14
+935,crisis economica,2020-02-23,15
+936,crisis economica,2020-03-01,20
+937,crisis economica,2020-03-08,61
+938,crisis economica,2020-03-15,100
+939,crisis economica,2020-03-22,86
+940,crisis economica,2020-03-29,85
+941,crisis economica,2020-04-05,62
+942,crisis economica,2020-04-12,82
+943,crisis economica,2020-04-19,51
+944,crisis economica,2020-04-26,44
+945,crisis economica,2020-05-03,56
+946,crisis economica,2020-05-10,42
+947,crisis economica,2020-05-17,60
+948,crisis economica,2020-05-24,33
+949,protesta,2019-01-06,22
+950,protesta,2019-01-13,24
+951,protesta,2019-01-20,34
+952,protesta,2019-01-27,28
+953,protesta,2019-02-03,14
+954,protesta,2019-02-10,39
+955,protesta,2019-02-17,33
+956,protesta,2019-02-24,25
+957,protesta,2019-03-03,29
+958,protesta,2019-03-10,30
+959,protesta,2019-03-17,23
+960,protesta,2019-03-24,23
+961,protesta,2019-03-31,24
+962,protesta,2019-04-07,27
+963,protesta,2019-04-14,17
+964,protesta,2019-04-21,20
+965,protesta,2019-04-28,22
+966,protesta,2019-05-05,21
+967,protesta,2019-05-12,20
+968,protesta,2019-05-19,22
+969,protesta,2019-05-26,17
+970,protesta,2019-06-02,27
+971,protesta,2019-06-09,25
+972,protesta,2019-06-16,20
+973,protesta,2019-06-23,14
+974,protesta,2019-06-30,23
+975,protesta,2019-07-07,25
+976,protesta,2019-07-14,22
+977,protesta,2019-07-21,20
+978,protesta,2019-07-28,15
+979,protesta,2019-08-04,14
+980,protesta,2019-08-11,21
+981,protesta,2019-08-18,19
+982,protesta,2019-08-25,15
+983,protesta,2019-09-01,17
+984,protesta,2019-09-08,11
+985,protesta,2019-09-15,15
+986,protesta,2019-09-22,25
+987,protesta,2019-09-29,27
+988,protesta,2019-10-06,30
+989,protesta,2019-10-13,100
+990,protesta,2019-10-20,63
+991,protesta,2019-10-27,26
+992,protesta,2019-11-03,39
+993,protesta,2019-11-10,38
+994,protesta,2019-11-17,35
+995,protesta,2019-11-24,26
+996,protesta,2019-12-01,24
+997,protesta,2019-12-08,25
+998,protesta,2019-12-15,22
+999,protesta,2019-12-22,18
+1000,protesta,2019-12-29,21
+1001,protesta,2020-01-05,20
+1002,protesta,2020-01-12,21
+1003,protesta,2020-01-19,20
+1004,protesta,2020-01-26,29
+1005,protesta,2020-02-02,32
+1006,protesta,2020-02-09,30
+1007,protesta,2020-02-16,37
+1008,protesta,2020-02-23,28
+1009,protesta,2020-03-01,23
+1010,protesta,2020-03-08,24
+1011,protesta,2020-03-15,37
+1012,protesta,2020-03-22,22
+1013,protesta,2020-03-29,34
+1014,protesta,2020-04-05,30
+1015,protesta,2020-04-12,34
+1016,protesta,2020-04-19,56
+1017,protesta,2020-04-26,40
+1018,protesta,2020-05-03,33
+1019,protesta,2020-05-10,89
+1020,protesta,2020-05-17,95
+1021,protesta,2020-05-24,62
+1022,manifestacion,2019-01-06,4
+1023,manifestacion,2019-01-13,7
+1024,manifestacion,2019-01-20,5
+1025,manifestacion,2019-01-27,4
+1026,manifestacion,2019-02-03,16
+1027,manifestacion,2019-02-10,53
+1028,manifestacion,2019-02-17,9
+1029,manifestacion,2019-02-24,8
+1030,manifestacion,2019-03-03,100
+1031,manifestacion,2019-03-10,21
+1032,manifestacion,2019-03-17,9
+1033,manifestacion,2019-03-24,8
+1034,manifestacion,2019-03-31,7
+1035,manifestacion,2019-04-07,4
+1036,manifestacion,2019-04-14,3
+1037,manifestacion,2019-04-21,3
+1038,manifestacion,2019-04-28,10
+1039,manifestacion,2019-05-05,3
+1040,manifestacion,2019-05-12,2
+1041,manifestacion,2019-05-19,2
+1042,manifestacion,2019-05-26,3
+1043,manifestacion,2019-06-02,2
+1044,manifestacion,2019-06-09,1
+1045,manifestacion,2019-06-16,3
+1046,manifestacion,2019-06-23,4
+1047,manifestacion,2019-06-30,4
+1048,manifestacion,2019-07-07,3
+1049,manifestacion,2019-07-14,2
+1050,manifestacion,2019-07-21,1
+1051,manifestacion,2019-07-28,1
+1052,manifestacion,2019-08-04,2
+1053,manifestacion,2019-08-11,1
+1054,manifestacion,2019-08-18,2
+1055,manifestacion,2019-08-25,2
+1056,manifestacion,2019-09-01,1
+1057,manifestacion,2019-09-08,6
+1058,manifestacion,2019-09-15,7
+1059,manifestacion,2019-09-22,21
+1060,manifestacion,2019-09-29,6
+1061,manifestacion,2019-10-06,7
+1062,manifestacion,2019-10-13,46
+1063,manifestacion,2019-10-20,28
+1064,manifestacion,2019-10-27,14
+1065,manifestacion,2019-11-03,5
+1066,manifestacion,2019-11-10,4
+1067,manifestacion,2019-11-17,4
+1068,manifestacion,2019-11-24,9
+1069,manifestacion,2019-12-01,10
+1070,manifestacion,2019-12-08,4
+1071,manifestacion,2019-12-15,3
+1072,manifestacion,2019-12-22,1
+1073,manifestacion,2019-12-29,7
+1074,manifestacion,2020-01-05,8
+1075,manifestacion,2020-01-12,5
+1076,manifestacion,2020-01-19,3
+1077,manifestacion,2020-01-26,7
+1078,manifestacion,2020-02-02,4
+1079,manifestacion,2020-02-09,5
+1080,manifestacion,2020-02-16,8
+1081,manifestacion,2020-02-23,5
+1082,manifestacion,2020-03-01,27
+1083,manifestacion,2020-03-08,35
+1084,manifestacion,2020-03-15,4
+1085,manifestacion,2020-03-22,6
+1086,manifestacion,2020-03-29,2
+1087,manifestacion,2020-04-05,12
+1088,manifestacion,2020-04-12,3
+1089,manifestacion,2020-04-19,5
+1090,manifestacion,2020-04-26,5
+1091,manifestacion,2020-05-03,4
+1092,manifestacion,2020-05-10,16
+1093,manifestacion,2020-05-17,37
+1094,manifestacion,2020-05-24,30
+1095,vox,2019-01-06,35
+1096,vox,2019-01-13,26
+1097,vox,2019-01-20,16
+1098,vox,2019-01-27,12
+1099,vox,2019-02-03,14
+1100,vox,2019-02-10,18
+1101,vox,2019-02-17,22
+1102,vox,2019-02-24,19
+1103,vox,2019-03-03,26
+1104,vox,2019-03-10,19
+1105,vox,2019-03-17,30
+1106,vox,2019-03-24,29
+1107,vox,2019-03-31,28
+1108,vox,2019-04-07,35
+1109,vox,2019-04-14,42
+1110,vox,2019-04-21,100
+1111,vox,2019-04-28,71
+1112,vox,2019-05-05,19
+1113,vox,2019-05-12,19
+1114,vox,2019-05-19,25
+1115,vox,2019-05-26,28
+1116,vox,2019-06-02,11
+1117,vox,2019-06-09,12
+1118,vox,2019-06-16,13
+1119,vox,2019-06-23,13
+1120,vox,2019-06-30,10
+1121,vox,2019-07-07,9
+1122,vox,2019-07-14,8
+1123,vox,2019-07-21,10
+1124,vox,2019-07-28,7
+1125,vox,2019-08-04,6
+1126,vox,2019-08-11,7
+1127,vox,2019-08-18,6
+1128,vox,2019-08-25,6
+1129,vox,2019-09-01,7
+1130,vox,2019-09-08,6
+1131,vox,2019-09-15,8
+1132,vox,2019-09-22,7
+1133,vox,2019-09-29,8
+1134,vox,2019-10-06,17
+1135,vox,2019-10-13,18
+1136,vox,2019-10-20,20
+1137,vox,2019-10-27,25
+1138,vox,2019-11-03,54
+1139,vox,2019-11-10,92
+1140,vox,2019-11-17,19
+1141,vox,2019-11-24,19
+1142,vox,2019-12-01,13
+1143,vox,2019-12-08,12
+1144,vox,2019-12-15,10
+1145,vox,2019-12-22,9
+1146,vox,2019-12-29,11
+1147,vox,2020-01-05,19
+1148,vox,2020-01-12,14
+1149,vox,2020-01-19,14
+1150,vox,2020-01-26,11
+1151,vox,2020-02-02,9
+1152,vox,2020-02-09,9
+1153,vox,2020-02-16,10
+1154,vox,2020-02-23,8
+1155,vox,2020-03-01,8
+1156,vox,2020-03-08,19
+1157,vox,2020-03-15,9
+1158,vox,2020-03-22,12
+1159,vox,2020-03-29,13
+1160,vox,2020-04-05,19
+1161,vox,2020-04-12,13
+1162,vox,2020-04-19,14
+1163,vox,2020-04-26,15
+1164,vox,2020-05-03,12
+1165,vox,2020-05-10,13
+1166,vox,2020-05-17,22
+1167,vox,2020-05-24,25
+1168,pp,2019-01-06,40
+1169,pp,2019-01-13,27
+1170,pp,2019-01-20,24
+1171,pp,2019-01-27,19
+1172,pp,2019-02-03,25
+1173,pp,2019-02-10,26
+1174,pp,2019-02-17,24
+1175,pp,2019-02-24,24
+1176,pp,2019-03-03,23
+1177,pp,2019-03-10,36
+1178,pp,2019-03-17,36
+1179,pp,2019-03-24,36
+1180,pp,2019-03-31,35
+1181,pp,2019-04-07,45
+1182,pp,2019-04-14,47
+1183,pp,2019-04-21,90
+1184,pp,2019-04-28,100
+1185,pp,2019-05-05,40
+1186,pp,2019-05-12,47
+1187,pp,2019-05-19,53
+1188,pp,2019-05-26,77
+1189,pp,2019-06-02,22
+1190,pp,2019-06-09,28
+1191,pp,2019-06-16,24
+1192,pp,2019-06-23,16
+1193,pp,2019-06-30,14
+1194,pp,2019-07-07,15
+1195,pp,2019-07-14,13
+1196,pp,2019-07-21,17
+1197,pp,2019-07-28,18
+1198,pp,2019-08-04,13
+1199,pp,2019-08-11,14
+1200,pp,2019-08-18,12
+1201,pp,2019-08-25,10
+1202,pp,2019-09-01,13
+1203,pp,2019-09-08,13
+1204,pp,2019-09-15,15
+1205,pp,2019-09-22,15
+1206,pp,2019-09-29,15
+1207,pp,2019-10-06,19
+1208,pp,2019-10-13,17
+1209,pp,2019-10-20,16
+1210,pp,2019-10-27,22
+1211,pp,2019-11-03,45
+1212,pp,2019-11-10,50
+1213,pp,2019-11-17,20
+1214,pp,2019-11-24,13
+1215,pp,2019-12-01,14
+1216,pp,2019-12-08,14
+1217,pp,2019-12-15,12
+1218,pp,2019-12-22,11
+1219,pp,2019-12-29,16
+1220,pp,2020-01-05,20
+1221,pp,2020-01-12,18
+1222,pp,2020-01-19,13
+1223,pp,2020-01-26,13
+1224,pp,2020-02-02,13
+1225,pp,2020-02-09,13
+1226,pp,2020-02-16,16
+1227,pp,2020-02-23,19
+1228,pp,2020-03-01,15
+1229,pp,2020-03-08,18
+1230,pp,2020-03-15,12
+1231,pp,2020-03-22,19
+1232,pp,2020-03-29,20
+1233,pp,2020-04-05,20
+1234,pp,2020-04-12,22
+1235,pp,2020-04-19,22
+1236,pp,2020-04-26,21
+1237,pp,2020-05-03,29
+1238,pp,2020-05-10,21
+1239,pp,2020-05-17,23
+1240,pp,2020-05-24,19
+1241,psoe,2019-01-06,8
+1242,psoe,2019-01-13,9
+1243,psoe,2019-01-20,7
+1244,psoe,2019-01-27,9
+1245,psoe,2019-02-03,10
+1246,psoe,2019-02-10,15
+1247,psoe,2019-02-17,16
+1248,psoe,2019-02-24,13
+1249,psoe,2019-03-03,19
+1250,psoe,2019-03-10,16
+1251,psoe,2019-03-17,18
+1252,psoe,2019-03-24,18
+1253,psoe,2019-03-31,20
+1254,psoe,2019-04-07,24
+1255,psoe,2019-04-14,29
+1256,psoe,2019-04-21,54
+1257,psoe,2019-04-28,100
+1258,psoe,2019-05-05,34
+1259,psoe,2019-05-12,33
+1260,psoe,2019-05-19,40
+1261,psoe,2019-05-26,57
+1262,psoe,2019-06-02,14
+1263,psoe,2019-06-09,18
+1264,psoe,2019-06-16,15
+1265,psoe,2019-06-23,11
+1266,psoe,2019-06-30,10
+1267,psoe,2019-07-07,10
+1268,psoe,2019-07-14,12
+1269,psoe,2019-07-21,26
+1270,psoe,2019-07-28,11
+1271,psoe,2019-08-04,7
+1272,psoe,2019-08-11,6
+1273,psoe,2019-08-18,8
+1274,psoe,2019-08-25,7
+1275,psoe,2019-09-01,12
+1276,psoe,2019-09-08,10
+1277,psoe,2019-09-15,14
+1278,psoe,2019-09-22,10
+1279,psoe,2019-09-29,10
+1280,psoe,2019-10-06,11
+1281,psoe,2019-10-13,10
+1282,psoe,2019-10-20,12
+1283,psoe,2019-10-27,15
+1284,psoe,2019-11-03,26
+1285,psoe,2019-11-10,79
+1286,psoe,2019-11-17,23
+1287,psoe,2019-11-24,15
+1288,psoe,2019-12-01,11
+1289,psoe,2019-12-08,9
+1290,psoe,2019-12-15,9
+1291,psoe,2019-12-22,8
+1292,psoe,2019-12-29,31
+1293,psoe,2020-01-05,27
+1294,psoe,2020-01-12,12
+1295,psoe,2020-01-19,10
+1296,psoe,2020-01-26,7
+1297,psoe,2020-02-02,8
+1298,psoe,2020-02-09,8
+1299,psoe,2020-02-16,8
+1300,psoe,2020-02-23,7
+1301,psoe,2020-03-01,6
+1302,psoe,2020-03-08,7
+1303,psoe,2020-03-15,7
+1304,psoe,2020-03-22,12
+1305,psoe,2020-03-29,11
+1306,psoe,2020-04-05,13
+1307,psoe,2020-04-12,12
+1308,psoe,2020-04-19,11
+1309,psoe,2020-04-26,10
+1310,psoe,2020-05-03,16
+1311,psoe,2020-05-10,11
+1312,psoe,2020-05-17,19
+1313,psoe,2020-05-24,12
+1314,podemos,2019-01-06,13
+1315,podemos,2019-01-13,22
+1316,podemos,2019-01-20,28
+1317,podemos,2019-01-27,21
+1318,podemos,2019-02-03,17
+1319,podemos,2019-02-10,18
+1320,podemos,2019-02-17,18
+1321,podemos,2019-02-24,18
+1322,podemos,2019-03-03,38
+1323,podemos,2019-03-10,20
+1324,podemos,2019-03-17,23
+1325,podemos,2019-03-24,27
+1326,podemos,2019-03-31,31
+1327,podemos,2019-04-07,35
+1328,podemos,2019-04-14,42
+1329,podemos,2019-04-21,88
+1330,podemos,2019-04-28,75
+1331,podemos,2019-05-05,24
+1332,podemos,2019-05-12,31
+1333,podemos,2019-05-19,42
+1334,podemos,2019-05-26,51
+1335,podemos,2019-06-02,25
+1336,podemos,2019-06-09,18
+1337,podemos,2019-06-16,11
+1338,podemos,2019-06-23,12
+1339,podemos,2019-06-30,10
+1340,podemos,2019-07-07,14
+1341,podemos,2019-07-14,26
+1342,podemos,2019-07-21,37
+1343,podemos,2019-07-28,15
+1344,podemos,2019-08-04,12
+1345,podemos,2019-08-11,10
+1346,podemos,2019-08-18,11
+1347,podemos,2019-08-25,11
+1348,podemos,2019-09-01,14
+1349,podemos,2019-09-08,16
+1350,podemos,2019-09-15,16
+1351,podemos,2019-09-22,18
+1352,podemos,2019-09-29,15
+1353,podemos,2019-10-06,15
+1354,podemos,2019-10-13,14
+1355,podemos,2019-10-20,16
+1356,podemos,2019-10-27,20
+1357,podemos,2019-11-03,44
+1358,podemos,2019-11-10,100
+1359,podemos,2019-11-17,28
+1360,podemos,2019-11-24,19
+1361,podemos,2019-12-01,21
+1362,podemos,2019-12-08,15
+1363,podemos,2019-12-15,12
+1364,podemos,2019-12-22,9
+1365,podemos,2019-12-29,26
+1366,podemos,2020-01-05,33
+1367,podemos,2020-01-12,25
+1368,podemos,2020-01-19,15
+1369,podemos,2020-01-26,15
+1370,podemos,2020-02-02,16
+1371,podemos,2020-02-09,15
+1372,podemos,2020-02-16,16
+1373,podemos,2020-02-23,14
+1374,podemos,2020-03-01,20
+1375,podemos,2020-03-08,16
+1376,podemos,2020-03-15,29
+1377,podemos,2020-03-22,31
+1378,podemos,2020-03-29,32
+1379,podemos,2020-04-05,25
+1380,podemos,2020-04-12,26
+1381,podemos,2020-04-19,30
+1382,podemos,2020-04-26,39
+1383,podemos,2020-05-03,37
+1384,podemos,2020-05-10,38
+1385,podemos,2020-05-17,68
+1386,podemos,2020-05-24,44
+1387,pnv,2019-01-06,8
+1388,pnv,2019-01-13,7
+1389,pnv,2019-01-20,7
+1390,pnv,2019-01-27,7
+1391,pnv,2019-02-03,12
+1392,pnv,2019-02-10,16
+1393,pnv,2019-02-17,14
+1394,pnv,2019-02-24,18
+1395,pnv,2019-03-03,14
+1396,pnv,2019-03-10,13
+1397,pnv,2019-03-17,11
+1398,pnv,2019-03-24,15
+1399,pnv,2019-03-31,19
+1400,pnv,2019-04-07,25
+1401,pnv,2019-04-14,38
+1402,pnv,2019-04-21,42
+1403,pnv,2019-04-28,83
+1404,pnv,2019-05-05,21
+1405,pnv,2019-05-12,24
+1406,pnv,2019-05-19,32
+1407,pnv,2019-05-26,51
+1408,pnv,2019-06-02,15
+1409,pnv,2019-06-09,13
+1410,pnv,2019-06-16,12
+1411,pnv,2019-06-23,9
+1412,pnv,2019-06-30,7
+1413,pnv,2019-07-07,6
+1414,pnv,2019-07-14,8
+1415,pnv,2019-07-21,26
+1416,pnv,2019-07-28,9
+1417,pnv,2019-08-04,5
+1418,pnv,2019-08-11,6
+1419,pnv,2019-08-18,4
+1420,pnv,2019-08-25,7
+1421,pnv,2019-09-01,5
+1422,pnv,2019-09-08,6
+1423,pnv,2019-09-15,16
+1424,pnv,2019-09-22,9
+1425,pnv,2019-09-29,12
+1426,pnv,2019-10-06,8
+1427,pnv,2019-10-13,8
+1428,pnv,2019-10-20,12
+1429,pnv,2019-10-27,36
+1430,pnv,2019-11-03,58
+1431,pnv,2019-11-10,100
+1432,pnv,2019-11-17,15
+1433,pnv,2019-11-24,16
+1434,pnv,2019-12-01,11
+1435,pnv,2019-12-08,33
+1436,pnv,2019-12-15,25
+1437,pnv,2019-12-22,10
+1438,pnv,2019-12-29,46
+1439,pnv,2020-01-05,57
+1440,pnv,2020-01-12,19
+1441,pnv,2020-01-19,11
+1442,pnv,2020-01-26,11
+1443,pnv,2020-02-02,10
+1444,pnv,2020-02-09,12
+1445,pnv,2020-02-16,13
+1446,pnv,2020-02-23,13
+1447,pnv,2020-03-01,11
+1448,pnv,2020-03-08,9
+1449,pnv,2020-03-15,6
+1450,pnv,2020-03-22,9
+1451,pnv,2020-03-29,21
+1452,pnv,2020-04-05,12
+1453,pnv,2020-04-12,10
+1454,pnv,2020-04-19,12
+1455,pnv,2020-04-26,12
+1456,pnv,2020-05-03,36
+1457,pnv,2020-05-10,22
+1458,pnv,2020-05-17,23
+1459,pnv,2020-05-24,18
+1460,mas pais,2019-01-06,20
+1461,mas pais,2019-01-13,19
+1462,mas pais,2019-01-20,23
+1463,mas pais,2019-01-27,21
+1464,mas pais,2019-02-03,20
+1465,mas pais,2019-02-10,17
+1466,mas pais,2019-02-17,20
+1467,mas pais,2019-02-24,26
+1468,mas pais,2019-03-03,20
+1469,mas pais,2019-03-10,25
+1470,mas pais,2019-03-17,24
+1471,mas pais,2019-03-24,18
+1472,mas pais,2019-03-31,17
+1473,mas pais,2019-04-07,19
+1474,mas pais,2019-04-14,17
+1475,mas pais,2019-04-21,20
+1476,mas pais,2019-04-28,20
+1477,mas pais,2019-05-05,19
+1478,mas pais,2019-05-12,21
+1479,mas pais,2019-05-19,23
+1480,mas pais,2019-05-26,21
+1481,mas pais,2019-06-02,17
+1482,mas pais,2019-06-09,17
+1483,mas pais,2019-06-16,17
+1484,mas pais,2019-06-23,16
+1485,mas pais,2019-06-30,18
+1486,mas pais,2019-07-07,18
+1487,mas pais,2019-07-14,20
+1488,mas pais,2019-07-21,20
+1489,mas pais,2019-07-28,17
+1490,mas pais,2019-08-04,19
+1491,mas pais,2019-08-11,21
+1492,mas pais,2019-08-18,22
+1493,mas pais,2019-08-25,19
+1494,mas pais,2019-09-01,23
+1495,mas pais,2019-09-08,16
+1496,mas pais,2019-09-15,17
+1497,mas pais,2019-09-22,63
+1498,mas pais,2019-09-29,54
+1499,mas pais,2019-10-06,58
+1500,mas pais,2019-10-13,40
+1501,mas pais,2019-10-20,42
+1502,mas pais,2019-10-27,49
+1503,mas pais,2019-11-03,93
+1504,mas pais,2019-11-10,100
+1505,mas pais,2019-11-17,25
+1506,mas pais,2019-11-24,21
+1507,mas pais,2019-12-01,25
+1508,mas pais,2019-12-08,22
+1509,mas pais,2019-12-15,22
+1510,mas pais,2019-12-22,18
+1511,mas pais,2019-12-29,28
+1512,mas pais,2020-01-05,28
+1513,mas pais,2020-01-12,24
+1514,mas pais,2020-01-19,23
+1515,mas pais,2020-01-26,25
+1516,mas pais,2020-02-02,23
+1517,mas pais,2020-02-09,24
+1518,mas pais,2020-02-16,23
+1519,mas pais,2020-02-23,24
+1520,mas pais,2020-03-01,25
+1521,mas pais,2020-03-08,27
+1522,mas pais,2020-03-15,36
+1523,mas pais,2020-03-22,44
+1524,mas pais,2020-03-29,38
+1525,mas pais,2020-04-05,41
+1526,mas pais,2020-04-12,53
+1527,mas pais,2020-04-19,43
+1528,mas pais,2020-04-26,41
+1529,mas pais,2020-05-03,37
+1530,mas pais,2020-05-10,37
+1531,mas pais,2020-05-17,36
+1532,mas pais,2020-05-24,31
+1533,compromis,2019-01-06,4
+1534,compromis,2019-01-13,5
+1535,compromis,2019-01-20,5
+1536,compromis,2019-01-27,6
+1537,compromis,2019-02-03,7
+1538,compromis,2019-02-10,11
+1539,compromis,2019-02-17,18
+1540,compromis,2019-02-24,11
+1541,compromis,2019-03-03,19
+1542,compromis,2019-03-10,18
+1543,compromis,2019-03-17,13
+1544,compromis,2019-03-24,11
+1545,compromis,2019-03-31,12
+1546,compromis,2019-04-07,20
+1547,compromis,2019-04-14,27
+1548,compromis,2019-04-21,51
+1549,compromis,2019-04-28,100
+1550,compromis,2019-05-05,15
+1551,compromis,2019-05-12,25
+1552,compromis,2019-05-19,26
+1553,compromis,2019-05-26,53
+1554,compromis,2019-06-02,8
+1555,compromis,2019-06-09,10
+1556,compromis,2019-06-16,7
+1557,compromis,2019-06-23,6
+1558,compromis,2019-06-30,4
+1559,compromis,2019-07-07,11
+1560,compromis,2019-07-14,6
+1561,compromis,2019-07-21,10
+1562,compromis,2019-07-28,6
+1563,compromis,2019-08-04,6
+1564,compromis,2019-08-11,4
+1565,compromis,2019-08-18,1
+1566,compromis,2019-08-25,3
+1567,compromis,2019-09-01,4
+1568,compromis,2019-09-08,4
+1569,compromis,2019-09-15,7
+1570,compromis,2019-09-22,22
+1571,compromis,2019-09-29,6
+1572,compromis,2019-10-06,7
+1573,compromis,2019-10-13,6
+1574,compromis,2019-10-20,7
+1575,compromis,2019-10-27,10
+1576,compromis,2019-11-03,16
+1577,compromis,2019-11-10,27
+1578,compromis,2019-11-17,7
+1579,compromis,2019-11-24,4
+1580,compromis,2019-12-01,4
+1581,compromis,2019-12-08,5
+1582,compromis,2019-12-15,3
+1583,compromis,2019-12-22,4
+1584,compromis,2019-12-29,8
+1585,compromis,2020-01-05,13
+1586,compromis,2020-01-12,6
+1587,compromis,2020-01-19,2
+1588,compromis,2020-01-26,4
+1589,compromis,2020-02-02,3
+1590,compromis,2020-02-09,5
+1591,compromis,2020-02-16,4
+1592,compromis,2020-02-23,3
+1593,compromis,2020-03-01,4
+1594,compromis,2020-03-08,5
+1595,compromis,2020-03-15,3
+1596,compromis,2020-03-22,4
+1597,compromis,2020-03-29,3
+1598,compromis,2020-04-05,6
+1599,compromis,2020-04-12,4
+1600,compromis,2020-04-19,5
+1601,compromis,2020-04-26,3
+1602,compromis,2020-05-03,5
+1603,compromis,2020-05-10,6
+1604,compromis,2020-05-17,10
+1605,compromis,2020-05-24,4
+1606,erc,2019-01-06,6
+1607,erc,2019-01-13,7
+1608,erc,2019-01-20,6
+1609,erc,2019-01-27,7
+1610,erc,2019-02-03,12
+1611,erc,2019-02-10,14
+1612,erc,2019-02-17,12
+1613,erc,2019-02-24,13
+1614,erc,2019-03-03,15
+1615,erc,2019-03-10,15
+1616,erc,2019-03-17,14
+1617,erc,2019-03-24,13
+1618,erc,2019-03-31,18
+1619,erc,2019-04-07,21
+1620,erc,2019-04-14,24
+1621,erc,2019-04-21,37
+1622,erc,2019-04-28,90
+1623,erc,2019-05-05,24
+1624,erc,2019-05-12,25
+1625,erc,2019-05-19,31
+1626,erc,2019-05-26,71
+1627,erc,2019-06-02,11
+1628,erc,2019-06-09,20
+1629,erc,2019-06-16,14
+1630,erc,2019-06-23,9
+1631,erc,2019-06-30,10
+1632,erc,2019-07-07,7
+1633,erc,2019-07-14,11
+1634,erc,2019-07-21,15
+1635,erc,2019-07-28,9
+1636,erc,2019-08-04,7
+1637,erc,2019-08-11,6
+1638,erc,2019-08-18,6
+1639,erc,2019-08-25,4
+1640,erc,2019-09-01,7
+1641,erc,2019-09-08,7
+1642,erc,2019-09-15,8
+1643,erc,2019-09-22,10
+1644,erc,2019-09-29,8
+1645,erc,2019-10-06,7
+1646,erc,2019-10-13,16
+1647,erc,2019-10-20,18
+1648,erc,2019-10-27,15
+1649,erc,2019-11-03,23
+1650,erc,2019-11-10,81
+1651,erc,2019-11-17,26
+1652,erc,2019-11-24,53
+1653,erc,2019-12-01,23
+1654,erc,2019-12-08,24
+1655,erc,2019-12-15,28
+1656,erc,2019-12-22,23
+1657,erc,2019-12-29,100
+1658,erc,2020-01-05,39
+1659,erc,2020-01-12,11
+1660,erc,2020-01-19,10
+1661,erc,2020-01-26,18
+1662,erc,2020-02-02,11
+1663,erc,2020-02-09,8
+1664,erc,2020-02-16,8
+1665,erc,2020-02-23,9
+1666,erc,2020-03-01,6
+1667,erc,2020-03-08,11
+1668,erc,2020-03-15,7
+1669,erc,2020-03-22,5
+1670,erc,2020-03-29,5
+1671,erc,2020-04-05,10
+1672,erc,2020-04-12,6
+1673,erc,2020-04-19,6
+1674,erc,2020-04-26,6
+1675,erc,2020-05-03,20
+1676,erc,2020-05-10,10
+1677,erc,2020-05-17,17
+1678,erc,2020-05-24,9
+1679,bildu,2019-01-06,4
+1680,bildu,2019-01-13,4
+1681,bildu,2019-01-20,3
+1682,bildu,2019-01-27,3
+1683,bildu,2019-02-03,3
+1684,bildu,2019-02-10,4
+1685,bildu,2019-02-17,4
+1686,bildu,2019-02-24,3
+1687,bildu,2019-03-03,4
+1688,bildu,2019-03-10,6
+1689,bildu,2019-03-17,6
+1690,bildu,2019-03-24,8
+1691,bildu,2019-03-31,17
+1692,bildu,2019-04-07,16
+1693,bildu,2019-04-14,15
+1694,bildu,2019-04-21,32
+1695,bildu,2019-04-28,56
+1696,bildu,2019-05-05,12
+1697,bildu,2019-05-12,17
+1698,bildu,2019-05-19,19
+1699,bildu,2019-05-26,26
+1700,bildu,2019-06-02,6
+1701,bildu,2019-06-09,8
+1702,bildu,2019-06-16,11
+1703,bildu,2019-06-23,11
+1704,bildu,2019-06-30,6
+1705,bildu,2019-07-07,7
+1706,bildu,2019-07-14,5
+1707,bildu,2019-07-21,8
+1708,bildu,2019-07-28,14
+1709,bildu,2019-08-04,6
+1710,bildu,2019-08-11,4
+1711,bildu,2019-08-18,3
+1712,bildu,2019-08-25,4
+1713,bildu,2019-09-01,2
+1714,bildu,2019-09-08,3
+1715,bildu,2019-09-15,5
+1716,bildu,2019-09-22,4
+1717,bildu,2019-09-29,2
+1718,bildu,2019-10-06,3
+1719,bildu,2019-10-13,5
+1720,bildu,2019-10-20,3
+1721,bildu,2019-10-27,4
+1722,bildu,2019-11-03,12
+1723,bildu,2019-11-10,33
+1724,bildu,2019-11-17,6
+1725,bildu,2019-11-24,6
+1726,bildu,2019-12-01,5
+1727,bildu,2019-12-08,4
+1728,bildu,2019-12-15,9
+1729,bildu,2019-12-22,5
+1730,bildu,2019-12-29,13
+1731,bildu,2020-01-05,99
+1732,bildu,2020-01-12,6
+1733,bildu,2020-01-19,5
+1734,bildu,2020-01-26,4
+1735,bildu,2020-02-02,4
+1736,bildu,2020-02-09,3
+1737,bildu,2020-02-16,3
+1738,bildu,2020-02-23,5
+1739,bildu,2020-03-01,4
+1740,bildu,2020-03-08,2
+1741,bildu,2020-03-15,3
+1742,bildu,2020-03-22,3
+1743,bildu,2020-03-29,3
+1744,bildu,2020-04-05,6
+1745,bildu,2020-04-12,5
+1746,bildu,2020-04-19,6
+1747,bildu,2020-04-26,6
+1748,bildu,2020-05-03,6
+1749,bildu,2020-05-10,5
+1750,bildu,2020-05-17,100
+1751,bildu,2020-05-24,58
+1752,teletrabajo,2019-01-06,2
+1753,teletrabajo,2019-01-13,2
+1754,teletrabajo,2019-01-20,3
+1755,teletrabajo,2019-01-27,2
+1756,teletrabajo,2019-02-03,4
+1757,teletrabajo,2019-02-10,2
+1758,teletrabajo,2019-02-17,3
+1759,teletrabajo,2019-02-24,3
+1760,teletrabajo,2019-03-03,3
+1761,teletrabajo,2019-03-10,2
+1762,teletrabajo,2019-03-17,3
+1763,teletrabajo,2019-03-24,3
+1764,teletrabajo,2019-03-31,2
+1765,teletrabajo,2019-04-07,1
+1766,teletrabajo,2019-04-14,2
+1767,teletrabajo,2019-04-21,2
+1768,teletrabajo,2019-04-28,2
+1769,teletrabajo,2019-05-05,2
+1770,teletrabajo,2019-05-12,4
+1771,teletrabajo,2019-05-19,3
+1772,teletrabajo,2019-05-26,3
+1773,teletrabajo,2019-06-02,3
+1774,teletrabajo,2019-06-09,3
+1775,teletrabajo,2019-06-16,2
+1776,teletrabajo,2019-06-23,2
+1777,teletrabajo,2019-06-30,3
+1778,teletrabajo,2019-07-07,3
+1779,teletrabajo,2019-07-14,2
+1780,teletrabajo,2019-07-21,3
+1781,teletrabajo,2019-07-28,2
+1782,teletrabajo,2019-08-04,1
+1783,teletrabajo,2019-08-11,2
+1784,teletrabajo,2019-08-18,3
+1785,teletrabajo,2019-08-25,2
+1786,teletrabajo,2019-09-01,1
+1787,teletrabajo,2019-09-08,3
+1788,teletrabajo,2019-09-15,4
+1789,teletrabajo,2019-09-22,3
+1790,teletrabajo,2019-09-29,3
+1791,teletrabajo,2019-10-06,5
+1792,teletrabajo,2019-10-13,2
+1793,teletrabajo,2019-10-20,2
+1794,teletrabajo,2019-10-27,3
+1795,teletrabajo,2019-11-03,5
+1796,teletrabajo,2019-11-10,3
+1797,teletrabajo,2019-11-17,4
+1798,teletrabajo,2019-11-24,3
+1799,teletrabajo,2019-12-01,2
+1800,teletrabajo,2019-12-08,3
+1801,teletrabajo,2019-12-15,3
+1802,teletrabajo,2019-12-22,1
+1803,teletrabajo,2019-12-29,2
+1804,teletrabajo,2020-01-05,3
+1805,teletrabajo,2020-01-12,3
+1806,teletrabajo,2020-01-19,4
+1807,teletrabajo,2020-01-26,3
+1808,teletrabajo,2020-02-02,3
+1809,teletrabajo,2020-02-09,5
+1810,teletrabajo,2020-02-16,4
+1811,teletrabajo,2020-02-23,6
+1812,teletrabajo,2020-03-01,15
+1813,teletrabajo,2020-03-08,100
+1814,teletrabajo,2020-03-15,85
+1815,teletrabajo,2020-03-22,55
+1816,teletrabajo,2020-03-29,49
+1817,teletrabajo,2020-04-05,33
+1818,teletrabajo,2020-04-12,37
+1819,teletrabajo,2020-04-19,73
+1820,teletrabajo,2020-04-26,61
+1821,teletrabajo,2020-05-03,54
+1822,teletrabajo,2020-05-10,42
+1823,teletrabajo,2020-05-17,45
+1824,teletrabajo,2020-05-24,47
+1825,remoto,2019-01-06,33
+1826,remoto,2019-01-13,32
+1827,remoto,2019-01-20,29
+1828,remoto,2019-01-27,25
+1829,remoto,2019-02-03,31
+1830,remoto,2019-02-10,31
+1831,remoto,2019-02-17,30
+1832,remoto,2019-02-24,31
+1833,remoto,2019-03-03,29
+1834,remoto,2019-03-10,30
+1835,remoto,2019-03-17,30
+1836,remoto,2019-03-24,30
+1837,remoto,2019-03-31,28
+1838,remoto,2019-04-07,29
+1839,remoto,2019-04-14,30
+1840,remoto,2019-04-21,24
+1841,remoto,2019-04-28,22
+1842,remoto,2019-05-05,28
+1843,remoto,2019-05-12,29
+1844,remoto,2019-05-19,25
+1845,remoto,2019-05-26,25
+1846,remoto,2019-06-02,27
+1847,remoto,2019-06-09,28
+1848,remoto,2019-06-16,29
+1849,remoto,2019-06-23,31
+1850,remoto,2019-06-30,32
+1851,remoto,2019-07-07,31
+1852,remoto,2019-07-14,28
+1853,remoto,2019-07-21,26
+1854,remoto,2019-07-28,24
+1855,remoto,2019-08-04,26
+1856,remoto,2019-08-11,25
+1857,remoto,2019-08-18,24
+1858,remoto,2019-08-25,24
+1859,remoto,2019-09-01,28
+1860,remoto,2019-09-08,24
+1861,remoto,2019-09-15,29
+1862,remoto,2019-09-22,29
+1863,remoto,2019-09-29,27
+1864,remoto,2019-10-06,28
+1865,remoto,2019-10-13,29
+1866,remoto,2019-10-20,27
+1867,remoto,2019-10-27,27
+1868,remoto,2019-11-03,31
+1869,remoto,2019-11-10,29
+1870,remoto,2019-11-17,33
+1871,remoto,2019-11-24,32
+1872,remoto,2019-12-01,35
+1873,remoto,2019-12-08,30
+1874,remoto,2019-12-15,33
+1875,remoto,2019-12-22,28
+1876,remoto,2019-12-29,31
+1877,remoto,2020-01-05,30
+1878,remoto,2020-01-12,33
+1879,remoto,2020-01-19,25
+1880,remoto,2020-01-26,33
+1881,remoto,2020-02-02,28
+1882,remoto,2020-02-09,32
+1883,remoto,2020-02-16,31
+1884,remoto,2020-02-23,33
+1885,remoto,2020-03-01,32
+1886,remoto,2020-03-08,59
+1887,remoto,2020-03-15,100
+1888,remoto,2020-03-22,77
+1889,remoto,2020-03-29,64
+1890,remoto,2020-04-05,48
+1891,remoto,2020-04-12,51
+1892,remoto,2020-04-19,49
+1893,remoto,2020-04-26,53
+1894,remoto,2020-05-03,48
+1895,remoto,2020-05-10,49
+1896,remoto,2020-05-17,46
+1897,remoto,2020-05-24,41
+1898,cursos online,2019-01-06,23
+1899,cursos online,2019-01-13,25
+1900,cursos online,2019-01-20,26
+1901,cursos online,2019-01-27,26
+1902,cursos online,2019-02-03,26
+1903,cursos online,2019-02-10,24
+1904,cursos online,2019-02-17,26
+1905,cursos online,2019-02-24,24
+1906,cursos online,2019-03-03,27
+1907,cursos online,2019-03-10,25
+1908,cursos online,2019-03-17,24
+1909,cursos online,2019-03-24,23
+1910,cursos online,2019-03-31,22
+1911,cursos online,2019-04-07,26
+1912,cursos online,2019-04-14,17
+1913,cursos online,2019-04-21,19
+1914,cursos online,2019-04-28,16
+1915,cursos online,2019-05-05,20
+1916,cursos online,2019-05-12,22
+1917,cursos online,2019-05-19,23
+1918,cursos online,2019-05-26,20
+1919,cursos online,2019-06-02,23
+1920,cursos online,2019-06-09,23
+1921,cursos online,2019-06-16,24
+1922,cursos online,2019-06-23,22
+1923,cursos online,2019-06-30,21
+1924,cursos online,2019-07-07,22
+1925,cursos online,2019-07-14,22
+1926,cursos online,2019-07-21,20
+1927,cursos online,2019-07-28,20
+1928,cursos online,2019-08-04,20
+1929,cursos online,2019-08-11,18
+1930,cursos online,2019-08-18,21
+1931,cursos online,2019-08-25,23
+1932,cursos online,2019-09-01,27
+1933,cursos online,2019-09-08,26
+1934,cursos online,2019-09-15,33
+1935,cursos online,2019-09-22,33
+1936,cursos online,2019-09-29,27
+1937,cursos online,2019-10-06,27
+1938,cursos online,2019-10-13,25
+1939,cursos online,2019-10-20,26
+1940,cursos online,2019-10-27,23
+1941,cursos online,2019-11-03,24
+1942,cursos online,2019-11-10,25
+1943,cursos online,2019-11-17,25
+1944,cursos online,2019-11-24,24
+1945,cursos online,2019-12-01,18
+1946,cursos online,2019-12-08,18
+1947,cursos online,2019-12-15,19
+1948,cursos online,2019-12-22,14
+1949,cursos online,2019-12-29,17
+1950,cursos online,2020-01-05,24
+1951,cursos online,2020-01-12,26
+1952,cursos online,2020-01-19,28
+1953,cursos online,2020-01-26,27
+1954,cursos online,2020-02-02,28
+1955,cursos online,2020-02-09,29
+1956,cursos online,2020-02-16,26
+1957,cursos online,2020-02-23,25
+1958,cursos online,2020-03-01,28
+1959,cursos online,2020-03-08,22
+1960,cursos online,2020-03-15,75
+1961,cursos online,2020-03-22,91
+1962,cursos online,2020-03-29,100
+1963,cursos online,2020-04-05,91
+1964,cursos online,2020-04-12,90
+1965,cursos online,2020-04-19,87
+1966,cursos online,2020-04-26,62
+1967,cursos online,2020-05-03,49
+1968,cursos online,2020-05-10,46
+1969,cursos online,2020-05-17,48
+1970,cursos online,2020-05-24,37
+1971,productividad,2019-01-06,39
+1972,productividad,2019-01-13,46
+1973,productividad,2019-01-20,49
+1974,productividad,2019-01-27,41
+1975,productividad,2019-02-03,50
+1976,productividad,2019-02-10,52
+1977,productividad,2019-02-17,47
+1978,productividad,2019-02-24,67
+1979,productividad,2019-03-03,49
+1980,productividad,2019-03-10,41
+1981,productividad,2019-03-17,45
+1982,productividad,2019-03-24,55
+1983,productividad,2019-03-31,40
+1984,productividad,2019-04-07,43
+1985,productividad,2019-04-14,30
+1986,productividad,2019-04-21,38
+1987,productividad,2019-04-28,42
+1988,productividad,2019-05-05,46
+1989,productividad,2019-05-12,66
+1990,productividad,2019-05-19,56
+1991,productividad,2019-05-26,70
+1992,productividad,2019-06-02,55
+1993,productividad,2019-06-09,47
+1994,productividad,2019-06-16,35
+1995,productividad,2019-06-23,35
+1996,productividad,2019-06-30,23
+1997,productividad,2019-07-07,37
+1998,productividad,2019-07-14,25
+1999,productividad,2019-07-21,36
+2000,productividad,2019-07-28,27
+2001,productividad,2019-08-04,11
+2002,productividad,2019-08-11,26
+2003,productividad,2019-08-18,24
+2004,productividad,2019-08-25,15
+2005,productividad,2019-09-01,36
+2006,productividad,2019-09-08,22
+2007,productividad,2019-09-15,27
+2008,productividad,2019-09-22,41
+2009,productividad,2019-09-29,51
+2010,productividad,2019-10-06,66
+2011,productividad,2019-10-13,54
+2012,productividad,2019-10-20,47
+2013,productividad,2019-10-27,60
+2014,productividad,2019-11-03,54
+2015,productividad,2019-11-10,60
+2016,productividad,2019-11-17,74
+2017,productividad,2019-11-24,64
+2018,productividad,2019-12-01,63
+2019,productividad,2019-12-08,48
+2020,productividad,2019-12-15,54
+2021,productividad,2019-12-22,37
+2022,productividad,2019-12-29,31
+2023,productividad,2020-01-05,47
+2024,productividad,2020-01-12,52
+2025,productividad,2020-01-19,60
+2026,productividad,2020-01-26,44
+2027,productividad,2020-02-02,61
+2028,productividad,2020-02-09,45
+2029,productividad,2020-02-16,49
+2030,productividad,2020-02-23,56
+2031,productividad,2020-03-01,60
+2032,productividad,2020-03-08,47
+2033,productividad,2020-03-15,45
+2034,productividad,2020-03-22,71
+2035,productividad,2020-03-29,65
+2036,productividad,2020-04-05,57
+2037,productividad,2020-04-12,90
+2038,productividad,2020-04-19,81
+2039,productividad,2020-04-26,94
+2040,productividad,2020-05-03,88
+2041,productividad,2020-05-10,88
+2042,productividad,2020-05-17,71
+2043,productividad,2020-05-24,100
+2044,autonomo,2019-01-06,47
+2045,autonomo,2019-01-13,47
+2046,autonomo,2019-01-20,43
+2047,autonomo,2019-01-27,50
+2048,autonomo,2019-02-03,49
+2049,autonomo,2019-02-10,44
+2050,autonomo,2019-02-17,45
+2051,autonomo,2019-02-24,43
+2052,autonomo,2019-03-03,42
+2053,autonomo,2019-03-10,41
+2054,autonomo,2019-03-17,40
+2055,autonomo,2019-03-24,45
+2056,autonomo,2019-03-31,46
+2057,autonomo,2019-04-07,42
+2058,autonomo,2019-04-14,31
+2059,autonomo,2019-04-21,37
+2060,autonomo,2019-04-28,40
+2061,autonomo,2019-05-05,43
+2062,autonomo,2019-05-12,46
+2063,autonomo,2019-05-19,42
+2064,autonomo,2019-05-26,41
+2065,autonomo,2019-06-02,42
+2066,autonomo,2019-06-09,45
+2067,autonomo,2019-06-16,39
+2068,autonomo,2019-06-23,39
+2069,autonomo,2019-06-30,40
+2070,autonomo,2019-07-07,36
+2071,autonomo,2019-07-14,37
+2072,autonomo,2019-07-21,35
+2073,autonomo,2019-07-28,36
+2074,autonomo,2019-08-04,30
+2075,autonomo,2019-08-11,25
+2076,autonomo,2019-08-18,31
+2077,autonomo,2019-08-25,35
+2078,autonomo,2019-09-01,43
+2079,autonomo,2019-09-08,34
+2080,autonomo,2019-09-15,44
+2081,autonomo,2019-09-22,39
+2082,autonomo,2019-09-29,47
+2083,autonomo,2019-10-06,41
+2084,autonomo,2019-10-13,39
+2085,autonomo,2019-10-20,41
+2086,autonomo,2019-10-27,39
+2087,autonomo,2019-11-03,48
+2088,autonomo,2019-11-10,36
+2089,autonomo,2019-11-17,39
+2090,autonomo,2019-11-24,39
+2091,autonomo,2019-12-01,34
+2092,autonomo,2019-12-08,35
+2093,autonomo,2019-12-15,37
+2094,autonomo,2019-12-22,27
+2095,autonomo,2019-12-29,37
+2096,autonomo,2020-01-05,39
+2097,autonomo,2020-01-12,48
+2098,autonomo,2020-01-19,46
+2099,autonomo,2020-01-26,50
+2100,autonomo,2020-02-02,44
+2101,autonomo,2020-02-09,43
+2102,autonomo,2020-02-16,45
+2103,autonomo,2020-02-23,41
+2104,autonomo,2020-03-01,45
+2105,autonomo,2020-03-08,41
+2106,autonomo,2020-03-15,84
+2107,autonomo,2020-03-22,80
+2108,autonomo,2020-03-29,100
+2109,autonomo,2020-04-05,61
+2110,autonomo,2020-04-12,75
+2111,autonomo,2020-04-19,66
+2112,autonomo,2020-04-26,60
+2113,autonomo,2020-05-03,60
+2114,autonomo,2020-05-10,49
+2115,autonomo,2020-05-17,49
+2116,autonomo,2020-05-24,42
+2117,negocio online,2019-01-06,54
+2118,negocio online,2019-01-13,41
+2119,negocio online,2019-01-20,33
+2120,negocio online,2019-01-27,36
+2121,negocio online,2019-02-03,38
+2122,negocio online,2019-02-10,31
+2123,negocio online,2019-02-17,31
+2124,negocio online,2019-02-24,21
+2125,negocio online,2019-03-03,32
+2126,negocio online,2019-03-10,29
+2127,negocio online,2019-03-17,25
+2128,negocio online,2019-03-24,25
+2129,negocio online,2019-03-31,27
+2130,negocio online,2019-04-07,34
+2131,negocio online,2019-04-14,43
+2132,negocio online,2019-04-21,55
+2133,negocio online,2019-04-28,41
+2134,negocio online,2019-05-05,44
+2135,negocio online,2019-05-12,41
+2136,negocio online,2019-05-19,17
+2137,negocio online,2019-05-26,53
+2138,negocio online,2019-06-02,36
+2139,negocio online,2019-06-09,36
+2140,negocio online,2019-06-16,35
+2141,negocio online,2019-06-23,16
+2142,negocio online,2019-06-30,28
+2143,negocio online,2019-07-07,17
+2144,negocio online,2019-07-14,32
+2145,negocio online,2019-07-21,50
+2146,negocio online,2019-07-28,30
+2147,negocio online,2019-08-04,66
+2148,negocio online,2019-08-11,37
+2149,negocio online,2019-08-18,36
+2150,negocio online,2019-08-25,55
+2151,negocio online,2019-09-01,29
+2152,negocio online,2019-09-08,32
+2153,negocio online,2019-09-15,29
+2154,negocio online,2019-09-22,48
+2155,negocio online,2019-09-29,45
+2156,negocio online,2019-10-06,35
+2157,negocio online,2019-10-13,44
+2158,negocio online,2019-10-20,28
+2159,negocio online,2019-10-27,33
+2160,negocio online,2019-11-03,40
+2161,negocio online,2019-11-10,31
+2162,negocio online,2019-11-17,37
+2163,negocio online,2019-11-24,45
+2164,negocio online,2019-12-01,42
+2165,negocio online,2019-12-08,26
+2166,negocio online,2019-12-15,31
+2167,negocio online,2019-12-22,28
+2168,negocio online,2019-12-29,17
+2169,negocio online,2020-01-05,57
+2170,negocio online,2020-01-12,49
+2171,negocio online,2020-01-19,14
+2172,negocio online,2020-01-26,27
+2173,negocio online,2020-02-02,39
+2174,negocio online,2020-02-09,36
+2175,negocio online,2020-02-16,39
+2176,negocio online,2020-02-23,48
+2177,negocio online,2020-03-01,34
+2178,negocio online,2020-03-08,20
+2179,negocio online,2020-03-15,28
+2180,negocio online,2020-03-22,45
+2181,negocio online,2020-03-29,86
+2182,negocio online,2020-04-05,80
+2183,negocio online,2020-04-12,76
+2184,negocio online,2020-04-19,100
+2185,negocio online,2020-04-26,84
+2186,negocio online,2020-05-03,70
+2187,negocio online,2020-05-10,72
+2188,negocio online,2020-05-17,79
+2189,negocio online,2020-05-24,87
+2190,emprendimiento,2019-01-06,59
+2191,emprendimiento,2019-01-13,91
+2192,emprendimiento,2019-01-20,60
+2193,emprendimiento,2019-01-27,51
+2194,emprendimiento,2019-02-03,96
+2195,emprendimiento,2019-02-10,54
+2196,emprendimiento,2019-02-17,73
+2197,emprendimiento,2019-02-24,79
+2198,emprendimiento,2019-03-03,87
+2199,emprendimiento,2019-03-10,65
+2200,emprendimiento,2019-03-17,71
+2201,emprendimiento,2019-03-24,64
+2202,emprendimiento,2019-03-31,65
+2203,emprendimiento,2019-04-07,71
+2204,emprendimiento,2019-04-14,53
+2205,emprendimiento,2019-04-21,60
+2206,emprendimiento,2019-04-28,56
+2207,emprendimiento,2019-05-05,59
+2208,emprendimiento,2019-05-12,65
+2209,emprendimiento,2019-05-19,25
+2210,emprendimiento,2019-05-26,48
+2211,emprendimiento,2019-06-02,72
+2212,emprendimiento,2019-06-09,49
+2213,emprendimiento,2019-06-16,67
+2214,emprendimiento,2019-06-23,75
+2215,emprendimiento,2019-06-30,48
+2216,emprendimiento,2019-07-07,57
+2217,emprendimiento,2019-07-14,33
+2218,emprendimiento,2019-07-21,29
+2219,emprendimiento,2019-07-28,55
+2220,emprendimiento,2019-08-04,17
+2221,emprendimiento,2019-08-11,34
+2222,emprendimiento,2019-08-18,43
+2223,emprendimiento,2019-08-25,22
+2224,emprendimiento,2019-09-01,30
+2225,emprendimiento,2019-09-08,59
+2226,emprendimiento,2019-09-15,94
+2227,emprendimiento,2019-09-22,67
+2228,emprendimiento,2019-09-29,71
+2229,emprendimiento,2019-10-06,92
+2230,emprendimiento,2019-10-13,89
+2231,emprendimiento,2019-10-20,100
+2232,emprendimiento,2019-10-27,43
+2233,emprendimiento,2019-11-03,31
+2234,emprendimiento,2019-11-10,53
+2235,emprendimiento,2019-11-17,90
+2236,emprendimiento,2019-11-24,55
+2237,emprendimiento,2019-12-01,50
+2238,emprendimiento,2019-12-08,47
+2239,emprendimiento,2019-12-15,60
+2240,emprendimiento,2019-12-22,45
+2241,emprendimiento,2019-12-29,19
+2242,emprendimiento,2020-01-05,81
+2243,emprendimiento,2020-01-12,78
+2244,emprendimiento,2020-01-19,39
+2245,emprendimiento,2020-01-26,82
+2246,emprendimiento,2020-02-02,52
+2247,emprendimiento,2020-02-09,74
+2248,emprendimiento,2020-02-16,66
+2249,emprendimiento,2020-02-23,46
+2250,emprendimiento,2020-03-01,49
+2251,emprendimiento,2020-03-08,48
+2252,emprendimiento,2020-03-15,30
+2253,emprendimiento,2020-03-22,48
+2254,emprendimiento,2020-03-29,33
+2255,emprendimiento,2020-04-05,35
+2256,emprendimiento,2020-04-12,46
+2257,emprendimiento,2020-04-19,68
+2258,emprendimiento,2020-04-26,43
+2259,emprendimiento,2020-05-03,64
+2260,emprendimiento,2020-05-10,73
+2261,emprendimiento,2020-05-17,82
+2262,emprendimiento,2020-05-24,26
+2263,formacion,2019-01-06,73
+2264,formacion,2019-01-13,89
+2265,formacion,2019-01-20,83
+2266,formacion,2019-01-27,88
+2267,formacion,2019-02-03,91
+2268,formacion,2019-02-10,89
+2269,formacion,2019-02-17,92
+2270,formacion,2019-02-24,80
+2271,formacion,2019-03-03,84
+2272,formacion,2019-03-10,92
+2273,formacion,2019-03-17,87
+2274,formacion,2019-03-24,93
+2275,formacion,2019-03-31,87
+2276,formacion,2019-04-07,84
+2277,formacion,2019-04-14,51
+2278,formacion,2019-04-21,75
+2279,formacion,2019-04-28,73
+2280,formacion,2019-05-05,91
+2281,formacion,2019-05-12,90
+2282,formacion,2019-05-19,94
+2283,formacion,2019-05-26,88
+2284,formacion,2019-06-02,89
+2285,formacion,2019-06-09,91
+2286,formacion,2019-06-16,89
+2287,formacion,2019-06-23,90
+2288,formacion,2019-06-30,77
+2289,formacion,2019-07-07,78
+2290,formacion,2019-07-14,69
+2291,formacion,2019-07-21,66
+2292,formacion,2019-07-28,53
+2293,formacion,2019-08-04,45
+2294,formacion,2019-08-11,43
+2295,formacion,2019-08-18,50
+2296,formacion,2019-08-25,62
+2297,formacion,2019-09-01,81
+2298,formacion,2019-09-08,78
+2299,formacion,2019-09-15,90
+2300,formacion,2019-09-22,98
+2301,formacion,2019-09-29,99
+2302,formacion,2019-10-06,94
+2303,formacion,2019-10-13,91
+2304,formacion,2019-10-20,89
+2305,formacion,2019-10-27,78
+2306,formacion,2019-11-03,91
+2307,formacion,2019-11-10,94
+2308,formacion,2019-11-17,92
+2309,formacion,2019-11-24,85
+2310,formacion,2019-12-01,72
+2311,formacion,2019-12-08,72
+2312,formacion,2019-12-15,66
+2313,formacion,2019-12-22,45
+2314,formacion,2019-12-29,48
+2315,formacion,2020-01-05,73
+2316,formacion,2020-01-12,92
+2317,formacion,2020-01-19,90
+2318,formacion,2020-01-26,98
+2319,formacion,2020-02-02,93
+2320,formacion,2020-02-09,94
+2321,formacion,2020-02-16,100
+2322,formacion,2020-02-23,87
+2323,formacion,2020-03-01,92
+2324,formacion,2020-03-08,70
+2325,formacion,2020-03-15,62
+2326,formacion,2020-03-22,69
+2327,formacion,2020-03-29,68
+2328,formacion,2020-04-05,63
+2329,formacion,2020-04-12,75
+2330,formacion,2020-04-19,76
+2331,formacion,2020-04-26,73
+2332,formacion,2020-05-03,78
+2333,formacion,2020-05-10,77
+2334,formacion,2020-05-17,79
+2335,formacion,2020-05-24,80
+2336,erte,2019-01-06,0
+2337,erte,2019-01-13,0
+2338,erte,2019-01-20,0
+2339,erte,2019-01-27,0
+2340,erte,2019-02-03,0
+2341,erte,2019-02-10,0
+2342,erte,2019-02-17,0
+2343,erte,2019-02-24,0
+2344,erte,2019-03-03,0
+2345,erte,2019-03-10,0
+2346,erte,2019-03-17,0
+2347,erte,2019-03-24,0
+2348,erte,2019-03-31,0
+2349,erte,2019-04-07,0
+2350,erte,2019-04-14,0
+2351,erte,2019-04-21,0
+2352,erte,2019-04-28,0
+2353,erte,2019-05-05,0
+2354,erte,2019-05-12,0
+2355,erte,2019-05-19,0
+2356,erte,2019-05-26,0
+2357,erte,2019-06-02,0
+2358,erte,2019-06-09,0
+2359,erte,2019-06-16,0
+2360,erte,2019-06-23,0
+2361,erte,2019-06-30,0
+2362,erte,2019-07-07,0
+2363,erte,2019-07-14,0
+2364,erte,2019-07-21,0
+2365,erte,2019-07-28,0
+2366,erte,2019-08-04,0
+2367,erte,2019-08-11,0
+2368,erte,2019-08-18,0
+2369,erte,2019-08-25,0
+2370,erte,2019-09-01,0
+2371,erte,2019-09-08,0
+2372,erte,2019-09-15,0
+2373,erte,2019-09-22,0
+2374,erte,2019-09-29,0
+2375,erte,2019-10-06,0
+2376,erte,2019-10-13,0
+2377,erte,2019-10-20,0
+2378,erte,2019-10-27,0
+2379,erte,2019-11-03,0
+2380,erte,2019-11-10,0
+2381,erte,2019-11-17,0
+2382,erte,2019-11-24,0
+2383,erte,2019-12-01,0
+2384,erte,2019-12-08,0
+2385,erte,2019-12-15,0
+2386,erte,2019-12-22,0
+2387,erte,2019-12-29,0
+2388,erte,2020-01-05,0
+2389,erte,2020-01-12,0
+2390,erte,2020-01-19,0
+2391,erte,2020-01-26,0
+2392,erte,2020-02-02,0
+2393,erte,2020-02-09,0
+2394,erte,2020-02-16,0
+2395,erte,2020-02-23,0
+2396,erte,2020-03-01,0
+2397,erte,2020-03-08,17
+2398,erte,2020-03-15,100
+2399,erte,2020-03-22,67
+2400,erte,2020-03-29,44
+2401,erte,2020-04-05,30
+2402,erte,2020-04-12,35
+2403,erte,2020-04-19,30
+2404,erte,2020-04-26,39
+2405,erte,2020-05-03,44
+2406,erte,2020-05-10,34
+2407,erte,2020-05-17,25
+2408,erte,2020-05-24,21
+2409,paro,2019-01-06,29
+2410,paro,2019-01-13,26
+2411,paro,2019-01-20,22
+2412,paro,2019-01-27,25
+2413,paro,2019-02-03,29
+2414,paro,2019-02-10,26
+2415,paro,2019-02-17,25
+2416,paro,2019-02-24,24
+2417,paro,2019-03-03,30
+2418,paro,2019-03-10,28
+2419,paro,2019-03-17,23
+2420,paro,2019-03-24,23
+2421,paro,2019-03-31,28
+2422,paro,2019-04-07,25
+2423,paro,2019-04-14,20
+2424,paro,2019-04-21,25
+2425,paro,2019-04-28,25
+2426,paro,2019-05-05,29
+2427,paro,2019-05-12,23
+2428,paro,2019-05-19,24
+2429,paro,2019-05-26,24
+2430,paro,2019-06-02,28
+2431,paro,2019-06-09,26
+2432,paro,2019-06-16,25
+2433,paro,2019-06-23,25
+2434,paro,2019-06-30,29
+2435,paro,2019-07-07,25
+2436,paro,2019-07-14,23
+2437,paro,2019-07-21,24
+2438,paro,2019-07-28,27
+2439,paro,2019-08-04,27
+2440,paro,2019-08-11,22
+2441,paro,2019-08-18,23
+2442,paro,2019-08-25,24
+2443,paro,2019-09-01,29
+2444,paro,2019-09-08,25
+2445,paro,2019-09-15,25
+2446,paro,2019-09-22,25
+2447,paro,2019-09-29,29
+2448,paro,2019-10-06,28
+2449,paro,2019-10-13,25
+2450,paro,2019-10-20,27
+2451,paro,2019-10-27,23
+2452,paro,2019-11-03,31
+2453,paro,2019-11-10,26
+2454,paro,2019-11-17,27
+2455,paro,2019-11-24,23
+2456,paro,2019-12-01,26
+2457,paro,2019-12-08,26
+2458,paro,2019-12-15,22
+2459,paro,2019-12-22,19
+2460,paro,2019-12-29,27
+2461,paro,2020-01-05,30
+2462,paro,2020-01-12,29
+2463,paro,2020-01-19,26
+2464,paro,2020-01-26,27
+2465,paro,2020-02-02,33
+2466,paro,2020-02-09,28
+2467,paro,2020-02-16,25
+2468,paro,2020-02-23,23
+2469,paro,2020-03-01,28
+2470,paro,2020-03-08,36
+2471,paro,2020-03-15,100
+2472,paro,2020-03-22,71
+2473,paro,2020-03-29,75
+2474,paro,2020-04-05,47
+2475,paro,2020-04-12,53
+2476,paro,2020-04-19,46
+2477,paro,2020-04-26,51
+2478,paro,2020-05-03,55
+2479,paro,2020-05-10,40
+2480,paro,2020-05-17,37
+2481,paro,2020-05-24,38
+2482,sepe,2019-01-06,11
+2483,sepe,2019-01-13,11
+2484,sepe,2019-01-20,9
+2485,sepe,2019-01-27,10
+2486,sepe,2019-02-03,11
+2487,sepe,2019-02-10,11
+2488,sepe,2019-02-17,11
+2489,sepe,2019-02-24,11
+2490,sepe,2019-03-03,12
+2491,sepe,2019-03-10,15
+2492,sepe,2019-03-17,11
+2493,sepe,2019-03-24,12
+2494,sepe,2019-03-31,12
+2495,sepe,2019-04-07,12
+2496,sepe,2019-04-14,8
+2497,sepe,2019-04-21,11
+2498,sepe,2019-04-28,10
+2499,sepe,2019-05-05,11
+2500,sepe,2019-05-12,10
+2501,sepe,2019-05-19,11
+2502,sepe,2019-05-26,11
+2503,sepe,2019-06-02,12
+2504,sepe,2019-06-09,12
+2505,sepe,2019-06-16,13
+2506,sepe,2019-06-23,15
+2507,sepe,2019-06-30,15
+2508,sepe,2019-07-07,13
+2509,sepe,2019-07-14,11
+2510,sepe,2019-07-21,11
+2511,sepe,2019-07-28,11
+2512,sepe,2019-08-04,10
+2513,sepe,2019-08-11,9
+2514,sepe,2019-08-18,10
+2515,sepe,2019-08-25,10
+2516,sepe,2019-09-01,13
+2517,sepe,2019-09-08,11
+2518,sepe,2019-09-15,11
+2519,sepe,2019-09-22,11
+2520,sepe,2019-09-29,12
+2521,sepe,2019-10-06,13
+2522,sepe,2019-10-13,11
+2523,sepe,2019-10-20,14
+2524,sepe,2019-10-27,11
+2525,sepe,2019-11-03,13
+2526,sepe,2019-11-10,13
+2527,sepe,2019-11-17,13
+2528,sepe,2019-11-24,11
+2529,sepe,2019-12-01,11
+2530,sepe,2019-12-08,12
+2531,sepe,2019-12-15,11
+2532,sepe,2019-12-22,8
+2533,sepe,2019-12-29,9
+2534,sepe,2020-01-05,12
+2535,sepe,2020-01-12,13
+2536,sepe,2020-01-19,12
+2537,sepe,2020-01-26,12
+2538,sepe,2020-02-02,13
+2539,sepe,2020-02-09,13
+2540,sepe,2020-02-16,12
+2541,sepe,2020-02-23,11
+2542,sepe,2020-03-01,13
+2543,sepe,2020-03-08,21
+2544,sepe,2020-03-15,41
+2545,sepe,2020-03-22,35
+2546,sepe,2020-03-29,43
+2547,sepe,2020-04-05,30
+2548,sepe,2020-04-12,49
+2549,sepe,2020-04-19,62
+2550,sepe,2020-04-26,100
+2551,sepe,2020-05-03,91
+2552,sepe,2020-05-10,73
+2553,sepe,2020-05-17,64
+2554,sepe,2020-05-24,54
+2555,desempleo,2019-01-06,25
+2556,desempleo,2019-01-13,22
+2557,desempleo,2019-01-20,20
+2558,desempleo,2019-01-27,24
+2559,desempleo,2019-02-03,22
+2560,desempleo,2019-02-10,21
+2561,desempleo,2019-02-17,20
+2562,desempleo,2019-02-24,21
+2563,desempleo,2019-03-03,27
+2564,desempleo,2019-03-10,31
+2565,desempleo,2019-03-17,22
+2566,desempleo,2019-03-24,23
+2567,desempleo,2019-03-31,24
+2568,desempleo,2019-04-07,22
+2569,desempleo,2019-04-14,14
+2570,desempleo,2019-04-21,21
+2571,desempleo,2019-04-28,17
+2572,desempleo,2019-05-05,23
+2573,desempleo,2019-05-12,21
+2574,desempleo,2019-05-19,19
+2575,desempleo,2019-05-26,20
+2576,desempleo,2019-06-02,22
+2577,desempleo,2019-06-09,21
+2578,desempleo,2019-06-16,21
+2579,desempleo,2019-06-23,21
+2580,desempleo,2019-06-30,23
+2581,desempleo,2019-07-07,20
+2582,desempleo,2019-07-14,17
+2583,desempleo,2019-07-21,20
+2584,desempleo,2019-07-28,19
+2585,desempleo,2019-08-04,16
+2586,desempleo,2019-08-11,14
+2587,desempleo,2019-08-18,15
+2588,desempleo,2019-08-25,17
+2589,desempleo,2019-09-01,21
+2590,desempleo,2019-09-08,19
+2591,desempleo,2019-09-15,21
+2592,desempleo,2019-09-22,18
+2593,desempleo,2019-09-29,23
+2594,desempleo,2019-10-06,23
+2595,desempleo,2019-10-13,18
+2596,desempleo,2019-10-20,19
+2597,desempleo,2019-10-27,16
+2598,desempleo,2019-11-03,22
+2599,desempleo,2019-11-10,22
+2600,desempleo,2019-11-17,21
+2601,desempleo,2019-11-24,18
+2602,desempleo,2019-12-01,19
+2603,desempleo,2019-12-08,20
+2604,desempleo,2019-12-15,16
+2605,desempleo,2019-12-22,14
+2606,desempleo,2019-12-29,15
+2607,desempleo,2020-01-05,21
+2608,desempleo,2020-01-12,23
+2609,desempleo,2020-01-19,20
+2610,desempleo,2020-01-26,22
+2611,desempleo,2020-02-02,25
+2612,desempleo,2020-02-09,25
+2613,desempleo,2020-02-16,20
+2614,desempleo,2020-02-23,19
+2615,desempleo,2020-03-01,24
+2616,desempleo,2020-03-08,25
+2617,desempleo,2020-03-15,100
+2618,desempleo,2020-03-22,98
+2619,desempleo,2020-03-29,96
+2620,desempleo,2020-04-05,54
+2621,desempleo,2020-04-12,67
+2622,desempleo,2020-04-19,92
+2623,desempleo,2020-04-26,72
+2624,desempleo,2020-05-03,75
+2625,desempleo,2020-05-10,54
+2626,desempleo,2020-05-17,47
+2627,desempleo,2020-05-24,37
+2628,deshaucio,2019-01-06,95
+2629,deshaucio,2019-01-13,42
+2630,deshaucio,2019-01-20,53
+2631,deshaucio,2019-01-27,100
+2632,deshaucio,2019-02-03,32
+2633,deshaucio,2019-02-10,63
+2634,deshaucio,2019-02-17,99
+2635,deshaucio,2019-02-24,63
+2636,deshaucio,2019-03-03,36
+2637,deshaucio,2019-03-10,36
+2638,deshaucio,2019-03-17,65
+2639,deshaucio,2019-03-24,72
+2640,deshaucio,2019-03-31,51
+2641,deshaucio,2019-04-07,31
+2642,deshaucio,2019-04-14,29
+2643,deshaucio,2019-04-21,49
+2644,deshaucio,2019-04-28,77
+2645,deshaucio,2019-05-05,31
+2646,deshaucio,2019-05-12,63
+2647,deshaucio,2019-05-19,48
+2648,deshaucio,2019-05-26,74
+2649,deshaucio,2019-06-02,30
+2650,deshaucio,2019-06-09,27
+2651,deshaucio,2019-06-16,57
+2652,deshaucio,2019-06-23,58
+2653,deshaucio,2019-06-30,22
+2654,deshaucio,2019-07-07,73
+2655,deshaucio,2019-07-14,65
+2656,deshaucio,2019-07-21,33
+2657,deshaucio,2019-07-28,23
+2658,deshaucio,2019-08-04,23
+2659,deshaucio,2019-08-11,45
+2660,deshaucio,2019-08-18,22
+2661,deshaucio,2019-08-25,21
+2662,deshaucio,2019-09-01,73
+2663,deshaucio,2019-09-08,33
+2664,deshaucio,2019-09-15,39
+2665,deshaucio,2019-09-22,46
+2666,deshaucio,2019-09-29,79
+2667,deshaucio,2019-10-06,52
+2668,deshaucio,2019-10-13,64
+2669,deshaucio,2019-10-20,57
+2670,deshaucio,2019-10-27,51
+2671,deshaucio,2019-11-03,38
+2672,deshaucio,2019-11-10,63
+2673,deshaucio,2019-11-17,44
+2674,deshaucio,2019-11-24,56
+2675,deshaucio,2019-12-01,52
+2676,deshaucio,2019-12-08,90
+2677,deshaucio,2019-12-15,64
+2678,deshaucio,2019-12-22,22
+2679,deshaucio,2019-12-29,53
+2680,deshaucio,2020-01-05,29
+2681,deshaucio,2020-01-12,45
+2682,deshaucio,2020-01-19,53
+2683,deshaucio,2020-01-26,92
+2684,deshaucio,2020-02-02,55
+2685,deshaucio,2020-02-09,36
+2686,deshaucio,2020-02-16,43
+2687,deshaucio,2020-02-23,60
+2688,deshaucio,2020-03-01,46
+2689,deshaucio,2020-03-08,57
+2690,deshaucio,2020-03-15,34
+2691,deshaucio,2020-03-22,21
+2692,deshaucio,2020-03-29,53
+2693,deshaucio,2020-04-05,34
+2694,deshaucio,2020-04-12,16
+2695,deshaucio,2020-04-19,99
+2696,deshaucio,2020-04-26,32
+2697,deshaucio,2020-05-03,42
+2698,deshaucio,2020-05-10,37
+2699,deshaucio,2020-05-17,33
+2700,deshaucio,2020-05-24,0
+2701,comedor social,2019-01-06,67
+2702,comedor social,2019-01-13,50
+2703,comedor social,2019-01-20,41
+2704,comedor social,2019-01-27,41
+2705,comedor social,2019-02-03,40
+2706,comedor social,2019-02-10,68
+2707,comedor social,2019-02-17,43
+2708,comedor social,2019-02-24,25
+2709,comedor social,2019-03-03,18
+2710,comedor social,2019-03-10,33
+2711,comedor social,2019-03-17,44
+2712,comedor social,2019-03-24,62
+2713,comedor social,2019-03-31,49
+2714,comedor social,2019-04-07,39
+2715,comedor social,2019-04-14,60
+2716,comedor social,2019-04-21,39
+2717,comedor social,2019-04-28,18
+2718,comedor social,2019-05-05,38
+2719,comedor social,2019-05-12,28
+2720,comedor social,2019-05-19,63
+2721,comedor social,2019-05-26,58
+2722,comedor social,2019-06-02,48
+2723,comedor social,2019-06-09,17
+2724,comedor social,2019-06-16,36
+2725,comedor social,2019-06-23,22
+2726,comedor social,2019-06-30,29
+2727,comedor social,2019-07-07,43
+2728,comedor social,2019-07-14,56
+2729,comedor social,2019-07-21,22
+2730,comedor social,2019-07-28,35
+2731,comedor social,2019-08-04,38
+2732,comedor social,2019-08-11,52
+2733,comedor social,2019-08-18,34
+2734,comedor social,2019-08-25,39
+2735,comedor social,2019-09-01,48
+2736,comedor social,2019-09-08,27
+2737,comedor social,2019-09-15,30
+2738,comedor social,2019-09-22,33
+2739,comedor social,2019-09-29,27
+2740,comedor social,2019-10-06,46
+2741,comedor social,2019-10-13,55
+2742,comedor social,2019-10-20,42
+2743,comedor social,2019-10-27,36
+2744,comedor social,2019-11-03,38
+2745,comedor social,2019-11-10,67
+2746,comedor social,2019-11-17,71
+2747,comedor social,2019-11-24,75
+2748,comedor social,2019-12-01,33
+2749,comedor social,2019-12-08,67
+2750,comedor social,2019-12-15,71
+2751,comedor social,2019-12-22,88
+2752,comedor social,2019-12-29,36
+2753,comedor social,2020-01-05,20
+2754,comedor social,2020-01-12,30
+2755,comedor social,2020-01-19,36
+2756,comedor social,2020-01-26,50
+2757,comedor social,2020-02-02,40
+2758,comedor social,2020-02-09,59
+2759,comedor social,2020-02-16,56
+2760,comedor social,2020-02-23,37
+2761,comedor social,2020-03-01,53
+2762,comedor social,2020-03-08,29
+2763,comedor social,2020-03-15,77
+2764,comedor social,2020-03-22,73
+2765,comedor social,2020-03-29,49
+2766,comedor social,2020-04-05,54
+2767,comedor social,2020-04-12,46
+2768,comedor social,2020-04-19,43
+2769,comedor social,2020-04-26,49
+2770,comedor social,2020-05-03,54
+2771,comedor social,2020-05-10,75
+2772,comedor social,2020-05-17,82
+2773,comedor social,2020-05-24,100
+2774,banco alimentos,2019-01-06,7
+2775,banco alimentos,2019-01-13,7
+2776,banco alimentos,2019-01-20,8
+2777,banco alimentos,2019-01-27,9
+2778,banco alimentos,2019-02-03,7
+2779,banco alimentos,2019-02-10,10
+2780,banco alimentos,2019-02-17,8
+2781,banco alimentos,2019-02-24,9
+2782,banco alimentos,2019-03-03,9
+2783,banco alimentos,2019-03-10,5
+2784,banco alimentos,2019-03-17,10
+2785,banco alimentos,2019-03-24,12
+2786,banco alimentos,2019-03-31,10
+2787,banco alimentos,2019-04-07,13
+2788,banco alimentos,2019-04-14,7
+2789,banco alimentos,2019-04-21,8
+2790,banco alimentos,2019-04-28,9
+2791,banco alimentos,2019-05-05,10
+2792,banco alimentos,2019-05-12,11
+2793,banco alimentos,2019-05-19,12
+2794,banco alimentos,2019-05-26,12
+2795,banco alimentos,2019-06-02,16
+2796,banco alimentos,2019-06-09,11
+2797,banco alimentos,2019-06-16,7
+2798,banco alimentos,2019-06-23,9
+2799,banco alimentos,2019-06-30,7
+2800,banco alimentos,2019-07-07,5
+2801,banco alimentos,2019-07-14,7
+2802,banco alimentos,2019-07-21,6
+2803,banco alimentos,2019-07-28,10
+2804,banco alimentos,2019-08-04,5
+2805,banco alimentos,2019-08-11,6
+2806,banco alimentos,2019-08-18,4
+2807,banco alimentos,2019-08-25,5
+2808,banco alimentos,2019-09-01,3
+2809,banco alimentos,2019-09-08,6
+2810,banco alimentos,2019-09-15,8
+2811,banco alimentos,2019-09-22,10
+2812,banco alimentos,2019-09-29,7
+2813,banco alimentos,2019-10-06,11
+2814,banco alimentos,2019-10-13,16
+2815,banco alimentos,2019-10-20,12
+2816,banco alimentos,2019-10-27,13
+2817,banco alimentos,2019-11-03,14
+2818,banco alimentos,2019-11-10,28
+2819,banco alimentos,2019-11-17,84
+2820,banco alimentos,2019-11-24,37
+2821,banco alimentos,2019-12-01,18
+2822,banco alimentos,2019-12-08,16
+2823,banco alimentos,2019-12-15,16
+2824,banco alimentos,2019-12-22,7
+2825,banco alimentos,2019-12-29,11
+2826,banco alimentos,2020-01-05,4
+2827,banco alimentos,2020-01-12,8
+2828,banco alimentos,2020-01-19,6
+2829,banco alimentos,2020-01-26,8
+2830,banco alimentos,2020-02-02,10
+2831,banco alimentos,2020-02-09,8
+2832,banco alimentos,2020-02-16,10
+2833,banco alimentos,2020-02-23,10
+2834,banco alimentos,2020-03-01,9
+2835,banco alimentos,2020-03-08,6
+2836,banco alimentos,2020-03-15,13
+2837,banco alimentos,2020-03-22,35
+2838,banco alimentos,2020-03-29,43
+2839,banco alimentos,2020-04-05,73
+2840,banco alimentos,2020-04-12,74
+2841,banco alimentos,2020-04-19,100
+2842,banco alimentos,2020-04-26,99
+2843,banco alimentos,2020-05-03,50
+2844,banco alimentos,2020-05-10,86
+2845,banco alimentos,2020-05-17,90
+2846,banco alimentos,2020-05-24,40
+2847,cruz roja,2019-01-06,13
+2848,cruz roja,2019-01-13,12
+2849,cruz roja,2019-01-20,11
+2850,cruz roja,2019-01-27,14
+2851,cruz roja,2019-02-03,12
+2852,cruz roja,2019-02-10,13
+2853,cruz roja,2019-02-17,13
+2854,cruz roja,2019-02-24,13
+2855,cruz roja,2019-03-03,13
+2856,cruz roja,2019-03-10,13
+2857,cruz roja,2019-03-17,13
+2858,cruz roja,2019-03-24,14
+2859,cruz roja,2019-03-31,13
+2860,cruz roja,2019-04-07,14
+2861,cruz roja,2019-04-14,10
+2862,cruz roja,2019-04-21,12
+2863,cruz roja,2019-04-28,12
+2864,cruz roja,2019-05-05,15
+2865,cruz roja,2019-05-12,15
+2866,cruz roja,2019-05-19,15
+2867,cruz roja,2019-05-26,14
+2868,cruz roja,2019-06-02,17
+2869,cruz roja,2019-06-09,16
+2870,cruz roja,2019-06-16,17
+2871,cruz roja,2019-06-23,16
+2872,cruz roja,2019-06-30,14
+2873,cruz roja,2019-07-07,15
+2874,cruz roja,2019-07-14,100
+2875,cruz roja,2019-07-21,75
+2876,cruz roja,2019-07-28,42
+2877,cruz roja,2019-08-04,28
+2878,cruz roja,2019-08-11,22
+2879,cruz roja,2019-08-18,22
+2880,cruz roja,2019-08-25,19
+2881,cruz roja,2019-09-01,17
+2882,cruz roja,2019-09-08,17
+2883,cruz roja,2019-09-15,16
+2884,cruz roja,2019-09-22,16
+2885,cruz roja,2019-09-29,15
+2886,cruz roja,2019-10-06,15
+2887,cruz roja,2019-10-13,15
+2888,cruz roja,2019-10-20,12
+2889,cruz roja,2019-10-27,12
+2890,cruz roja,2019-11-03,13
+2891,cruz roja,2019-11-10,13
+2892,cruz roja,2019-11-17,14
+2893,cruz roja,2019-11-24,14
+2894,cruz roja,2019-12-01,13
+2895,cruz roja,2019-12-08,13
+2896,cruz roja,2019-12-15,13
+2897,cruz roja,2019-12-22,12
+2898,cruz roja,2019-12-29,10
+2899,cruz roja,2020-01-05,12
+2900,cruz roja,2020-01-12,13
+2901,cruz roja,2020-01-19,13
+2902,cruz roja,2020-01-26,14
+2903,cruz roja,2020-02-02,16
+2904,cruz roja,2020-02-09,14
+2905,cruz roja,2020-02-16,14
+2906,cruz roja,2020-02-23,13
+2907,cruz roja,2020-03-01,14
+2908,cruz roja,2020-03-08,14
+2909,cruz roja,2020-03-15,17
+2910,cruz roja,2020-03-22,23
+2911,cruz roja,2020-03-29,24
+2912,cruz roja,2020-04-05,24
+2913,cruz roja,2020-04-12,26
+2914,cruz roja,2020-04-19,27
+2915,cruz roja,2020-04-26,21
+2916,cruz roja,2020-05-03,22
+2917,cruz roja,2020-05-10,23
+2918,cruz roja,2020-05-17,21
+2919,cruz roja,2020-05-24,19
+2920,caritas,2019-01-06,44
+2921,caritas,2019-01-13,43
+2922,caritas,2019-01-20,50
+2923,caritas,2019-01-27,47
+2924,caritas,2019-02-03,48
+2925,caritas,2019-02-10,49
+2926,caritas,2019-02-17,48
+2927,caritas,2019-02-24,51
+2928,caritas,2019-03-03,43
+2929,caritas,2019-03-10,39
+2930,caritas,2019-03-17,46
+2931,caritas,2019-03-24,48
+2932,caritas,2019-03-31,46
+2933,caritas,2019-04-07,51
+2934,caritas,2019-04-14,30
+2935,caritas,2019-04-21,37
+2936,caritas,2019-04-28,37
+2937,caritas,2019-05-05,42
+2938,caritas,2019-05-12,43
+2939,caritas,2019-05-19,48
+2940,caritas,2019-05-26,49
+2941,caritas,2019-06-02,50
+2942,caritas,2019-06-09,46
+2943,caritas,2019-06-16,53
+2944,caritas,2019-06-23,38
+2945,caritas,2019-06-30,43
+2946,caritas,2019-07-07,48
+2947,caritas,2019-07-14,54
+2948,caritas,2019-07-21,38
+2949,caritas,2019-07-28,42
+2950,caritas,2019-08-04,37
+2951,caritas,2019-08-11,39
+2952,caritas,2019-08-18,37
+2953,caritas,2019-08-25,35
+2954,caritas,2019-09-01,42
+2955,caritas,2019-09-08,41
+2956,caritas,2019-09-15,53
+2957,caritas,2019-09-22,49
+2958,caritas,2019-09-29,44
+2959,caritas,2019-10-06,48
+2960,caritas,2019-10-13,48
+2961,caritas,2019-10-20,47
+2962,caritas,2019-10-27,46
+2963,caritas,2019-11-03,54
+2964,caritas,2019-11-10,48
+2965,caritas,2019-11-17,55
+2966,caritas,2019-11-24,52
+2967,caritas,2019-12-01,50
+2968,caritas,2019-12-08,54
+2969,caritas,2019-12-15,50
+2970,caritas,2019-12-22,41
+2971,caritas,2019-12-29,40
+2972,caritas,2020-01-05,46
+2973,caritas,2020-01-12,52
+2974,caritas,2020-01-19,44
+2975,caritas,2020-01-26,52
+2976,caritas,2020-02-02,44
+2977,caritas,2020-02-09,44
+2978,caritas,2020-02-16,54
+2979,caritas,2020-02-23,43
+2980,caritas,2020-03-01,45
+2981,caritas,2020-03-08,39
+2982,caritas,2020-03-15,51
+2983,caritas,2020-03-22,57
+2984,caritas,2020-03-29,90
+2985,caritas,2020-04-05,100
+2986,caritas,2020-04-12,83
+2987,caritas,2020-04-19,98
+2988,caritas,2020-04-26,84
+2989,caritas,2020-05-03,78
+2990,caritas,2020-05-10,84
+2991,caritas,2020-05-17,73
+2992,caritas,2020-05-24,83
+2993,ayuda alquiler,2019-01-06,37
+2994,ayuda alquiler,2019-01-13,29
+2995,ayuda alquiler,2019-01-20,17
+2996,ayuda alquiler,2019-01-27,21
+2997,ayuda alquiler,2019-02-03,18
+2998,ayuda alquiler,2019-02-10,20
+2999,ayuda alquiler,2019-02-17,22
+3000,ayuda alquiler,2019-02-24,21
+3001,ayuda alquiler,2019-03-03,23
+3002,ayuda alquiler,2019-03-10,20
+3003,ayuda alquiler,2019-03-17,17
+3004,ayuda alquiler,2019-03-24,19
+3005,ayuda alquiler,2019-03-31,24
+3006,ayuda alquiler,2019-04-07,19
+3007,ayuda alquiler,2019-04-14,17
+3008,ayuda alquiler,2019-04-21,20
+3009,ayuda alquiler,2019-04-28,14
+3010,ayuda alquiler,2019-05-05,22
+3011,ayuda alquiler,2019-05-12,22
+3012,ayuda alquiler,2019-05-19,27
+3013,ayuda alquiler,2019-05-26,34
+3014,ayuda alquiler,2019-06-02,29
+3015,ayuda alquiler,2019-06-09,29
+3016,ayuda alquiler,2019-06-16,22
+3017,ayuda alquiler,2019-06-23,21
+3018,ayuda alquiler,2019-06-30,20
+3019,ayuda alquiler,2019-07-07,18
+3020,ayuda alquiler,2019-07-14,20
+3021,ayuda alquiler,2019-07-21,18
+3022,ayuda alquiler,2019-07-28,17
+3023,ayuda alquiler,2019-08-04,17
+3024,ayuda alquiler,2019-08-11,16
+3025,ayuda alquiler,2019-08-18,16
+3026,ayuda alquiler,2019-08-25,17
+3027,ayuda alquiler,2019-09-01,21
+3028,ayuda alquiler,2019-09-08,21
+3029,ayuda alquiler,2019-09-15,18
+3030,ayuda alquiler,2019-09-22,14
+3031,ayuda alquiler,2019-09-29,18
+3032,ayuda alquiler,2019-10-06,16
+3033,ayuda alquiler,2019-10-13,16
+3034,ayuda alquiler,2019-10-20,16
+3035,ayuda alquiler,2019-10-27,26
+3036,ayuda alquiler,2019-11-03,20
+3037,ayuda alquiler,2019-11-10,16
+3038,ayuda alquiler,2019-11-17,15
+3039,ayuda alquiler,2019-11-24,17
+3040,ayuda alquiler,2019-12-01,24
+3041,ayuda alquiler,2019-12-08,20
+3042,ayuda alquiler,2019-12-15,19
+3043,ayuda alquiler,2019-12-22,16
+3044,ayuda alquiler,2019-12-29,15
+3045,ayuda alquiler,2020-01-05,16
+3046,ayuda alquiler,2020-01-12,31
+3047,ayuda alquiler,2020-01-19,18
+3048,ayuda alquiler,2020-01-26,18
+3049,ayuda alquiler,2020-02-02,15
+3050,ayuda alquiler,2020-02-09,16
+3051,ayuda alquiler,2020-02-16,15
+3052,ayuda alquiler,2020-02-23,15
+3053,ayuda alquiler,2020-03-01,19
+3054,ayuda alquiler,2020-03-08,16
+3055,ayuda alquiler,2020-03-15,12
+3056,ayuda alquiler,2020-03-22,31
+3057,ayuda alquiler,2020-03-29,100
+3058,ayuda alquiler,2020-04-05,54
+3059,ayuda alquiler,2020-04-12,60
+3060,ayuda alquiler,2020-04-19,54
+3061,ayuda alquiler,2020-04-26,47
+3062,ayuda alquiler,2020-05-03,61
+3063,ayuda alquiler,2020-05-10,65
+3064,ayuda alquiler,2020-05-17,53
+3065,ayuda alquiler,2020-05-24,44
+3066,compartir piso,2019-01-06,66
+3067,compartir piso,2019-01-13,58
+3068,compartir piso,2019-01-20,53
+3069,compartir piso,2019-01-27,61
+3070,compartir piso,2019-02-03,64
+3071,compartir piso,2019-02-10,59
+3072,compartir piso,2019-02-17,55
+3073,compartir piso,2019-02-24,66
+3074,compartir piso,2019-03-03,70
+3075,compartir piso,2019-03-10,56
+3076,compartir piso,2019-03-17,71
+3077,compartir piso,2019-03-24,67
+3078,compartir piso,2019-03-31,52
+3079,compartir piso,2019-04-07,59
+3080,compartir piso,2019-04-14,45
+3081,compartir piso,2019-04-21,62
+3082,compartir piso,2019-04-28,56
+3083,compartir piso,2019-05-05,67
+3084,compartir piso,2019-05-12,64
+3085,compartir piso,2019-05-19,66
+3086,compartir piso,2019-05-26,56
+3087,compartir piso,2019-06-02,73
+3088,compartir piso,2019-06-09,70
+3089,compartir piso,2019-06-16,95
+3090,compartir piso,2019-06-23,91
+3091,compartir piso,2019-06-30,89
+3092,compartir piso,2019-07-07,88
+3093,compartir piso,2019-07-14,88
+3094,compartir piso,2019-07-21,100
+3095,compartir piso,2019-07-28,78
+3096,compartir piso,2019-08-04,79
+3097,compartir piso,2019-08-11,93
+3098,compartir piso,2019-08-18,66
+3099,compartir piso,2019-08-25,89
+3100,compartir piso,2019-09-01,94
+3101,compartir piso,2019-09-08,87
+3102,compartir piso,2019-09-15,91
+3103,compartir piso,2019-09-22,88
+3104,compartir piso,2019-09-29,79
+3105,compartir piso,2019-10-06,84
+3106,compartir piso,2019-10-13,58
+3107,compartir piso,2019-10-20,54
+3108,compartir piso,2019-10-27,58
+3109,compartir piso,2019-11-03,54
+3110,compartir piso,2019-11-10,58
+3111,compartir piso,2019-11-17,54
+3112,compartir piso,2019-11-24,52
+3113,compartir piso,2019-12-01,46
+3114,compartir piso,2019-12-08,44
+3115,compartir piso,2019-12-15,50
+3116,compartir piso,2019-12-22,38
+3117,compartir piso,2019-12-29,40
+3118,compartir piso,2020-01-05,52
+3119,compartir piso,2020-01-12,60
+3120,compartir piso,2020-01-19,48
+3121,compartir piso,2020-01-26,57
+3122,compartir piso,2020-02-02,58
+3123,compartir piso,2020-02-09,55
+3124,compartir piso,2020-02-16,40
+3125,compartir piso,2020-02-23,51
+3126,compartir piso,2020-03-01,49
+3127,compartir piso,2020-03-08,44
+3128,compartir piso,2020-03-15,21
+3129,compartir piso,2020-03-22,26
+3130,compartir piso,2020-03-29,21
+3131,compartir piso,2020-04-05,20
+3132,compartir piso,2020-04-12,32
+3133,compartir piso,2020-04-19,28
+3134,compartir piso,2020-04-26,32
+3135,compartir piso,2020-05-03,41
+3136,compartir piso,2020-05-10,48
+3137,compartir piso,2020-05-17,50
+3138,compartir piso,2020-05-24,46
+3139,divorcio,2019-01-06,67
+3140,divorcio,2019-01-13,64
+3141,divorcio,2019-01-20,78
+3142,divorcio,2019-01-27,49
+3143,divorcio,2019-02-03,51
+3144,divorcio,2019-02-10,72
+3145,divorcio,2019-02-17,61
+3146,divorcio,2019-02-24,59
+3147,divorcio,2019-03-03,82
+3148,divorcio,2019-03-10,63
+3149,divorcio,2019-03-17,61
+3150,divorcio,2019-03-24,64
+3151,divorcio,2019-03-31,61
+3152,divorcio,2019-04-07,69
+3153,divorcio,2019-04-14,47
+3154,divorcio,2019-04-21,61
+3155,divorcio,2019-04-28,54
+3156,divorcio,2019-05-05,54
+3157,divorcio,2019-05-12,57
+3158,divorcio,2019-05-19,54
+3159,divorcio,2019-05-26,55
+3160,divorcio,2019-06-02,56
+3161,divorcio,2019-06-09,58
+3162,divorcio,2019-06-16,64
+3163,divorcio,2019-06-23,83
+3164,divorcio,2019-06-30,71
+3165,divorcio,2019-07-07,58
+3166,divorcio,2019-07-14,60
+3167,divorcio,2019-07-21,55
+3168,divorcio,2019-07-28,51
+3169,divorcio,2019-08-04,100
+3170,divorcio,2019-08-11,65
+3171,divorcio,2019-08-18,62
+3172,divorcio,2019-08-25,61
+3173,divorcio,2019-09-01,64
+3174,divorcio,2019-09-08,54
+3175,divorcio,2019-09-15,62
+3176,divorcio,2019-09-22,51
+3177,divorcio,2019-09-29,64
+3178,divorcio,2019-10-06,55
+3179,divorcio,2019-10-13,52
+3180,divorcio,2019-10-20,54
+3181,divorcio,2019-10-27,50
+3182,divorcio,2019-11-03,51
+3183,divorcio,2019-11-10,57
+3184,divorcio,2019-11-17,55
+3185,divorcio,2019-11-24,56
+3186,divorcio,2019-12-01,49
+3187,divorcio,2019-12-08,67
+3188,divorcio,2019-12-15,50
+3189,divorcio,2019-12-22,53
+3190,divorcio,2019-12-29,52
+3191,divorcio,2020-01-05,56
+3192,divorcio,2020-01-12,67
+3193,divorcio,2020-01-19,62
+3194,divorcio,2020-01-26,57
+3195,divorcio,2020-02-02,59
+3196,divorcio,2020-02-09,60
+3197,divorcio,2020-02-16,56
+3198,divorcio,2020-02-23,55
+3199,divorcio,2020-03-01,74
+3200,divorcio,2020-03-08,47
+3201,divorcio,2020-03-15,40
+3202,divorcio,2020-03-22,30
+3203,divorcio,2020-03-29,41
+3204,divorcio,2020-04-05,84
+3205,divorcio,2020-04-12,48
+3206,divorcio,2020-04-19,42
+3207,divorcio,2020-04-26,49
+3208,divorcio,2020-05-03,54
+3209,divorcio,2020-05-10,49
+3210,divorcio,2020-05-17,58
+3211,divorcio,2020-05-24,67
+3212,embarazo,2019-01-06,92
+3213,embarazo,2019-01-13,90
+3214,embarazo,2019-01-20,91
+3215,embarazo,2019-01-27,91
+3216,embarazo,2019-02-03,91
+3217,embarazo,2019-02-10,90
+3218,embarazo,2019-02-17,95
+3219,embarazo,2019-02-24,92
+3220,embarazo,2019-03-03,93
+3221,embarazo,2019-03-10,95
+3222,embarazo,2019-03-17,94
+3223,embarazo,2019-03-24,95
+3224,embarazo,2019-03-31,91
+3225,embarazo,2019-04-07,92
+3226,embarazo,2019-04-14,82
+3227,embarazo,2019-04-21,83
+3228,embarazo,2019-04-28,86
+3229,embarazo,2019-05-05,88
+3230,embarazo,2019-05-12,95
+3231,embarazo,2019-05-19,86
+3232,embarazo,2019-05-26,82
+3233,embarazo,2019-06-02,84
+3234,embarazo,2019-06-09,85
+3235,embarazo,2019-06-16,85
+3236,embarazo,2019-06-23,85
+3237,embarazo,2019-06-30,88
+3238,embarazo,2019-07-07,91
+3239,embarazo,2019-07-14,88
+3240,embarazo,2019-07-21,92
+3241,embarazo,2019-07-28,100
+3242,embarazo,2019-08-04,92
+3243,embarazo,2019-08-11,92
+3244,embarazo,2019-08-18,96
+3245,embarazo,2019-08-25,95
+3246,embarazo,2019-09-01,86
+3247,embarazo,2019-09-08,80
+3248,embarazo,2019-09-15,85
+3249,embarazo,2019-09-22,86
+3250,embarazo,2019-09-29,84
+3251,embarazo,2019-10-06,84
+3252,embarazo,2019-10-13,83
+3253,embarazo,2019-10-20,78
+3254,embarazo,2019-10-27,82
+3255,embarazo,2019-11-03,86
+3256,embarazo,2019-11-10,79
+3257,embarazo,2019-11-17,81
+3258,embarazo,2019-11-24,79
+3259,embarazo,2019-12-01,78
+3260,embarazo,2019-12-08,82
+3261,embarazo,2019-12-15,80
+3262,embarazo,2019-12-22,93
+3263,embarazo,2019-12-29,92
+3264,embarazo,2020-01-05,84
+3265,embarazo,2020-01-12,92
+3266,embarazo,2020-01-19,90
+3267,embarazo,2020-01-26,89
+3268,embarazo,2020-02-02,88
+3269,embarazo,2020-02-09,88
+3270,embarazo,2020-02-16,87
+3271,embarazo,2020-02-23,89
+3272,embarazo,2020-03-01,89
+3273,embarazo,2020-03-08,80
+3274,embarazo,2020-03-15,68
+3275,embarazo,2020-03-22,71
+3276,embarazo,2020-03-29,73
+3277,embarazo,2020-04-05,80
+3278,embarazo,2020-04-12,85
+3279,embarazo,2020-04-19,80
+3280,embarazo,2020-04-26,82
+3281,embarazo,2020-05-03,82
+3282,embarazo,2020-05-10,79
+3283,embarazo,2020-05-17,84
+3284,embarazo,2020-05-24,83
+3285,hipoteca,2019-01-06,79
+3286,hipoteca,2019-01-13,83
+3287,hipoteca,2019-01-20,82
+3288,hipoteca,2019-01-27,88
+3289,hipoteca,2019-02-03,91
+3290,hipoteca,2019-02-10,93
+3291,hipoteca,2019-02-17,99
+3292,hipoteca,2019-02-24,92
+3293,hipoteca,2019-03-03,93
+3294,hipoteca,2019-03-10,90
+3295,hipoteca,2019-03-17,89
+3296,hipoteca,2019-03-24,90
+3297,hipoteca,2019-03-31,100
+3298,hipoteca,2019-04-07,99
+3299,hipoteca,2019-04-14,67
+3300,hipoteca,2019-04-21,80
+3301,hipoteca,2019-04-28,72
+3302,hipoteca,2019-05-05,76
+3303,hipoteca,2019-05-12,79
+3304,hipoteca,2019-05-19,90
+3305,hipoteca,2019-05-26,79
+3306,hipoteca,2019-06-02,76
+3307,hipoteca,2019-06-09,79
+3308,hipoteca,2019-06-16,86
+3309,hipoteca,2019-06-23,69
+3310,hipoteca,2019-06-30,77
+3311,hipoteca,2019-07-07,77
+3312,hipoteca,2019-07-14,76
+3313,hipoteca,2019-07-21,73
+3314,hipoteca,2019-07-28,78
+3315,hipoteca,2019-08-04,73
+3316,hipoteca,2019-08-11,70
+3317,hipoteca,2019-08-18,70
+3318,hipoteca,2019-08-25,87
+3319,hipoteca,2019-09-01,93
+3320,hipoteca,2019-09-08,89
+3321,hipoteca,2019-09-15,85
+3322,hipoteca,2019-09-22,89
+3323,hipoteca,2019-09-29,86
+3324,hipoteca,2019-10-06,84
+3325,hipoteca,2019-10-13,75
+3326,hipoteca,2019-10-20,80
+3327,hipoteca,2019-10-27,72
+3328,hipoteca,2019-11-03,76
+3329,hipoteca,2019-11-10,75
+3330,hipoteca,2019-11-17,81
+3331,hipoteca,2019-11-24,67
+3332,hipoteca,2019-12-01,64
+3333,hipoteca,2019-12-08,69
+3334,hipoteca,2019-12-15,62
+3335,hipoteca,2019-12-22,63
+3336,hipoteca,2019-12-29,70
+3337,hipoteca,2020-01-05,75
+3338,hipoteca,2020-01-12,94
+3339,hipoteca,2020-01-19,82
+3340,hipoteca,2020-01-26,88
+3341,hipoteca,2020-02-02,93
+3342,hipoteca,2020-02-09,98
+3343,hipoteca,2020-02-16,95
+3344,hipoteca,2020-02-23,87
+3345,hipoteca,2020-03-01,97
+3346,hipoteca,2020-03-08,67
+3347,hipoteca,2020-03-15,73
+3348,hipoteca,2020-03-22,72
+3349,hipoteca,2020-03-29,76
+3350,hipoteca,2020-04-05,71
+3351,hipoteca,2020-04-12,66
+3352,hipoteca,2020-04-19,63
+3353,hipoteca,2020-04-26,67
+3354,hipoteca,2020-05-03,71
+3355,hipoteca,2020-05-10,76
+3356,hipoteca,2020-05-17,85
+3357,hipoteca,2020-05-24,88
+3358,idealista,2019-01-06,82
+3359,idealista,2019-01-13,83
+3360,idealista,2019-01-20,78
+3361,idealista,2019-01-27,80
+3362,idealista,2019-02-03,81
+3363,idealista,2019-02-10,84
+3364,idealista,2019-02-17,80
+3365,idealista,2019-02-24,78
+3366,idealista,2019-03-03,77
+3367,idealista,2019-03-10,81
+3368,idealista,2019-03-17,83
+3369,idealista,2019-03-24,81
+3370,idealista,2019-03-31,78
+3371,idealista,2019-04-07,73
+3372,idealista,2019-04-14,68
+3373,idealista,2019-04-21,72
+3374,idealista,2019-04-28,70
+3375,idealista,2019-05-05,75
+3376,idealista,2019-05-12,74
+3377,idealista,2019-05-19,78
+3378,idealista,2019-05-26,76
+3379,idealista,2019-06-02,75
+3380,idealista,2019-06-09,77
+3381,idealista,2019-06-16,77
+3382,idealista,2019-06-23,76
+3383,idealista,2019-06-30,78
+3384,idealista,2019-07-07,77
+3385,idealista,2019-07-14,78
+3386,idealista,2019-07-21,83
+3387,idealista,2019-07-28,82
+3388,idealista,2019-08-04,79
+3389,idealista,2019-08-11,80
+3390,idealista,2019-08-18,83
+3391,idealista,2019-08-25,90
+3392,idealista,2019-09-01,85
+3393,idealista,2019-09-08,80
+3394,idealista,2019-09-15,77
+3395,idealista,2019-09-22,79
+3396,idealista,2019-09-29,79
+3397,idealista,2019-10-06,80
+3398,idealista,2019-10-13,77
+3399,idealista,2019-10-20,73
+3400,idealista,2019-10-27,73
+3401,idealista,2019-11-03,75
+3402,idealista,2019-11-10,73
+3403,idealista,2019-11-17,75
+3404,idealista,2019-11-24,67
+3405,idealista,2019-12-01,66
+3406,idealista,2019-12-08,68
+3407,idealista,2019-12-15,65
+3408,idealista,2019-12-22,66
+3409,idealista,2019-12-29,75
+3410,idealista,2020-01-05,80
+3411,idealista,2020-01-12,86
+3412,idealista,2020-01-19,82
+3413,idealista,2020-01-26,86
+3414,idealista,2020-02-02,87
+3415,idealista,2020-02-09,89
+3416,idealista,2020-02-16,92
+3417,idealista,2020-02-23,86
+3418,idealista,2020-03-01,82
+3419,idealista,2020-03-08,59
+3420,idealista,2020-03-15,37
+3421,idealista,2020-03-22,41
+3422,idealista,2020-03-29,45
+3423,idealista,2020-04-05,55
+3424,idealista,2020-04-12,57
+3425,idealista,2020-04-19,57
+3426,idealista,2020-04-26,66
+3427,idealista,2020-05-03,73
+3428,idealista,2020-05-10,76
+3429,idealista,2020-05-17,90
+3430,idealista,2020-05-24,100
+3431,badi,2019-01-06,42
+3432,badi,2019-01-13,58
+3433,badi,2019-01-20,35
+3434,badi,2019-01-27,34
+3435,badi,2019-02-03,56
+3436,badi,2019-02-10,42
+3437,badi,2019-02-17,29
+3438,badi,2019-02-24,42
+3439,badi,2019-03-03,33
+3440,badi,2019-03-10,43
+3441,badi,2019-03-17,34
+3442,badi,2019-03-24,41
+3443,badi,2019-03-31,46
+3444,badi,2019-04-07,38
+3445,badi,2019-04-14,43
+3446,badi,2019-04-21,42
+3447,badi,2019-04-28,34
+3448,badi,2019-05-05,47
+3449,badi,2019-05-12,48
+3450,badi,2019-05-19,41
+3451,badi,2019-05-26,45
+3452,badi,2019-06-02,48
+3453,badi,2019-06-09,53
+3454,badi,2019-06-16,86
+3455,badi,2019-06-23,68
+3456,badi,2019-06-30,63
+3457,badi,2019-07-07,62
+3458,badi,2019-07-14,69
+3459,badi,2019-07-21,62
+3460,badi,2019-07-28,49
+3461,badi,2019-08-04,51
+3462,badi,2019-08-11,65
+3463,badi,2019-08-18,54
+3464,badi,2019-08-25,100
+3465,badi,2019-09-01,87
+3466,badi,2019-09-08,81
+3467,badi,2019-09-15,79
+3468,badi,2019-09-22,77
+3469,badi,2019-09-29,77
+3470,badi,2019-10-06,61
+3471,badi,2019-10-13,51
+3472,badi,2019-10-20,57
+3473,badi,2019-10-27,53
+3474,badi,2019-11-03,52
+3475,badi,2019-11-10,47
+3476,badi,2019-11-17,56
+3477,badi,2019-11-24,52
+3478,badi,2019-12-01,62
+3479,badi,2019-12-08,28
+3480,badi,2019-12-15,33
+3481,badi,2019-12-22,34
+3482,badi,2019-12-29,41
+3483,badi,2020-01-05,60
+3484,badi,2020-01-12,64
+3485,badi,2020-01-19,60
+3486,badi,2020-01-26,71
+3487,badi,2020-02-02,64
+3488,badi,2020-02-09,53
+3489,badi,2020-02-16,73
+3490,badi,2020-02-23,59
+3491,badi,2020-03-01,60
+3492,badi,2020-03-08,41
+3493,badi,2020-03-15,27
+3494,badi,2020-03-22,28
+3495,badi,2020-03-29,19
+3496,badi,2020-04-05,32
+3497,badi,2020-04-12,30
+3498,badi,2020-04-19,19
+3499,badi,2020-04-26,37
+3500,badi,2020-05-03,26
+3501,badi,2020-05-10,43
+3502,badi,2020-05-17,43
+3503,badi,2020-05-24,45
+3504,piso barato,2019-01-06,73
+3505,piso barato,2019-01-13,86
+3506,piso barato,2019-01-20,85
+3507,piso barato,2019-01-27,86
+3508,piso barato,2019-02-03,100
+3509,piso barato,2019-02-10,70
+3510,piso barato,2019-02-17,82
+3511,piso barato,2019-02-24,84
+3512,piso barato,2019-03-03,85
+3513,piso barato,2019-03-10,78
+3514,piso barato,2019-03-17,86
+3515,piso barato,2019-03-24,83
+3516,piso barato,2019-03-31,70
+3517,piso barato,2019-04-07,70
+3518,piso barato,2019-04-14,78
+3519,piso barato,2019-04-21,76
+3520,piso barato,2019-04-28,72
+3521,piso barato,2019-05-05,67
+3522,piso barato,2019-05-12,78
+3523,piso barato,2019-05-19,71
+3524,piso barato,2019-05-26,72
+3525,piso barato,2019-06-02,81
+3526,piso barato,2019-06-09,77
+3527,piso barato,2019-06-16,57
+3528,piso barato,2019-06-23,80
+3529,piso barato,2019-06-30,71
+3530,piso barato,2019-07-07,65
+3531,piso barato,2019-07-14,53
+3532,piso barato,2019-07-21,90
+3533,piso barato,2019-07-28,69
+3534,piso barato,2019-08-04,80
+3535,piso barato,2019-08-11,73
+3536,piso barato,2019-08-18,87
+3537,piso barato,2019-08-25,81
+3538,piso barato,2019-09-01,81
+3539,piso barato,2019-09-08,83
+3540,piso barato,2019-09-15,83
+3541,piso barato,2019-09-22,81
+3542,piso barato,2019-09-29,76
+3543,piso barato,2019-10-06,62
+3544,piso barato,2019-10-13,68
+3545,piso barato,2019-10-20,75
+3546,piso barato,2019-10-27,56
+3547,piso barato,2019-11-03,76
+3548,piso barato,2019-11-10,61
+3549,piso barato,2019-11-17,67
+3550,piso barato,2019-11-24,73
+3551,piso barato,2019-12-01,62
+3552,piso barato,2019-12-08,65
+3553,piso barato,2019-12-15,59
+3554,piso barato,2019-12-22,53
+3555,piso barato,2019-12-29,62
+3556,piso barato,2020-01-05,70
+3557,piso barato,2020-01-12,68
+3558,piso barato,2020-01-19,74
+3559,piso barato,2020-01-26,71
+3560,piso barato,2020-02-02,62
+3561,piso barato,2020-02-09,81
+3562,piso barato,2020-02-16,71
+3563,piso barato,2020-02-23,75
+3564,piso barato,2020-03-01,72
+3565,piso barato,2020-03-08,55
+3566,piso barato,2020-03-15,35
+3567,piso barato,2020-03-22,31
+3568,piso barato,2020-03-29,39
+3569,piso barato,2020-04-05,37
+3570,piso barato,2020-04-12,43
+3571,piso barato,2020-04-19,43
+3572,piso barato,2020-04-26,53
+3573,piso barato,2020-05-03,70
+3574,piso barato,2020-05-10,66
+3575,piso barato,2020-05-17,77
+3576,piso barato,2020-05-24,84
+3577,coronavirus,2019-01-06,0
+3578,coronavirus,2019-01-13,0
+3579,coronavirus,2019-01-20,0
+3580,coronavirus,2019-01-27,0
+3581,coronavirus,2019-02-03,0
+3582,coronavirus,2019-02-10,0
+3583,coronavirus,2019-02-17,0
+3584,coronavirus,2019-02-24,0
+3585,coronavirus,2019-03-03,0
+3586,coronavirus,2019-03-10,0
+3587,coronavirus,2019-03-17,0
+3588,coronavirus,2019-03-24,0
+3589,coronavirus,2019-03-31,0
+3590,coronavirus,2019-04-07,0
+3591,coronavirus,2019-04-14,0
+3592,coronavirus,2019-04-21,0
+3593,coronavirus,2019-04-28,0
+3594,coronavirus,2019-05-05,0
+3595,coronavirus,2019-05-12,0
+3596,coronavirus,2019-05-19,0
+3597,coronavirus,2019-05-26,0
+3598,coronavirus,2019-06-02,0
+3599,coronavirus,2019-06-09,0
+3600,coronavirus,2019-06-16,0
+3601,coronavirus,2019-06-23,0
+3602,coronavirus,2019-06-30,0
+3603,coronavirus,2019-07-07,0
+3604,coronavirus,2019-07-14,0
+3605,coronavirus,2019-07-21,0
+3606,coronavirus,2019-07-28,0
+3607,coronavirus,2019-08-04,0
+3608,coronavirus,2019-08-11,0
+3609,coronavirus,2019-08-18,0
+3610,coronavirus,2019-08-25,0
+3611,coronavirus,2019-09-01,0
+3612,coronavirus,2019-09-08,0
+3613,coronavirus,2019-09-15,0
+3614,coronavirus,2019-09-22,0
+3615,coronavirus,2019-09-29,0
+3616,coronavirus,2019-10-06,0
+3617,coronavirus,2019-10-13,0
+3618,coronavirus,2019-10-20,0
+3619,coronavirus,2019-10-27,0
+3620,coronavirus,2019-11-03,0
+3621,coronavirus,2019-11-10,0
+3622,coronavirus,2019-11-17,0
+3623,coronavirus,2019-11-24,0
+3624,coronavirus,2019-12-01,0
+3625,coronavirus,2019-12-08,0
+3626,coronavirus,2019-12-15,0
+3627,coronavirus,2019-12-22,0
+3628,coronavirus,2019-12-29,0
+3629,coronavirus,2020-01-05,0
+3630,coronavirus,2020-01-12,0
+3631,coronavirus,2020-01-19,2
+3632,coronavirus,2020-01-26,8
+3633,coronavirus,2020-02-02,5
+3634,coronavirus,2020-02-09,5
+3635,coronavirus,2020-02-16,3
+3636,coronavirus,2020-02-23,31
+3637,coronavirus,2020-03-01,30
+3638,coronavirus,2020-03-08,100
+3639,coronavirus,2020-03-15,95
+3640,coronavirus,2020-03-22,74
+3641,coronavirus,2020-03-29,56
+3642,coronavirus,2020-04-05,50
+3643,coronavirus,2020-04-12,39
+3644,coronavirus,2020-04-19,32
+3645,coronavirus,2020-04-26,29
+3646,coronavirus,2020-05-03,28
+3647,coronavirus,2020-05-10,23
+3648,coronavirus,2020-05-17,22
+3649,coronavirus,2020-05-24,16
+3650,pandemia,2019-01-06,0
+3651,pandemia,2019-01-13,0
+3652,pandemia,2019-01-20,0
+3653,pandemia,2019-01-27,0
+3654,pandemia,2019-02-03,0
+3655,pandemia,2019-02-10,0
+3656,pandemia,2019-02-17,0
+3657,pandemia,2019-02-24,0
+3658,pandemia,2019-03-03,0
+3659,pandemia,2019-03-10,0
+3660,pandemia,2019-03-17,0
+3661,pandemia,2019-03-24,0
+3662,pandemia,2019-03-31,0
+3663,pandemia,2019-04-07,0
+3664,pandemia,2019-04-14,0
+3665,pandemia,2019-04-21,1
+3666,pandemia,2019-04-28,0
+3667,pandemia,2019-05-05,0
+3668,pandemia,2019-05-12,0
+3669,pandemia,2019-05-19,0
+3670,pandemia,2019-05-26,0
+3671,pandemia,2019-06-02,0
+3672,pandemia,2019-06-09,0
+3673,pandemia,2019-06-16,0
+3674,pandemia,2019-06-23,0
+3675,pandemia,2019-06-30,0
+3676,pandemia,2019-07-07,0
+3677,pandemia,2019-07-14,0
+3678,pandemia,2019-07-21,0
+3679,pandemia,2019-07-28,0
+3680,pandemia,2019-08-04,0
+3681,pandemia,2019-08-11,0
+3682,pandemia,2019-08-18,0
+3683,pandemia,2019-08-25,0
+3684,pandemia,2019-09-01,0
+3685,pandemia,2019-09-08,0
+3686,pandemia,2019-09-15,0
+3687,pandemia,2019-09-22,0
+3688,pandemia,2019-09-29,0
+3689,pandemia,2019-10-06,0
+3690,pandemia,2019-10-13,0
+3691,pandemia,2019-10-20,0
+3692,pandemia,2019-10-27,0
+3693,pandemia,2019-11-03,0
+3694,pandemia,2019-11-10,0
+3695,pandemia,2019-11-17,0
+3696,pandemia,2019-11-24,0
+3697,pandemia,2019-12-01,0
+3698,pandemia,2019-12-08,0
+3699,pandemia,2019-12-15,0
+3700,pandemia,2019-12-22,0
+3701,pandemia,2019-12-29,0
+3702,pandemia,2020-01-05,0
+3703,pandemia,2020-01-12,0
+3704,pandemia,2020-01-19,2
+3705,pandemia,2020-01-26,5
+3706,pandemia,2020-02-02,3
+3707,pandemia,2020-02-09,2
+3708,pandemia,2020-02-16,2
+3709,pandemia,2020-02-23,43
+3710,pandemia,2020-03-01,9
+3711,pandemia,2020-03-08,100
+3712,pandemia,2020-03-15,48
+3713,pandemia,2020-03-22,45
+3714,pandemia,2020-03-29,43
+3715,pandemia,2020-04-05,34
+3716,pandemia,2020-04-12,29
+3717,pandemia,2020-04-19,25
+3718,pandemia,2020-04-26,26
+3719,pandemia,2020-05-03,26
+3720,pandemia,2020-05-10,23
+3721,pandemia,2020-05-17,22
+3722,pandemia,2020-05-24,21
+3723,infeccion,2019-01-06,71
+3724,infeccion,2019-01-13,68
+3725,infeccion,2019-01-20,77
+3726,infeccion,2019-01-27,77
+3727,infeccion,2019-02-03,79
+3728,infeccion,2019-02-10,78
+3729,infeccion,2019-02-17,74
+3730,infeccion,2019-02-24,74
+3731,infeccion,2019-03-03,74
+3732,infeccion,2019-03-10,74
+3733,infeccion,2019-03-17,75
+3734,infeccion,2019-03-24,75
+3735,infeccion,2019-03-31,78
+3736,infeccion,2019-04-07,69
+3737,infeccion,2019-04-14,67
+3738,infeccion,2019-04-21,71
+3739,infeccion,2019-04-28,71
+3740,infeccion,2019-05-05,68
+3741,infeccion,2019-05-12,75
+3742,infeccion,2019-05-19,69
+3743,infeccion,2019-05-26,68
+3744,infeccion,2019-06-02,72
+3745,infeccion,2019-06-09,71
+3746,infeccion,2019-06-16,79
+3747,infeccion,2019-06-23,70
+3748,infeccion,2019-06-30,76
+3749,infeccion,2019-07-07,77
+3750,infeccion,2019-07-14,81
+3751,infeccion,2019-07-21,76
+3752,infeccion,2019-07-28,80
+3753,infeccion,2019-08-04,74
+3754,infeccion,2019-08-11,76
+3755,infeccion,2019-08-18,85
+3756,infeccion,2019-08-25,81
+3757,infeccion,2019-09-01,70
+3758,infeccion,2019-09-08,65
+3759,infeccion,2019-09-15,67
+3760,infeccion,2019-09-22,67
+3761,infeccion,2019-09-29,69
+3762,infeccion,2019-10-06,74
+3763,infeccion,2019-10-13,65
+3764,infeccion,2019-10-20,69
+3765,infeccion,2019-10-27,69
+3766,infeccion,2019-11-03,67
+3767,infeccion,2019-11-10,65
+3768,infeccion,2019-11-17,69
+3769,infeccion,2019-11-24,65
+3770,infeccion,2019-12-01,66
+3771,infeccion,2019-12-08,72
+3772,infeccion,2019-12-15,65
+3773,infeccion,2019-12-22,71
+3774,infeccion,2019-12-29,64
+3775,infeccion,2020-01-05,71
+3776,infeccion,2020-01-12,70
+3777,infeccion,2020-01-19,73
+3778,infeccion,2020-01-26,70
+3779,infeccion,2020-02-02,74
+3780,infeccion,2020-02-09,75
+3781,infeccion,2020-02-16,78
+3782,infeccion,2020-02-23,79
+3783,infeccion,2020-03-01,79
+3784,infeccion,2020-03-08,87
+3785,infeccion,2020-03-15,100
+3786,infeccion,2020-03-22,91
+3787,infeccion,2020-03-29,75
+3788,infeccion,2020-04-05,83
+3789,infeccion,2020-04-12,74
+3790,infeccion,2020-04-19,74
+3791,infeccion,2020-04-26,73
+3792,infeccion,2020-05-03,72
+3793,infeccion,2020-05-10,72
+3794,infeccion,2020-05-17,68
+3795,infeccion,2020-05-24,65
+3796,medico,2019-01-06,95
+3797,medico,2019-01-13,95
+3798,medico,2019-01-20,92
+3799,medico,2019-01-27,95
+3800,medico,2019-02-03,92
+3801,medico,2019-02-10,96
+3802,medico,2019-02-17,93
+3803,medico,2019-02-24,87
+3804,medico,2019-03-03,92
+3805,medico,2019-03-10,91
+3806,medico,2019-03-17,87
+3807,medico,2019-03-24,89
+3808,medico,2019-03-31,89
+3809,medico,2019-04-07,86
+3810,medico,2019-04-14,60
+3811,medico,2019-04-21,83
+3812,medico,2019-04-28,74
+3813,medico,2019-05-05,87
+3814,medico,2019-05-12,84
+3815,medico,2019-05-19,88
+3816,medico,2019-05-26,79
+3817,medico,2019-06-02,81
+3818,medico,2019-06-09,78
+3819,medico,2019-06-16,82
+3820,medico,2019-06-23,79
+3821,medico,2019-06-30,80
+3822,medico,2019-07-07,81
+3823,medico,2019-07-14,83
+3824,medico,2019-07-21,76
+3825,medico,2019-07-28,80
+3826,medico,2019-08-04,72
+3827,medico,2019-08-11,67
+3828,medico,2019-08-18,80
+3829,medico,2019-08-25,81
+3830,medico,2019-09-01,84
+3831,medico,2019-09-08,78
+3832,medico,2019-09-15,86
+3833,medico,2019-09-22,90
+3834,medico,2019-09-29,89
+3835,medico,2019-10-06,88
+3836,medico,2019-10-13,89
+3837,medico,2019-10-20,85
+3838,medico,2019-10-27,80
+3839,medico,2019-11-03,96
+3840,medico,2019-11-10,86
+3841,medico,2019-11-17,90
+3842,medico,2019-11-24,85
+3843,medico,2019-12-01,78
+3844,medico,2019-12-08,81
+3845,medico,2019-12-15,80
+3846,medico,2019-12-22,68
+3847,medico,2019-12-29,72
+3848,medico,2020-01-05,89
+3849,medico,2020-01-12,97
+3850,medico,2020-01-19,91
+3851,medico,2020-01-26,100
+3852,medico,2020-02-02,100
+3853,medico,2020-02-09,92
+3854,medico,2020-02-16,92
+3855,medico,2020-02-23,95
+3856,medico,2020-03-01,94
+3857,medico,2020-03-08,92
+3858,medico,2020-03-15,89
+3859,medico,2020-03-22,68
+3860,medico,2020-03-29,55
+3861,medico,2020-04-05,48
+3862,medico,2020-04-12,59
+3863,medico,2020-04-19,54
+3864,medico,2020-04-26,51
+3865,medico,2020-05-03,65
+3866,medico,2020-05-10,65
+3867,medico,2020-05-17,64
+3868,medico,2020-05-24,69
+3869,residencia ancianos,2019-01-06,29
+3870,residencia ancianos,2019-01-13,26
+3871,residencia ancianos,2019-01-20,25
+3872,residencia ancianos,2019-01-27,24
+3873,residencia ancianos,2019-02-03,25
+3874,residencia ancianos,2019-02-10,26
+3875,residencia ancianos,2019-02-17,28
+3876,residencia ancianos,2019-02-24,22
+3877,residencia ancianos,2019-03-03,30
+3878,residencia ancianos,2019-03-10,27
+3879,residencia ancianos,2019-03-17,24
+3880,residencia ancianos,2019-03-24,30
+3881,residencia ancianos,2019-03-31,24
+3882,residencia ancianos,2019-04-07,40
+3883,residencia ancianos,2019-04-14,27
+3884,residencia ancianos,2019-04-21,23
+3885,residencia ancianos,2019-04-28,25
+3886,residencia ancianos,2019-05-05,26
+3887,residencia ancianos,2019-05-12,23
+3888,residencia ancianos,2019-05-19,25
+3889,residencia ancianos,2019-05-26,26
+3890,residencia ancianos,2019-06-02,24
+3891,residencia ancianos,2019-06-09,23
+3892,residencia ancianos,2019-06-16,22
+3893,residencia ancianos,2019-06-23,20
+3894,residencia ancianos,2019-06-30,20
+3895,residencia ancianos,2019-07-07,26
+3896,residencia ancianos,2019-07-14,29
+3897,residencia ancianos,2019-07-21,26
+3898,residencia ancianos,2019-07-28,25
+3899,residencia ancianos,2019-08-04,25
+3900,residencia ancianos,2019-08-11,23
+3901,residencia ancianos,2019-08-18,24
+3902,residencia ancianos,2019-08-25,24
+3903,residencia ancianos,2019-09-01,22
+3904,residencia ancianos,2019-09-08,22
+3905,residencia ancianos,2019-09-15,22
+3906,residencia ancianos,2019-09-22,24
+3907,residencia ancianos,2019-09-29,24
+3908,residencia ancianos,2019-10-06,24
+3909,residencia ancianos,2019-10-13,24
+3910,residencia ancianos,2019-10-20,21
+3911,residencia ancianos,2019-10-27,23
+3912,residencia ancianos,2019-11-03,24
+3913,residencia ancianos,2019-11-10,24
+3914,residencia ancianos,2019-11-17,24
+3915,residencia ancianos,2019-11-24,25
+3916,residencia ancianos,2019-12-01,23
+3917,residencia ancianos,2019-12-08,23
+3918,residencia ancianos,2019-12-15,29
+3919,residencia ancianos,2019-12-22,25
+3920,residencia ancianos,2019-12-29,23
+3921,residencia ancianos,2020-01-05,29
+3922,residencia ancianos,2020-01-12,28
+3923,residencia ancianos,2020-01-19,24
+3924,residencia ancianos,2020-01-26,28
+3925,residencia ancianos,2020-02-02,26
+3926,residencia ancianos,2020-02-09,28
+3927,residencia ancianos,2020-02-16,27
+3928,residencia ancianos,2020-02-23,23
+3929,residencia ancianos,2020-03-01,45
+3930,residencia ancianos,2020-03-08,35
+3931,residencia ancianos,2020-03-15,75
+3932,residencia ancianos,2020-03-22,100
+3933,residencia ancianos,2020-03-29,71
+3934,residencia ancianos,2020-04-05,56
+3935,residencia ancianos,2020-04-12,50
+3936,residencia ancianos,2020-04-19,42
+3937,residencia ancianos,2020-04-26,35
+3938,residencia ancianos,2020-05-03,24
+3939,residencia ancianos,2020-05-10,30
+3940,residencia ancianos,2020-05-17,26
+3941,residencia ancianos,2020-05-24,28
+3942,desescalada,2019-01-06,0
+3943,desescalada,2019-01-13,0
+3944,desescalada,2019-01-20,0
+3945,desescalada,2019-01-27,0
+3946,desescalada,2019-02-03,0
+3947,desescalada,2019-02-10,0
+3948,desescalada,2019-02-17,0
+3949,desescalada,2019-02-24,0
+3950,desescalada,2019-03-03,0
+3951,desescalada,2019-03-10,0
+3952,desescalada,2019-03-17,0
+3953,desescalada,2019-03-24,0
+3954,desescalada,2019-03-31,0
+3955,desescalada,2019-04-07,0
+3956,desescalada,2019-04-14,0
+3957,desescalada,2019-04-21,0
+3958,desescalada,2019-04-28,0
+3959,desescalada,2019-05-05,0
+3960,desescalada,2019-05-12,0
+3961,desescalada,2019-05-19,0
+3962,desescalada,2019-05-26,0
+3963,desescalada,2019-06-02,0
+3964,desescalada,2019-06-09,0
+3965,desescalada,2019-06-16,0
+3966,desescalada,2019-06-23,0
+3967,desescalada,2019-06-30,0
+3968,desescalada,2019-07-07,0
+3969,desescalada,2019-07-14,0
+3970,desescalada,2019-07-21,0
+3971,desescalada,2019-07-28,0
+3972,desescalada,2019-08-04,0
+3973,desescalada,2019-08-11,0
+3974,desescalada,2019-08-18,0
+3975,desescalada,2019-08-25,0
+3976,desescalada,2019-09-01,0
+3977,desescalada,2019-09-08,0
+3978,desescalada,2019-09-15,0
+3979,desescalada,2019-09-22,0
+3980,desescalada,2019-09-29,0
+3981,desescalada,2019-10-06,0
+3982,desescalada,2019-10-13,0
+3983,desescalada,2019-10-20,0
+3984,desescalada,2019-10-27,0
+3985,desescalada,2019-11-03,0
+3986,desescalada,2019-11-10,0
+3987,desescalada,2019-11-17,0
+3988,desescalada,2019-11-24,0
+3989,desescalada,2019-12-01,0
+3990,desescalada,2019-12-08,0
+3991,desescalada,2019-12-15,0
+3992,desescalada,2019-12-22,0
+3993,desescalada,2019-12-29,0
+3994,desescalada,2020-01-05,0
+3995,desescalada,2020-01-12,0
+3996,desescalada,2020-01-19,0
+3997,desescalada,2020-01-26,0
+3998,desescalada,2020-02-02,0
+3999,desescalada,2020-02-09,0
+4000,desescalada,2020-02-16,0
+4001,desescalada,2020-02-23,0
+4002,desescalada,2020-03-01,0
+4003,desescalada,2020-03-08,0
+4004,desescalada,2020-03-15,0
+4005,desescalada,2020-03-22,0
+4006,desescalada,2020-03-29,0
+4007,desescalada,2020-04-05,1
+4008,desescalada,2020-04-12,3
+4009,desescalada,2020-04-19,6
+4010,desescalada,2020-04-26,82
+4011,desescalada,2020-05-03,100
+4012,desescalada,2020-05-10,42
+4013,desescalada,2020-05-17,33
+4014,desescalada,2020-05-24,28
+4015,clases online,2019-01-06,11
+4016,clases online,2019-01-13,6
+4017,clases online,2019-01-20,9
+4018,clases online,2019-01-27,6
+4019,clases online,2019-02-03,9
+4020,clases online,2019-02-10,9
+4021,clases online,2019-02-17,8
+4022,clases online,2019-02-24,6
+4023,clases online,2019-03-03,9
+4024,clases online,2019-03-10,4
+4025,clases online,2019-03-17,8
+4026,clases online,2019-03-24,6
+4027,clases online,2019-03-31,3
+4028,clases online,2019-04-07,7
+4029,clases online,2019-04-14,5
+4030,clases online,2019-04-21,4
+4031,clases online,2019-04-28,5
+4032,clases online,2019-05-05,5
+4033,clases online,2019-05-12,5
+4034,clases online,2019-05-19,7
+4035,clases online,2019-05-26,7
+4036,clases online,2019-06-02,5
+4037,clases online,2019-06-09,6
+4038,clases online,2019-06-16,8
+4039,clases online,2019-06-23,7
+4040,clases online,2019-06-30,7
+4041,clases online,2019-07-07,7
+4042,clases online,2019-07-14,7
+4043,clases online,2019-07-21,7
+4044,clases online,2019-07-28,9
+4045,clases online,2019-08-04,5
+4046,clases online,2019-08-11,9
+4047,clases online,2019-08-18,4
+4048,clases online,2019-08-25,7
+4049,clases online,2019-09-01,9
+4050,clases online,2019-09-08,9
+4051,clases online,2019-09-15,6
+4052,clases online,2019-09-22,7
+4053,clases online,2019-09-29,10
+4054,clases online,2019-10-06,9
+4055,clases online,2019-10-13,7
+4056,clases online,2019-10-20,8
+4057,clases online,2019-10-27,7
+4058,clases online,2019-11-03,7
+4059,clases online,2019-11-10,7
+4060,clases online,2019-11-17,9
+4061,clases online,2019-11-24,7
+4062,clases online,2019-12-01,8
+4063,clases online,2019-12-08,9
+4064,clases online,2019-12-15,7
+4065,clases online,2019-12-22,7
+4066,clases online,2019-12-29,8
+4067,clases online,2020-01-05,9
+4068,clases online,2020-01-12,7
+4069,clases online,2020-01-19,8
+4070,clases online,2020-01-26,11
+4071,clases online,2020-02-02,9
+4072,clases online,2020-02-09,7
+4073,clases online,2020-02-16,7
+4074,clases online,2020-02-23,10
+4075,clases online,2020-03-01,8
+4076,clases online,2020-03-08,40
+4077,clases online,2020-03-15,100
+4078,clases online,2020-03-22,90
+4079,clases online,2020-03-29,74
+4080,clases online,2020-04-05,66
+4081,clases online,2020-04-12,59
+4082,clases online,2020-04-19,55
+4083,clases online,2020-04-26,46
+4084,clases online,2020-05-03,38
+4085,clases online,2020-05-10,38
+4086,clases online,2020-05-17,41
+4087,clases online,2020-05-24,36
+4088,examenes,2019-01-06,53
+4089,examenes,2019-01-13,50
+4090,examenes,2019-01-20,47
+4091,examenes,2019-01-27,48
+4092,examenes,2019-02-03,48
+4093,examenes,2019-02-10,36
+4094,examenes,2019-02-17,39
+4095,examenes,2019-02-24,33
+4096,examenes,2019-03-03,35
+4097,examenes,2019-03-10,39
+4098,examenes,2019-03-17,36
+4099,examenes,2019-03-24,36
+4100,examenes,2019-03-31,41
+4101,examenes,2019-04-07,37
+4102,examenes,2019-04-14,23
+4103,examenes,2019-04-21,39
+4104,examenes,2019-04-28,42
+4105,examenes,2019-05-05,61
+4106,examenes,2019-05-12,63
+4107,examenes,2019-05-19,77
+4108,examenes,2019-05-26,79
+4109,examenes,2019-06-02,100
+4110,examenes,2019-06-09,68
+4111,examenes,2019-06-16,50
+4112,examenes,2019-06-23,42
+4113,examenes,2019-06-30,36
+4114,examenes,2019-07-07,27
+4115,examenes,2019-07-14,24
+4116,examenes,2019-07-21,21
+4117,examenes,2019-07-28,21
+4118,examenes,2019-08-04,14
+4119,examenes,2019-08-11,14
+4120,examenes,2019-08-18,19
+4121,examenes,2019-08-25,25
+4122,examenes,2019-09-01,39
+4123,examenes,2019-09-08,29
+4124,examenes,2019-09-15,27
+4125,examenes,2019-09-22,27
+4126,examenes,2019-09-29,28
+4127,examenes,2019-10-06,31
+4128,examenes,2019-10-13,33
+4129,examenes,2019-10-20,33
+4130,examenes,2019-10-27,30
+4131,examenes,2019-11-03,35
+4132,examenes,2019-11-10,35
+4133,examenes,2019-11-17,35
+4134,examenes,2019-11-24,37
+4135,examenes,2019-12-01,36
+4136,examenes,2019-12-08,38
+4137,examenes,2019-12-15,39
+4138,examenes,2019-12-22,18
+4139,examenes,2019-12-29,24
+4140,examenes,2020-01-05,49
+4141,examenes,2020-01-12,54
+4142,examenes,2020-01-19,48
+4143,examenes,2020-01-26,45
+4144,examenes,2020-02-02,38
+4145,examenes,2020-02-09,38
+4146,examenes,2020-02-16,35
+4147,examenes,2020-02-23,30
+4148,examenes,2020-03-01,32
+4149,examenes,2020-03-08,32
+4150,examenes,2020-03-15,17
+4151,examenes,2020-03-22,18
+4152,examenes,2020-03-29,22
+4153,examenes,2020-04-05,21
+4154,examenes,2020-04-12,25
+4155,examenes,2020-04-19,29
+4156,examenes,2020-04-26,29
+4157,examenes,2020-05-03,32
+4158,examenes,2020-05-10,34
+4159,examenes,2020-05-17,33
+4160,examenes,2020-05-24,39
+4161,menu escolar,2019-01-06,15
+4162,menu escolar,2019-01-13,18
+4163,menu escolar,2019-01-20,13
+4164,menu escolar,2019-01-27,22
+4165,menu escolar,2019-02-03,21
+4166,menu escolar,2019-02-10,14
+4167,menu escolar,2019-02-17,14
+4168,menu escolar,2019-02-24,28
+4169,menu escolar,2019-03-03,19
+4170,menu escolar,2019-03-10,43
+4171,menu escolar,2019-03-17,14
+4172,menu escolar,2019-03-24,21
+4173,menu escolar,2019-03-31,36
+4174,menu escolar,2019-04-07,27
+4175,menu escolar,2019-04-14,15
+4176,menu escolar,2019-04-21,37
+4177,menu escolar,2019-04-28,28
+4178,menu escolar,2019-05-05,32
+4179,menu escolar,2019-05-12,23
+4180,menu escolar,2019-05-19,55
+4181,menu escolar,2019-05-26,13
+4182,menu escolar,2019-06-02,35
+4183,menu escolar,2019-06-09,18
+4184,menu escolar,2019-06-16,23
+4185,menu escolar,2019-06-23,24
+4186,menu escolar,2019-06-30,21
+4187,menu escolar,2019-07-07,0
+4188,menu escolar,2019-07-14,29
+4189,menu escolar,2019-07-21,15
+4190,menu escolar,2019-07-28,15
+4191,menu escolar,2019-08-04,30
+4192,menu escolar,2019-08-11,15
+4193,menu escolar,2019-08-18,15
+4194,menu escolar,2019-08-25,14
+4195,menu escolar,2019-09-01,0
+4196,menu escolar,2019-09-08,52
+4197,menu escolar,2019-09-15,60
+4198,menu escolar,2019-09-22,35
+4199,menu escolar,2019-09-29,100
+4200,menu escolar,2019-10-06,30
+4201,menu escolar,2019-10-13,32
+4202,menu escolar,2019-10-20,34
+4203,menu escolar,2019-10-27,26
+4204,menu escolar,2019-11-03,21
+4205,menu escolar,2019-11-10,19
+4206,menu escolar,2019-11-17,25
+4207,menu escolar,2019-11-24,18
+4208,menu escolar,2019-12-01,65
+4209,menu escolar,2019-12-08,20
+4210,menu escolar,2019-12-15,19
+4211,menu escolar,2019-12-22,14
+4212,menu escolar,2019-12-29,14
+4213,menu escolar,2020-01-05,38
+4214,menu escolar,2020-01-12,35
+4215,menu escolar,2020-01-19,12
+4216,menu escolar,2020-01-26,28
+4217,menu escolar,2020-02-02,32
+4218,menu escolar,2020-02-09,12
+4219,menu escolar,2020-02-16,36
+4220,menu escolar,2020-02-23,63
+4221,menu escolar,2020-03-01,31
+4222,menu escolar,2020-03-08,19
+4223,menu escolar,2020-03-15,22
+4224,menu escolar,2020-03-22,16
+4225,menu escolar,2020-03-29,14
+4226,menu escolar,2020-04-05,19
+4227,menu escolar,2020-04-12,14
+4228,menu escolar,2020-04-19,16
+4229,menu escolar,2020-04-26,21
+4230,menu escolar,2020-05-03,31
+4231,menu escolar,2020-05-10,21
+4232,menu escolar,2020-05-17,11
+4233,menu escolar,2020-05-24,0
+4234,bullying,2019-01-06,23
+4235,bullying,2019-01-13,23
+4236,bullying,2019-01-20,27
+4237,bullying,2019-01-27,32
+4238,bullying,2019-02-03,30
+4239,bullying,2019-02-10,32
+4240,bullying,2019-02-17,29
+4241,bullying,2019-02-24,27
+4242,bullying,2019-03-03,22
+4243,bullying,2019-03-10,35
+4244,bullying,2019-03-17,32
+4245,bullying,2019-03-24,28
+4246,bullying,2019-03-31,38
+4247,bullying,2019-04-07,30
+4248,bullying,2019-04-14,17
+4249,bullying,2019-04-21,24
+4250,bullying,2019-04-28,40
+4251,bullying,2019-05-05,32
+4252,bullying,2019-05-12,27
+4253,bullying,2019-05-19,25
+4254,bullying,2019-05-26,25
+4255,bullying,2019-06-02,25
+4256,bullying,2019-06-09,22
+4257,bullying,2019-06-16,19
+4258,bullying,2019-06-23,15
+4259,bullying,2019-06-30,12
+4260,bullying,2019-07-07,14
+4261,bullying,2019-07-14,12
+4262,bullying,2019-07-21,10
+4263,bullying,2019-07-28,13
+4264,bullying,2019-08-04,11
+4265,bullying,2019-08-11,13
+4266,bullying,2019-08-18,11
+4267,bullying,2019-08-25,14
+4268,bullying,2019-09-01,15
+4269,bullying,2019-09-08,18
+4270,bullying,2019-09-15,23
+4271,bullying,2019-09-22,26
+4272,bullying,2019-09-29,20
+4273,bullying,2019-10-06,28
+4274,bullying,2019-10-13,32
+4275,bullying,2019-10-20,27
+4276,bullying,2019-10-27,27
+4277,bullying,2019-11-03,29
+4278,bullying,2019-11-10,35
+4279,bullying,2019-11-17,34
+4280,bullying,2019-11-24,28
+4281,bullying,2019-12-01,29
+4282,bullying,2019-12-08,29
+4283,bullying,2019-12-15,27
+4284,bullying,2019-12-22,14
+4285,bullying,2019-12-29,13
+4286,bullying,2020-01-05,20
+4287,bullying,2020-01-12,26
+4288,bullying,2020-01-19,28
+4289,bullying,2020-01-26,35
+4290,bullying,2020-02-02,31
+4291,bullying,2020-02-09,31
+4292,bullying,2020-02-16,100
+4293,bullying,2020-02-23,62
+4294,bullying,2020-03-01,31
+4295,bullying,2020-03-08,25
+4296,bullying,2020-03-15,19
+4297,bullying,2020-03-22,17
+4298,bullying,2020-03-29,20
+4299,bullying,2020-04-05,16
+4300,bullying,2020-04-12,16
+4301,bullying,2020-04-19,17
+4302,bullying,2020-04-26,26
+4303,bullying,2020-05-03,25
+4304,bullying,2020-05-10,19
+4305,bullying,2020-05-17,24
+4306,bullying,2020-05-24,23
+4307,netflix,2019-01-06,42
+4308,netflix,2019-01-13,41
+4309,netflix,2019-01-20,37
+4310,netflix,2019-01-27,38
+4311,netflix,2019-02-03,37
+4312,netflix,2019-02-10,34
+4313,netflix,2019-02-17,33
+4314,netflix,2019-02-24,30
+4315,netflix,2019-03-03,32
+4316,netflix,2019-03-10,32
+4317,netflix,2019-03-17,34
+4318,netflix,2019-03-24,32
+4319,netflix,2019-03-31,32
+4320,netflix,2019-04-07,32
+4321,netflix,2019-04-14,37
+4322,netflix,2019-04-21,33
+4323,netflix,2019-04-28,30
+4324,netflix,2019-05-05,28
+4325,netflix,2019-05-12,28
+4326,netflix,2019-05-19,29
+4327,netflix,2019-05-26,28
+4328,netflix,2019-06-02,30
+4329,netflix,2019-06-09,31
+4330,netflix,2019-06-16,35
+4331,netflix,2019-06-23,31
+4332,netflix,2019-06-30,34
+4333,netflix,2019-07-07,34
+4334,netflix,2019-07-14,38
+4335,netflix,2019-07-21,40
+4336,netflix,2019-07-28,40
+4337,netflix,2019-08-04,38
+4338,netflix,2019-08-11,40
+4339,netflix,2019-08-18,39
+4340,netflix,2019-08-25,40
+4341,netflix,2019-09-01,38
+4342,netflix,2019-09-08,39
+4343,netflix,2019-09-15,37
+4344,netflix,2019-09-22,36
+4345,netflix,2019-09-29,33
+4346,netflix,2019-10-06,35
+4347,netflix,2019-10-13,34
+4348,netflix,2019-10-20,35
+4349,netflix,2019-10-27,38
+4350,netflix,2019-11-03,38
+4351,netflix,2019-11-10,35
+4352,netflix,2019-11-17,37
+4353,netflix,2019-11-24,35
+4354,netflix,2019-12-01,38
+4355,netflix,2019-12-08,38
+4356,netflix,2019-12-15,41
+4357,netflix,2019-12-22,49
+4358,netflix,2019-12-29,53
+4359,netflix,2020-01-05,47
+4360,netflix,2020-01-12,41
+4361,netflix,2020-01-19,41
+4362,netflix,2020-01-26,38
+4363,netflix,2020-02-02,37
+4364,netflix,2020-02-09,37
+4365,netflix,2020-02-16,37
+4366,netflix,2020-02-23,38
+4367,netflix,2020-03-01,38
+4368,netflix,2020-03-08,55
+4369,netflix,2020-03-15,98
+4370,netflix,2020-03-22,92
+4371,netflix,2020-03-29,92
+4372,netflix,2020-04-05,100
+4373,netflix,2020-04-12,86
+4374,netflix,2020-04-19,82
+4375,netflix,2020-04-26,74
+4376,netflix,2020-05-03,63
+4377,netflix,2020-05-10,60
+4378,netflix,2020-05-17,49
+4379,netflix,2020-05-24,50
+4380,hbo,2019-01-06,26
+4381,hbo,2019-01-13,24
+4382,hbo,2019-01-20,22
+4383,hbo,2019-01-27,22
+4384,hbo,2019-02-03,22
+4385,hbo,2019-02-10,22
+4386,hbo,2019-02-17,21
+4387,hbo,2019-02-24,21
+4388,hbo,2019-03-03,25
+4389,hbo,2019-03-10,28
+4390,hbo,2019-03-17,27
+4391,hbo,2019-03-24,28
+4392,hbo,2019-03-31,32
+4393,hbo,2019-04-07,41
+4394,hbo,2019-04-14,100
+4395,hbo,2019-04-21,58
+4396,hbo,2019-04-28,62
+4397,hbo,2019-05-05,54
+4398,hbo,2019-05-12,55
+4399,hbo,2019-05-19,68
+4400,hbo,2019-05-26,46
+4401,hbo,2019-06-02,52
+4402,hbo,2019-06-09,49
+4403,hbo,2019-06-16,43
+4404,hbo,2019-06-23,36
+4405,hbo,2019-06-30,35
+4406,hbo,2019-07-07,38
+4407,hbo,2019-07-14,38
+4408,hbo,2019-07-21,37
+4409,hbo,2019-07-28,35
+4410,hbo,2019-08-04,34
+4411,hbo,2019-08-11,34
+4412,hbo,2019-08-18,34
+4413,hbo,2019-08-25,33
+4414,hbo,2019-09-01,29
+4415,hbo,2019-09-08,28
+4416,hbo,2019-09-15,25
+4417,hbo,2019-09-22,27
+4418,hbo,2019-09-29,26
+4419,hbo,2019-10-06,24
+4420,hbo,2019-10-13,24
+4421,hbo,2019-10-20,28
+4422,hbo,2019-10-27,27
+4423,hbo,2019-11-03,27
+4424,hbo,2019-11-10,28
+4425,hbo,2019-11-17,28
+4426,hbo,2019-11-24,27
+4427,hbo,2019-12-01,28
+4428,hbo,2019-12-08,27
+4429,hbo,2019-12-15,26
+4430,hbo,2019-12-22,32
+4431,hbo,2019-12-29,34
+4432,hbo,2020-01-05,29
+4433,hbo,2020-01-12,26
+4434,hbo,2020-01-19,25
+4435,hbo,2020-01-26,25
+4436,hbo,2020-02-02,23
+4437,hbo,2020-02-09,22
+4438,hbo,2020-02-16,24
+4439,hbo,2020-02-23,23
+4440,hbo,2020-03-01,23
+4441,hbo,2020-03-08,31
+4442,hbo,2020-03-15,65
+4443,hbo,2020-03-22,58
+4444,hbo,2020-03-29,55
+4445,hbo,2020-04-05,60
+4446,hbo,2020-04-12,55
+4447,hbo,2020-04-19,50
+4448,hbo,2020-04-26,45
+4449,hbo,2020-05-03,40
+4450,hbo,2020-05-10,38
+4451,hbo,2020-05-17,32
+4452,hbo,2020-05-24,33
+4453,steam,2019-01-06,44
+4454,steam,2019-01-13,35
+4455,steam,2019-01-20,36
+4456,steam,2019-01-27,37
+4457,steam,2019-02-03,42
+4458,steam,2019-02-10,34
+4459,steam,2019-02-17,31
+4460,steam,2019-02-24,31
+4461,steam,2019-03-03,36
+4462,steam,2019-03-10,34
+4463,steam,2019-03-17,37
+4464,steam,2019-03-24,36
+4465,steam,2019-03-31,42
+4466,steam,2019-04-07,33
+4467,steam,2019-04-14,38
+4468,steam,2019-04-21,36
+4469,steam,2019-04-28,34
+4470,steam,2019-05-05,34
+4471,steam,2019-05-12,37
+4472,steam,2019-05-19,37
+4473,steam,2019-05-26,34
+4474,steam,2019-06-02,40
+4475,steam,2019-06-09,42
+4476,steam,2019-06-16,40
+4477,steam,2019-06-23,54
+4478,steam,2019-06-30,44
+4479,steam,2019-07-07,41
+4480,steam,2019-07-14,35
+4481,steam,2019-07-21,31
+4482,steam,2019-07-28,37
+4483,steam,2019-08-04,34
+4484,steam,2019-08-11,37
+4485,steam,2019-08-18,36
+4486,steam,2019-08-25,38
+4487,steam,2019-09-01,37
+4488,steam,2019-09-08,39
+4489,steam,2019-09-15,39
+4490,steam,2019-09-22,40
+4491,steam,2019-09-29,39
+4492,steam,2019-10-06,36
+4493,steam,2019-10-13,35
+4494,steam,2019-10-20,37
+4495,steam,2019-10-27,41
+4496,steam,2019-11-03,35
+4497,steam,2019-11-10,36
+4498,steam,2019-11-17,39
+4499,steam,2019-11-24,55
+4500,steam,2019-12-01,47
+4501,steam,2019-12-08,38
+4502,steam,2019-12-15,47
+4503,steam,2019-12-22,57
+4504,steam,2019-12-29,52
+4505,steam,2020-01-05,41
+4506,steam,2020-01-12,40
+4507,steam,2020-01-19,43
+4508,steam,2020-01-26,42
+4509,steam,2020-02-02,39
+4510,steam,2020-02-09,38
+4511,steam,2020-02-16,39
+4512,steam,2020-02-23,41
+4513,steam,2020-03-01,41
+4514,steam,2020-03-08,50
+4515,steam,2020-03-15,100
+4516,steam,2020-03-22,79
+4517,steam,2020-03-29,73
+4518,steam,2020-04-05,77
+4519,steam,2020-04-12,69
+4520,steam,2020-04-19,65
+4521,steam,2020-04-26,70
+4522,steam,2020-05-03,57
+4523,steam,2020-05-10,60
+4524,steam,2020-05-17,57
+4525,steam,2020-05-24,60
+4526,glovo,2019-01-06,43
+4527,glovo,2019-01-13,56
+4528,glovo,2019-01-20,54
+4529,glovo,2019-01-27,57
+4530,glovo,2019-02-03,52
+4531,glovo,2019-02-10,57
+4532,glovo,2019-02-17,49
+4533,glovo,2019-02-24,50
+4534,glovo,2019-03-03,52
+4535,glovo,2019-03-10,52
+4536,glovo,2019-03-17,49
+4537,glovo,2019-03-24,46
+4538,glovo,2019-03-31,48
+4539,glovo,2019-04-07,47
+4540,glovo,2019-04-14,43
+4541,glovo,2019-04-21,45
+4542,glovo,2019-04-28,50
+4543,glovo,2019-05-05,45
+4544,glovo,2019-05-12,49
+4545,glovo,2019-05-19,48
+4546,glovo,2019-05-26,82
+4547,glovo,2019-06-02,48
+4548,glovo,2019-06-09,50
+4549,glovo,2019-06-16,46
+4550,glovo,2019-06-23,51
+4551,glovo,2019-06-30,50
+4552,glovo,2019-07-07,39
+4553,glovo,2019-07-14,44
+4554,glovo,2019-07-21,36
+4555,glovo,2019-07-28,42
+4556,glovo,2019-08-04,39
+4557,glovo,2019-08-11,41
+4558,glovo,2019-08-18,40
+4559,glovo,2019-08-25,49
+4560,glovo,2019-09-01,44
+4561,glovo,2019-09-08,48
+4562,glovo,2019-09-15,46
+4563,glovo,2019-09-22,44
+4564,glovo,2019-09-29,52
+4565,glovo,2019-10-06,51
+4566,glovo,2019-10-13,57
+4567,glovo,2019-10-20,46
+4568,glovo,2019-10-27,54
+4569,glovo,2019-11-03,54
+4570,glovo,2019-11-10,56
+4571,glovo,2019-11-17,59
+4572,glovo,2019-11-24,51
+4573,glovo,2019-12-01,51
+4574,glovo,2019-12-08,47
+4575,glovo,2019-12-15,54
+4576,glovo,2019-12-22,50
+4577,glovo,2019-12-29,53
+4578,glovo,2020-01-05,45
+4579,glovo,2020-01-12,45
+4580,glovo,2020-01-19,55
+4581,glovo,2020-01-26,48
+4582,glovo,2020-02-02,56
+4583,glovo,2020-02-09,58
+4584,glovo,2020-02-16,50
+4585,glovo,2020-02-23,47
+4586,glovo,2020-03-01,50
+4587,glovo,2020-03-08,54
+4588,glovo,2020-03-15,68
+4589,glovo,2020-03-22,80
+4590,glovo,2020-03-29,100
+4591,glovo,2020-04-05,100
+4592,glovo,2020-04-12,76
+4593,glovo,2020-04-19,90
+4594,glovo,2020-04-26,81
+4595,glovo,2020-05-03,90
+4596,glovo,2020-05-10,79
+4597,glovo,2020-05-17,71
+4598,glovo,2020-05-24,69
+4599,just eat,2019-01-06,87
+4600,just eat,2019-01-13,79
+4601,just eat,2019-01-20,77
+4602,just eat,2019-01-27,82
+4603,just eat,2019-02-03,82
+4604,just eat,2019-02-10,84
+4605,just eat,2019-02-17,76
+4606,just eat,2019-02-24,77
+4607,just eat,2019-03-03,76
+4608,just eat,2019-03-10,75
+4609,just eat,2019-03-17,73
+4610,just eat,2019-03-24,70
+4611,just eat,2019-03-31,74
+4612,just eat,2019-04-07,64
+4613,just eat,2019-04-14,86
+4614,just eat,2019-04-21,69
+4615,just eat,2019-04-28,88
+4616,just eat,2019-05-05,68
+4617,just eat,2019-05-12,69
+4618,just eat,2019-05-19,73
+4619,just eat,2019-05-26,67
+4620,just eat,2019-06-02,65
+4621,just eat,2019-06-09,70
+4622,just eat,2019-06-16,70
+4623,just eat,2019-06-23,75
+4624,just eat,2019-06-30,75
+4625,just eat,2019-07-07,70
+4626,just eat,2019-07-14,65
+4627,just eat,2019-07-21,68
+4628,just eat,2019-07-28,68
+4629,just eat,2019-08-04,78
+4630,just eat,2019-08-11,85
+4631,just eat,2019-08-18,78
+4632,just eat,2019-08-25,69
+4633,just eat,2019-09-01,66
+4634,just eat,2019-09-08,74
+4635,just eat,2019-09-15,70
+4636,just eat,2019-09-22,72
+4637,just eat,2019-09-29,72
+4638,just eat,2019-10-06,72
+4639,just eat,2019-10-13,76
+4640,just eat,2019-10-20,76
+4641,just eat,2019-10-27,86
+4642,just eat,2019-11-03,77
+4643,just eat,2019-11-10,77
+4644,just eat,2019-11-17,84
+4645,just eat,2019-11-24,86
+4646,just eat,2019-12-01,97
+4647,just eat,2019-12-08,83
+4648,just eat,2019-12-15,84
+4649,just eat,2019-12-22,90
+4650,just eat,2019-12-29,97
+4651,just eat,2020-01-05,84
+4652,just eat,2020-01-12,74
+4653,just eat,2020-01-19,66
+4654,just eat,2020-01-26,73
+4655,just eat,2020-02-02,69
+4656,just eat,2020-02-09,70
+4657,just eat,2020-02-16,74
+4658,just eat,2020-02-23,78
+4659,just eat,2020-03-01,71
+4660,just eat,2020-03-08,58
+4661,just eat,2020-03-15,59
+4662,just eat,2020-03-22,61
+4663,just eat,2020-03-29,62
+4664,just eat,2020-04-05,72
+4665,just eat,2020-04-12,75
+4666,just eat,2020-04-19,80
+4667,just eat,2020-04-26,97
+4668,just eat,2020-05-03,100
+4669,just eat,2020-05-10,98
+4670,just eat,2020-05-17,84
+4671,just eat,2020-05-24,88
+4672,deliveroo,2019-01-06,38
+4673,deliveroo,2019-01-13,39
+4674,deliveroo,2019-01-20,48
+4675,deliveroo,2019-01-27,55
+4676,deliveroo,2019-02-03,55
+4677,deliveroo,2019-02-10,44
+4678,deliveroo,2019-02-17,47
+4679,deliveroo,2019-02-24,61
+4680,deliveroo,2019-03-03,50
+4681,deliveroo,2019-03-10,50
+4682,deliveroo,2019-03-17,46
+4683,deliveroo,2019-03-24,57
+4684,deliveroo,2019-03-31,60
+4685,deliveroo,2019-04-07,61
+4686,deliveroo,2019-04-14,55
+4687,deliveroo,2019-04-21,58
+4688,deliveroo,2019-04-28,67
+4689,deliveroo,2019-05-05,61
+4690,deliveroo,2019-05-12,65
+4691,deliveroo,2019-05-19,60
+4692,deliveroo,2019-05-26,70
+4693,deliveroo,2019-06-02,58
+4694,deliveroo,2019-06-09,50
+4695,deliveroo,2019-06-16,42
+4696,deliveroo,2019-06-23,54
+4697,deliveroo,2019-06-30,44
+4698,deliveroo,2019-07-07,46
+4699,deliveroo,2019-07-14,49
+4700,deliveroo,2019-07-21,52
+4701,deliveroo,2019-07-28,57
+4702,deliveroo,2019-08-04,48
+4703,deliveroo,2019-08-11,54
+4704,deliveroo,2019-08-18,47
+4705,deliveroo,2019-08-25,40
+4706,deliveroo,2019-09-01,52
+4707,deliveroo,2019-09-08,63
+4708,deliveroo,2019-09-15,61
+4709,deliveroo,2019-09-22,59
+4710,deliveroo,2019-09-29,62
+4711,deliveroo,2019-10-06,69
+4712,deliveroo,2019-10-13,61
+4713,deliveroo,2019-10-20,63
+4714,deliveroo,2019-10-27,71
+4715,deliveroo,2019-11-03,79
+4716,deliveroo,2019-11-10,65
+4717,deliveroo,2019-11-17,69
+4718,deliveroo,2019-11-24,68
+4719,deliveroo,2019-12-01,64
+4720,deliveroo,2019-12-08,63
+4721,deliveroo,2019-12-15,63
+4722,deliveroo,2019-12-22,56
+4723,deliveroo,2019-12-29,53
+4724,deliveroo,2020-01-05,54
+4725,deliveroo,2020-01-12,56
+4726,deliveroo,2020-01-19,54
+4727,deliveroo,2020-01-26,46
+4728,deliveroo,2020-02-02,66
+4729,deliveroo,2020-02-09,56
+4730,deliveroo,2020-02-16,56
+4731,deliveroo,2020-02-23,58
+4732,deliveroo,2020-03-01,60
+4733,deliveroo,2020-03-08,44
+4734,deliveroo,2020-03-15,60
+4735,deliveroo,2020-03-22,57
+4736,deliveroo,2020-03-29,60
+4737,deliveroo,2020-04-05,72
+4738,deliveroo,2020-04-12,74
+4739,deliveroo,2020-04-19,81
+4740,deliveroo,2020-04-26,90
+4741,deliveroo,2020-05-03,100
+4742,deliveroo,2020-05-10,91
+4743,deliveroo,2020-05-17,79
+4744,deliveroo,2020-05-24,84
+4745,uber eats,2019-01-06,16
+4746,uber eats,2019-01-13,16
+4747,uber eats,2019-01-20,14
+4748,uber eats,2019-01-27,14
+4749,uber eats,2019-02-03,14
+4750,uber eats,2019-02-10,17
+4751,uber eats,2019-02-17,15
+4752,uber eats,2019-02-24,16
+4753,uber eats,2019-03-03,21
+4754,uber eats,2019-03-10,18
+4755,uber eats,2019-03-17,26
+4756,uber eats,2019-03-24,22
+4757,uber eats,2019-03-31,19
+4758,uber eats,2019-04-07,19
+4759,uber eats,2019-04-14,18
+4760,uber eats,2019-04-21,25
+4761,uber eats,2019-04-28,19
+4762,uber eats,2019-05-05,23
+4763,uber eats,2019-05-12,26
+4764,uber eats,2019-05-19,27
+4765,uber eats,2019-05-26,30
+4766,uber eats,2019-06-02,18
+4767,uber eats,2019-06-09,22
+4768,uber eats,2019-06-16,28
+4769,uber eats,2019-06-23,31
+4770,uber eats,2019-06-30,34
+4771,uber eats,2019-07-07,26
+4772,uber eats,2019-07-14,28
+4773,uber eats,2019-07-21,28
+4774,uber eats,2019-07-28,26
+4775,uber eats,2019-08-04,27
+4776,uber eats,2019-08-11,31
+4777,uber eats,2019-08-18,27
+4778,uber eats,2019-08-25,26
+4779,uber eats,2019-09-01,25
+4780,uber eats,2019-09-08,27
+4781,uber eats,2019-09-15,32
+4782,uber eats,2019-09-22,35
+4783,uber eats,2019-09-29,42
+4784,uber eats,2019-10-06,50
+4785,uber eats,2019-10-13,60
+4786,uber eats,2019-10-20,61
+4787,uber eats,2019-10-27,82
+4788,uber eats,2019-11-03,69
+4789,uber eats,2019-11-10,72
+4790,uber eats,2019-11-17,72
+4791,uber eats,2019-11-24,100
+4792,uber eats,2019-12-01,86
+4793,uber eats,2019-12-08,86
+4794,uber eats,2019-12-15,74
+4795,uber eats,2019-12-22,56
+4796,uber eats,2019-12-29,66
+4797,uber eats,2020-01-05,63
+4798,uber eats,2020-01-12,53
+4799,uber eats,2020-01-19,61
+4800,uber eats,2020-01-26,67
+4801,uber eats,2020-02-02,68
+4802,uber eats,2020-02-09,86
+4803,uber eats,2020-02-16,100
+4804,uber eats,2020-02-23,89
+4805,uber eats,2020-03-01,79
+4806,uber eats,2020-03-08,75
+4807,uber eats,2020-03-15,44
+4808,uber eats,2020-03-22,46
+4809,uber eats,2020-03-29,54
+4810,uber eats,2020-04-05,68
+4811,uber eats,2020-04-12,56
+4812,uber eats,2020-04-19,59
+4813,uber eats,2020-04-26,85
+4814,uber eats,2020-05-03,72
+4815,uber eats,2020-05-10,87
+4816,uber eats,2020-05-17,86
+4817,uber eats,2020-05-24,91
+4818,hacer deporte,2019-01-06,3
+4819,hacer deporte,2019-01-13,4
+4820,hacer deporte,2019-01-20,4
+4821,hacer deporte,2019-01-27,4
+4822,hacer deporte,2019-02-03,4
+4823,hacer deporte,2019-02-10,5
+4824,hacer deporte,2019-02-17,4
+4825,hacer deporte,2019-02-24,4
+4826,hacer deporte,2019-03-03,4
+4827,hacer deporte,2019-03-10,5
+4828,hacer deporte,2019-03-17,4
+4829,hacer deporte,2019-03-24,4
+4830,hacer deporte,2019-03-31,4
+4831,hacer deporte,2019-04-07,4
+4832,hacer deporte,2019-04-14,3
+4833,hacer deporte,2019-04-21,3
+4834,hacer deporte,2019-04-28,4
+4835,hacer deporte,2019-05-05,4
+4836,hacer deporte,2019-05-12,4
+4837,hacer deporte,2019-05-19,4
+4838,hacer deporte,2019-05-26,3
+4839,hacer deporte,2019-06-02,4
+4840,hacer deporte,2019-06-09,3
+4841,hacer deporte,2019-06-16,3
+4842,hacer deporte,2019-06-23,3
+4843,hacer deporte,2019-06-30,3
+4844,hacer deporte,2019-07-07,3
+4845,hacer deporte,2019-07-14,3
+4846,hacer deporte,2019-07-21,3
+4847,hacer deporte,2019-07-28,4
+4848,hacer deporte,2019-08-04,3
+4849,hacer deporte,2019-08-11,2
+4850,hacer deporte,2019-08-18,3
+4851,hacer deporte,2019-08-25,3
+4852,hacer deporte,2019-09-01,3
+4853,hacer deporte,2019-09-08,4
+4854,hacer deporte,2019-09-15,4
+4855,hacer deporte,2019-09-22,4
+4856,hacer deporte,2019-09-29,4
+4857,hacer deporte,2019-10-06,3
+4858,hacer deporte,2019-10-13,4
+4859,hacer deporte,2019-10-20,3
+4860,hacer deporte,2019-10-27,3
+4861,hacer deporte,2019-11-03,4
+4862,hacer deporte,2019-11-10,4
+4863,hacer deporte,2019-11-17,4
+4864,hacer deporte,2019-11-24,3
+4865,hacer deporte,2019-12-01,2
+4866,hacer deporte,2019-12-08,3
+4867,hacer deporte,2019-12-15,2
+4868,hacer deporte,2019-12-22,2
+4869,hacer deporte,2019-12-29,4
+4870,hacer deporte,2020-01-05,4
+4871,hacer deporte,2020-01-12,4
+4872,hacer deporte,2020-01-19,4
+4873,hacer deporte,2020-01-26,4
+4874,hacer deporte,2020-02-02,5
+4875,hacer deporte,2020-02-09,4
+4876,hacer deporte,2020-02-16,3
+4877,hacer deporte,2020-02-23,4
+4878,hacer deporte,2020-03-01,5
+4879,hacer deporte,2020-03-08,7
+4880,hacer deporte,2020-03-15,14
+4881,hacer deporte,2020-03-22,9
+4882,hacer deporte,2020-03-29,10
+4883,hacer deporte,2020-04-05,12
+4884,hacer deporte,2020-04-12,14
+4885,hacer deporte,2020-04-19,28
+4886,hacer deporte,2020-04-26,100
+4887,hacer deporte,2020-05-03,42
+4888,hacer deporte,2020-05-10,28
+4889,hacer deporte,2020-05-17,33
+4890,hacer deporte,2020-05-24,33
+4891,en casa,2019-01-06,32
+4892,en casa,2019-01-13,31
+4893,en casa,2019-01-20,31
+4894,en casa,2019-01-27,32
+4895,en casa,2019-02-03,33
+4896,en casa,2019-02-10,34
+4897,en casa,2019-02-17,33
+4898,en casa,2019-02-24,33
+4899,en casa,2019-03-03,33
+4900,en casa,2019-03-10,34
+4901,en casa,2019-03-17,35
+4902,en casa,2019-03-24,34
+4903,en casa,2019-03-31,33
+4904,en casa,2019-04-07,33
+4905,en casa,2019-04-14,34
+4906,en casa,2019-04-21,32
+4907,en casa,2019-04-28,30
+4908,en casa,2019-05-05,29
+4909,en casa,2019-05-12,31
+4910,en casa,2019-05-19,32
+4911,en casa,2019-05-26,30
+4912,en casa,2019-06-02,31
+4913,en casa,2019-06-09,30
+4914,en casa,2019-06-16,32
+4915,en casa,2019-06-23,32
+4916,en casa,2019-06-30,34
+4917,en casa,2019-07-07,34
+4918,en casa,2019-07-14,35
+4919,en casa,2019-07-21,37
+4920,en casa,2019-07-28,37
+4921,en casa,2019-08-04,37
+4922,en casa,2019-08-11,38
+4923,en casa,2019-08-18,39
+4924,en casa,2019-08-25,37
+4925,en casa,2019-09-01,33
+4926,en casa,2019-09-08,32
+4927,en casa,2019-09-15,33
+4928,en casa,2019-09-22,33
+4929,en casa,2019-09-29,33
+4930,en casa,2019-10-06,32
+4931,en casa,2019-10-13,30
+4932,en casa,2019-10-20,31
+4933,en casa,2019-10-27,34
+4934,en casa,2019-11-03,30
+4935,en casa,2019-11-10,30
+4936,en casa,2019-11-17,32
+4937,en casa,2019-11-24,30
+4938,en casa,2019-12-01,32
+4939,en casa,2019-12-08,31
+4940,en casa,2019-12-15,29
+4941,en casa,2019-12-22,31
+4942,en casa,2019-12-29,34
+4943,en casa,2020-01-05,30
+4944,en casa,2020-01-12,32
+4945,en casa,2020-01-19,32
+4946,en casa,2020-01-26,32
+4947,en casa,2020-02-02,33
+4948,en casa,2020-02-09,33
+4949,en casa,2020-02-16,33
+4950,en casa,2020-02-23,31
+4951,en casa,2020-03-01,31
+4952,en casa,2020-03-08,48
+4953,en casa,2020-03-15,100
+4954,en casa,2020-03-22,90
+4955,en casa,2020-03-29,86
+4956,en casa,2020-04-05,84
+4957,en casa,2020-04-12,77
+4958,en casa,2020-04-19,69
+4959,en casa,2020-04-26,61
+4960,en casa,2020-05-03,54
+4961,en casa,2020-05-10,53
+4962,en casa,2020-05-17,54
+4963,en casa,2020-05-24,60
+4964,yoga,2019-01-06,49
+4965,yoga,2019-01-13,46
+4966,yoga,2019-01-20,45
+4967,yoga,2019-01-27,49
+4968,yoga,2019-02-03,50
+4969,yoga,2019-02-10,52
+4970,yoga,2019-02-17,49
+4971,yoga,2019-02-24,47
+4972,yoga,2019-03-03,47
+4973,yoga,2019-03-10,48
+4974,yoga,2019-03-17,50
+4975,yoga,2019-03-24,50
+4976,yoga,2019-03-31,43
+4977,yoga,2019-04-07,43
+4978,yoga,2019-04-14,40
+4979,yoga,2019-04-21,41
+4980,yoga,2019-04-28,39
+4981,yoga,2019-05-05,41
+4982,yoga,2019-05-12,42
+4983,yoga,2019-05-19,42
+4984,yoga,2019-05-26,42
+4985,yoga,2019-06-02,38
+4986,yoga,2019-06-09,41
+4987,yoga,2019-06-16,47
+4988,yoga,2019-06-23,41
+4989,yoga,2019-06-30,41
+4990,yoga,2019-07-07,42
+4991,yoga,2019-07-14,42
+4992,yoga,2019-07-21,41
+4993,yoga,2019-07-28,39
+4994,yoga,2019-08-04,40
+4995,yoga,2019-08-11,41
+4996,yoga,2019-08-18,43
+4997,yoga,2019-08-25,48
+4998,yoga,2019-09-01,55
+4999,yoga,2019-09-08,48
+5000,yoga,2019-09-15,52
+5001,yoga,2019-09-22,50
+5002,yoga,2019-09-29,53
+5003,yoga,2019-10-06,49
+5004,yoga,2019-10-13,43
+5005,yoga,2019-10-20,42
+5006,yoga,2019-10-27,40
+5007,yoga,2019-11-03,44
+5008,yoga,2019-11-10,40
+5009,yoga,2019-11-17,46
+5010,yoga,2019-11-24,46
+5011,yoga,2019-12-01,39
+5012,yoga,2019-12-08,39
+5013,yoga,2019-12-15,39
+5014,yoga,2019-12-22,37
+5015,yoga,2019-12-29,41
+5016,yoga,2020-01-05,47
+5017,yoga,2020-01-12,49
+5018,yoga,2020-01-19,45
+5019,yoga,2020-01-26,46
+5020,yoga,2020-02-02,45
+5021,yoga,2020-02-09,44
+5022,yoga,2020-02-16,47
+5023,yoga,2020-02-23,42
+5024,yoga,2020-03-01,46
+5025,yoga,2020-03-08,40
+5026,yoga,2020-03-15,98
+5027,yoga,2020-03-22,100
+5028,yoga,2020-03-29,97
+5029,yoga,2020-04-05,100
+5030,yoga,2020-04-12,95
+5031,yoga,2020-04-19,89
+5032,yoga,2020-04-26,80
+5033,yoga,2020-05-03,68
+5034,yoga,2020-05-10,63
+5035,yoga,2020-05-17,54
+5036,yoga,2020-05-24,49
+5037,meditacion,2019-01-06,60
+5038,meditacion,2019-01-13,59
+5039,meditacion,2019-01-20,46
+5040,meditacion,2019-01-27,55
+5041,meditacion,2019-02-03,62
+5042,meditacion,2019-02-10,65
+5043,meditacion,2019-02-17,62
+5044,meditacion,2019-02-24,56
+5045,meditacion,2019-03-03,66
+5046,meditacion,2019-03-10,59
+5047,meditacion,2019-03-17,64
+5048,meditacion,2019-03-24,62
+5049,meditacion,2019-03-31,57
+5050,meditacion,2019-04-07,63
+5051,meditacion,2019-04-14,52
+5052,meditacion,2019-04-21,52
+5053,meditacion,2019-04-28,54
+5054,meditacion,2019-05-05,55
+5055,meditacion,2019-05-12,47
+5056,meditacion,2019-05-19,54
+5057,meditacion,2019-05-26,57
+5058,meditacion,2019-06-02,56
+5059,meditacion,2019-06-09,59
+5060,meditacion,2019-06-16,53
+5061,meditacion,2019-06-23,54
+5062,meditacion,2019-06-30,49
+5063,meditacion,2019-07-07,44
+5064,meditacion,2019-07-14,52
+5065,meditacion,2019-07-21,48
+5066,meditacion,2019-07-28,51
+5067,meditacion,2019-08-04,45
+5068,meditacion,2019-08-11,53
+5069,meditacion,2019-08-18,60
+5070,meditacion,2019-08-25,52
+5071,meditacion,2019-09-01,61
+5072,meditacion,2019-09-08,53
+5073,meditacion,2019-09-15,58
+5074,meditacion,2019-09-22,56
+5075,meditacion,2019-09-29,53
+5076,meditacion,2019-10-06,60
+5077,meditacion,2019-10-13,56
+5078,meditacion,2019-10-20,66
+5079,meditacion,2019-10-27,54
+5080,meditacion,2019-11-03,56
+5081,meditacion,2019-11-10,55
+5082,meditacion,2019-11-17,55
+5083,meditacion,2019-11-24,52
+5084,meditacion,2019-12-01,51
+5085,meditacion,2019-12-08,50
+5086,meditacion,2019-12-15,52
+5087,meditacion,2019-12-22,43
+5088,meditacion,2019-12-29,48
+5089,meditacion,2020-01-05,53
+5090,meditacion,2020-01-12,48
+5091,meditacion,2020-01-19,52
+5092,meditacion,2020-01-26,51
+5093,meditacion,2020-02-02,64
+5094,meditacion,2020-02-09,63
+5095,meditacion,2020-02-16,60
+5096,meditacion,2020-02-23,59
+5097,meditacion,2020-03-01,57
+5098,meditacion,2020-03-08,52
+5099,meditacion,2020-03-15,76
+5100,meditacion,2020-03-22,89
+5101,meditacion,2020-03-29,97
+5102,meditacion,2020-04-05,100
+5103,meditacion,2020-04-12,86
+5104,meditacion,2020-04-19,78
+5105,meditacion,2020-04-26,83
+5106,meditacion,2020-05-03,83
+5107,meditacion,2020-05-10,74
+5108,meditacion,2020-05-17,71
+5109,meditacion,2020-05-24,84
+5110,videollamada,2019-01-06,2
+5111,videollamada,2019-01-13,2
+5112,videollamada,2019-01-20,2
+5113,videollamada,2019-01-27,2
+5114,videollamada,2019-02-03,2
+5115,videollamada,2019-02-10,1
+5116,videollamada,2019-02-17,2
+5117,videollamada,2019-02-24,2
+5118,videollamada,2019-03-03,2
+5119,videollamada,2019-03-10,2
+5120,videollamada,2019-03-17,2
+5121,videollamada,2019-03-24,2
+5122,videollamada,2019-03-31,2
+5123,videollamada,2019-04-07,2
+5124,videollamada,2019-04-14,2
+5125,videollamada,2019-04-21,2
+5126,videollamada,2019-04-28,1
+5127,videollamada,2019-05-05,2
+5128,videollamada,2019-05-12,2
+5129,videollamada,2019-05-19,2
+5130,videollamada,2019-05-26,2
+5131,videollamada,2019-06-02,2
+5132,videollamada,2019-06-09,2
+5133,videollamada,2019-06-16,2
+5134,videollamada,2019-06-23,2
+5135,videollamada,2019-06-30,2
+5136,videollamada,2019-07-07,2
+5137,videollamada,2019-07-14,2
+5138,videollamada,2019-07-21,2
+5139,videollamada,2019-07-28,2
+5140,videollamada,2019-08-04,2
+5141,videollamada,2019-08-11,2
+5142,videollamada,2019-08-18,2
+5143,videollamada,2019-08-25,3
+5144,videollamada,2019-09-01,2
+5145,videollamada,2019-09-08,2
+5146,videollamada,2019-09-15,2
+5147,videollamada,2019-09-22,3
+5148,videollamada,2019-09-29,2
+5149,videollamada,2019-10-06,2
+5150,videollamada,2019-10-13,2
+5151,videollamada,2019-10-20,2
+5152,videollamada,2019-10-27,2
+5153,videollamada,2019-11-03,2
+5154,videollamada,2019-11-10,2
+5155,videollamada,2019-11-17,2
+5156,videollamada,2019-11-24,2
+5157,videollamada,2019-12-01,3
+5158,videollamada,2019-12-08,3
+5159,videollamada,2019-12-15,4
+5160,videollamada,2019-12-22,4
+5161,videollamada,2019-12-29,4
+5162,videollamada,2020-01-05,3
+5163,videollamada,2020-01-12,2
+5164,videollamada,2020-01-19,2
+5165,videollamada,2020-01-26,2
+5166,videollamada,2020-02-02,2
+5167,videollamada,2020-02-09,2
+5168,videollamada,2020-02-16,2
+5169,videollamada,2020-02-23,2
+5170,videollamada,2020-03-01,2
+5171,videollamada,2020-03-08,10
+5172,videollamada,2020-03-15,83
+5173,videollamada,2020-03-22,64
+5174,videollamada,2020-03-29,100
+5175,videollamada,2020-04-05,59
+5176,videollamada,2020-04-12,45
+5177,videollamada,2020-04-19,43
+5178,videollamada,2020-04-26,36
+5179,videollamada,2020-05-03,24
+5180,videollamada,2020-05-10,21
+5181,videollamada,2020-05-17,16
+5182,videollamada,2020-05-24,14
+5183,videoconferencia,2019-01-06,2
+5184,videoconferencia,2019-01-13,4
+5185,videoconferencia,2019-01-20,3
+5186,videoconferencia,2019-01-27,5
+5187,videoconferencia,2019-02-03,4
+5188,videoconferencia,2019-02-10,2
+5189,videoconferencia,2019-02-17,4
+5190,videoconferencia,2019-02-24,3
+5191,videoconferencia,2019-03-03,4
+5192,videoconferencia,2019-03-10,3
+5193,videoconferencia,2019-03-17,3
+5194,videoconferencia,2019-03-24,3
+5195,videoconferencia,2019-03-31,4
+5196,videoconferencia,2019-04-07,3
+5197,videoconferencia,2019-04-14,3
+5198,videoconferencia,2019-04-21,3
+5199,videoconferencia,2019-04-28,2
+5200,videoconferencia,2019-05-05,3
+5201,videoconferencia,2019-05-12,3
+5202,videoconferencia,2019-05-19,4
+5203,videoconferencia,2019-05-26,3
+5204,videoconferencia,2019-06-02,4
+5205,videoconferencia,2019-06-09,5
+5206,videoconferencia,2019-06-16,3
+5207,videoconferencia,2019-06-23,2
+5208,videoconferencia,2019-06-30,3
+5209,videoconferencia,2019-07-07,3
+5210,videoconferencia,2019-07-14,1
+5211,videoconferencia,2019-07-21,2
+5212,videoconferencia,2019-07-28,2
+5213,videoconferencia,2019-08-04,2
+5214,videoconferencia,2019-08-11,1
+5215,videoconferencia,2019-08-18,2
+5216,videoconferencia,2019-08-25,2
+5217,videoconferencia,2019-09-01,2
+5218,videoconferencia,2019-09-08,3
+5219,videoconferencia,2019-09-15,2
+5220,videoconferencia,2019-09-22,4
+5221,videoconferencia,2019-09-29,3
+5222,videoconferencia,2019-10-06,4
+5223,videoconferencia,2019-10-13,3
+5224,videoconferencia,2019-10-20,2
+5225,videoconferencia,2019-10-27,1
+5226,videoconferencia,2019-11-03,3
+5227,videoconferencia,2019-11-10,4
+5228,videoconferencia,2019-11-17,3
+5229,videoconferencia,2019-11-24,2
+5230,videoconferencia,2019-12-01,4
+5231,videoconferencia,2019-12-08,3
+5232,videoconferencia,2019-12-15,3
+5233,videoconferencia,2019-12-22,2
+5234,videoconferencia,2019-12-29,2
+5235,videoconferencia,2020-01-05,3
+5236,videoconferencia,2020-01-12,4
+5237,videoconferencia,2020-01-19,4
+5238,videoconferencia,2020-01-26,4
+5239,videoconferencia,2020-02-02,3
+5240,videoconferencia,2020-02-09,3
+5241,videoconferencia,2020-02-16,3
+5242,videoconferencia,2020-02-23,3
+5243,videoconferencia,2020-03-01,4
+5244,videoconferencia,2020-03-08,33
+5245,videoconferencia,2020-03-15,100
+5246,videoconferencia,2020-03-22,71
+5247,videoconferencia,2020-03-29,60
+5248,videoconferencia,2020-04-05,58
+5249,videoconferencia,2020-04-12,57
+5250,videoconferencia,2020-04-19,48
+5251,videoconferencia,2020-04-26,45
+5252,videoconferencia,2020-05-03,35
+5253,videoconferencia,2020-05-10,32
+5254,videoconferencia,2020-05-17,25
+5255,videoconferencia,2020-05-24,18
+5256,tinder,2019-01-06,69
+5257,tinder,2019-01-13,55
+5258,tinder,2019-01-20,57
+5259,tinder,2019-01-27,55
+5260,tinder,2019-02-03,66
+5261,tinder,2019-02-10,79
+5262,tinder,2019-02-17,72
+5263,tinder,2019-02-24,63
+5264,tinder,2019-03-03,61
+5265,tinder,2019-03-10,65
+5266,tinder,2019-03-17,67
+5267,tinder,2019-03-24,62
+5268,tinder,2019-03-31,57
+5269,tinder,2019-04-07,54
+5270,tinder,2019-04-14,64
+5271,tinder,2019-04-21,66
+5272,tinder,2019-04-28,66
+5273,tinder,2019-05-05,66
+5274,tinder,2019-05-12,63
+5275,tinder,2019-05-19,65
+5276,tinder,2019-05-26,57
+5277,tinder,2019-06-02,62
+5278,tinder,2019-06-09,63
+5279,tinder,2019-06-16,65
+5280,tinder,2019-06-23,66
+5281,tinder,2019-06-30,68
+5282,tinder,2019-07-07,74
+5283,tinder,2019-07-14,76
+5284,tinder,2019-07-21,76
+5285,tinder,2019-07-28,82
+5286,tinder,2019-08-04,85
+5287,tinder,2019-08-11,96
+5288,tinder,2019-08-18,90
+5289,tinder,2019-08-25,80
+5290,tinder,2019-09-01,79
+5291,tinder,2019-09-08,71
+5292,tinder,2019-09-15,74
+5293,tinder,2019-09-22,79
+5294,tinder,2019-09-29,80
+5295,tinder,2019-10-06,76
+5296,tinder,2019-10-13,71
+5297,tinder,2019-10-20,73
+5298,tinder,2019-10-27,76
+5299,tinder,2019-11-03,80
+5300,tinder,2019-11-10,75
+5301,tinder,2019-11-17,74
+5302,tinder,2019-11-24,75
+5303,tinder,2019-12-01,75
+5304,tinder,2019-12-08,78
+5305,tinder,2019-12-15,72
+5306,tinder,2019-12-22,87
+5307,tinder,2019-12-29,93
+5308,tinder,2020-01-05,84
+5309,tinder,2020-01-12,85
+5310,tinder,2020-01-19,92
+5311,tinder,2020-01-26,100
+5312,tinder,2020-02-02,84
+5313,tinder,2020-02-09,95
+5314,tinder,2020-02-16,87
+5315,tinder,2020-02-23,97
+5316,tinder,2020-03-01,89
+5317,tinder,2020-03-08,72
+5318,tinder,2020-03-15,71
+5319,tinder,2020-03-22,67
+5320,tinder,2020-03-29,79
+5321,tinder,2020-04-05,83
+5322,tinder,2020-04-12,74
+5323,tinder,2020-04-19,72
+5324,tinder,2020-04-26,75
+5325,tinder,2020-05-03,70
+5326,tinder,2020-05-10,73
+5327,tinder,2020-05-17,78
+5328,tinder,2020-05-24,97
+5329,meetic,2019-01-06,91
+5330,meetic,2019-01-13,88
+5331,meetic,2019-01-20,85
+5332,meetic,2019-01-27,89
+5333,meetic,2019-02-03,85
+5334,meetic,2019-02-10,89
+5335,meetic,2019-02-17,87
+5336,meetic,2019-02-24,88
+5337,meetic,2019-03-03,87
+5338,meetic,2019-03-10,87
+5339,meetic,2019-03-17,83
+5340,meetic,2019-03-24,89
+5341,meetic,2019-03-31,80
+5342,meetic,2019-04-07,82
+5343,meetic,2019-04-14,85
+5344,meetic,2019-04-21,83
+5345,meetic,2019-04-28,81
+5346,meetic,2019-05-05,80
+5347,meetic,2019-05-12,87
+5348,meetic,2019-05-19,90
+5349,meetic,2019-05-26,84
+5350,meetic,2019-06-02,83
+5351,meetic,2019-06-09,83
+5352,meetic,2019-06-16,82
+5353,meetic,2019-06-23,89
+5354,meetic,2019-06-30,83
+5355,meetic,2019-07-07,86
+5356,meetic,2019-07-14,82
+5357,meetic,2019-07-21,85
+5358,meetic,2019-07-28,96
+5359,meetic,2019-08-04,95
+5360,meetic,2019-08-11,100
+5361,meetic,2019-08-18,93
+5362,meetic,2019-08-25,94
+5363,meetic,2019-09-01,81
+5364,meetic,2019-09-08,82
+5365,meetic,2019-09-15,79
+5366,meetic,2019-09-22,80
+5367,meetic,2019-09-29,77
+5368,meetic,2019-10-06,68
+5369,meetic,2019-10-13,82
+5370,meetic,2019-10-20,77
+5371,meetic,2019-10-27,84
+5372,meetic,2019-11-03,81
+5373,meetic,2019-11-10,63
+5374,meetic,2019-11-17,71
+5375,meetic,2019-11-24,68
+5376,meetic,2019-12-01,75
+5377,meetic,2019-12-08,76
+5378,meetic,2019-12-15,73
+5379,meetic,2019-12-22,82
+5380,meetic,2019-12-29,87
+5381,meetic,2020-01-05,85
+5382,meetic,2020-01-12,82
+5383,meetic,2020-01-19,80
+5384,meetic,2020-01-26,81
+5385,meetic,2020-02-02,81
+5386,meetic,2020-02-09,83
+5387,meetic,2020-02-16,86
+5388,meetic,2020-02-23,73
+5389,meetic,2020-03-01,77
+5390,meetic,2020-03-08,73
+5391,meetic,2020-03-15,73
+5392,meetic,2020-03-22,75
+5393,meetic,2020-03-29,74
+5394,meetic,2020-04-05,84
+5395,meetic,2020-04-12,71
+5396,meetic,2020-04-19,68
+5397,meetic,2020-04-26,70
+5398,meetic,2020-05-03,67
+5399,meetic,2020-05-10,67
+5400,meetic,2020-05-17,68
+5401,meetic,2020-05-24,66
+5402,disney,2019-01-06,16
+5403,disney,2019-01-13,14
+5404,disney,2019-01-20,13
+5405,disney,2019-01-27,15
+5406,disney,2019-02-03,16
+5407,disney,2019-02-10,16
+5408,disney,2019-02-17,16
+5409,disney,2019-02-24,17
+5410,disney,2019-03-03,15
+5411,disney,2019-03-10,15
+5412,disney,2019-03-17,15
+5413,disney,2019-03-24,14
+5414,disney,2019-03-31,15
+5415,disney,2019-04-07,15
+5416,disney,2019-04-14,16
+5417,disney,2019-04-21,14
+5418,disney,2019-04-28,13
+5419,disney,2019-05-05,13
+5420,disney,2019-05-12,13
+5421,disney,2019-05-19,14
+5422,disney,2019-05-26,14
+5423,disney,2019-06-02,14
+5424,disney,2019-06-09,15
+5425,disney,2019-06-16,14
+5426,disney,2019-06-23,15
+5427,disney,2019-06-30,15
+5428,disney,2019-07-07,21
+5429,disney,2019-07-14,16
+5430,disney,2019-07-21,17
+5431,disney,2019-07-28,17
+5432,disney,2019-08-04,17
+5433,disney,2019-08-11,17
+5434,disney,2019-08-18,18
+5435,disney,2019-08-25,18
+5436,disney,2019-09-01,15
+5437,disney,2019-09-08,14
+5438,disney,2019-09-15,14
+5439,disney,2019-09-22,14
+5440,disney,2019-09-29,15
+5441,disney,2019-10-06,15
+5442,disney,2019-10-13,14
+5443,disney,2019-10-20,16
+5444,disney,2019-10-27,17
+5445,disney,2019-11-03,15
+5446,disney,2019-11-10,18
+5447,disney,2019-11-17,19
+5448,disney,2019-11-24,18
+5449,disney,2019-12-01,18
+5450,disney,2019-12-08,18
+5451,disney,2019-12-15,18
+5452,disney,2019-12-22,22
+5453,disney,2019-12-29,22
+5454,disney,2020-01-05,18
+5455,disney,2020-01-12,17
+5456,disney,2020-01-19,20
+5457,disney,2020-01-26,16
+5458,disney,2020-02-02,17
+5459,disney,2020-02-09,17
+5460,disney,2020-02-16,18
+5461,disney,2020-02-23,24
+5462,disney,2020-03-01,21
+5463,disney,2020-03-08,20
+5464,disney,2020-03-15,28
+5465,disney,2020-03-22,100
+5466,disney,2020-03-29,44
+5467,disney,2020-04-05,39
+5468,disney,2020-04-12,33
+5469,disney,2020-04-19,29
+5470,disney,2020-04-26,28
+5471,disney,2020-05-03,26
+5472,disney,2020-05-10,24
+5473,disney,2020-05-17,21
+5474,disney,2020-05-24,21
+5475,amazon,2019-01-06,61
+5476,amazon,2019-01-13,50
+5477,amazon,2019-01-20,46
+5478,amazon,2019-01-27,46
+5479,amazon,2019-02-03,49
+5480,amazon,2019-02-10,48
+5481,amazon,2019-02-17,47
+5482,amazon,2019-02-24,43
+5483,amazon,2019-03-03,44
+5484,amazon,2019-03-10,45
+5485,amazon,2019-03-17,44
+5486,amazon,2019-03-24,45
+5487,amazon,2019-03-31,46
+5488,amazon,2019-04-07,44
+5489,amazon,2019-04-14,41
+5490,amazon,2019-04-21,45
+5491,amazon,2019-04-28,43
+5492,amazon,2019-05-05,43
+5493,amazon,2019-05-12,45
+5494,amazon,2019-05-19,45
+5495,amazon,2019-05-26,45
+5496,amazon,2019-06-02,46
+5497,amazon,2019-06-09,47
+5498,amazon,2019-06-16,49
+5499,amazon,2019-06-23,50
+5500,amazon,2019-06-30,52
+5501,amazon,2019-07-07,50
+5502,amazon,2019-07-14,69
+5503,amazon,2019-07-21,47
+5504,amazon,2019-07-28,49
+5505,amazon,2019-08-04,48
+5506,amazon,2019-08-11,47
+5507,amazon,2019-08-18,51
+5508,amazon,2019-08-25,52
+5509,amazon,2019-09-01,53
+5510,amazon,2019-09-08,52
+5511,amazon,2019-09-15,51
+5512,amazon,2019-09-22,50
+5513,amazon,2019-09-29,51
+5514,amazon,2019-10-06,49
+5515,amazon,2019-10-13,49
+5516,amazon,2019-10-20,54
+5517,amazon,2019-10-27,53
+5518,amazon,2019-11-03,59
+5519,amazon,2019-11-10,63
+5520,amazon,2019-11-17,74
+5521,amazon,2019-11-24,100
+5522,amazon,2019-12-01,82
+5523,amazon,2019-12-08,81
+5524,amazon,2019-12-15,82
+5525,amazon,2019-12-22,84
+5526,amazon,2019-12-29,79
+5527,amazon,2020-01-05,70
+5528,amazon,2020-01-12,62
+5529,amazon,2020-01-19,57
+5530,amazon,2020-01-26,58
+5531,amazon,2020-02-02,58
+5532,amazon,2020-02-09,58
+5533,amazon,2020-02-16,55
+5534,amazon,2020-02-23,55
+5535,amazon,2020-03-01,55
+5536,amazon,2020-03-08,52
+5537,amazon,2020-03-15,62
+5538,amazon,2020-03-22,71
+5539,amazon,2020-03-29,77
+5540,amazon,2020-04-05,92
+5541,amazon,2020-04-12,93
+5542,amazon,2020-04-19,93
+5543,amazon,2020-04-26,90
+5544,amazon,2020-05-03,90
+5545,amazon,2020-05-10,85
+5546,amazon,2020-05-17,82
+5547,amazon,2020-05-24,81
+5548,cabify,2019-01-06,21
+5549,cabify,2019-01-13,30
+5550,cabify,2019-01-20,100
+5551,cabify,2019-01-27,69
+5552,cabify,2019-02-03,46
+5553,cabify,2019-02-10,23
+5554,cabify,2019-02-17,24
+5555,cabify,2019-02-24,24
+5556,cabify,2019-03-03,43
+5557,cabify,2019-03-10,31
+5558,cabify,2019-03-17,28
+5559,cabify,2019-03-24,23
+5560,cabify,2019-03-31,28
+5561,cabify,2019-04-07,26
+5562,cabify,2019-04-14,26
+5563,cabify,2019-04-21,25
+5564,cabify,2019-04-28,25
+5565,cabify,2019-05-05,25
+5566,cabify,2019-05-12,25
+5567,cabify,2019-05-19,27
+5568,cabify,2019-05-26,28
+5569,cabify,2019-06-02,27
+5570,cabify,2019-06-09,26
+5571,cabify,2019-06-16,29
+5572,cabify,2019-06-23,34
+5573,cabify,2019-06-30,31
+5574,cabify,2019-07-07,32
+5575,cabify,2019-07-14,29
+5576,cabify,2019-07-21,28
+5577,cabify,2019-07-28,28
+5578,cabify,2019-08-04,26
+5579,cabify,2019-08-11,25
+5580,cabify,2019-08-18,27
+5581,cabify,2019-08-25,20
+5582,cabify,2019-09-01,23
+5583,cabify,2019-09-08,23
+5584,cabify,2019-09-15,22
+5585,cabify,2019-09-22,26
+5586,cabify,2019-09-29,26
+5587,cabify,2019-10-06,26
+5588,cabify,2019-10-13,25
+5589,cabify,2019-10-20,20
+5590,cabify,2019-10-27,26
+5591,cabify,2019-11-03,20
+5592,cabify,2019-11-10,22
+5593,cabify,2019-11-17,23
+5594,cabify,2019-11-24,24
+5595,cabify,2019-12-01,27
+5596,cabify,2019-12-08,32
+5597,cabify,2019-12-15,25
+5598,cabify,2019-12-22,26
+5599,cabify,2019-12-29,28
+5600,cabify,2020-01-05,19
+5601,cabify,2020-01-12,19
+5602,cabify,2020-01-19,22
+5603,cabify,2020-01-26,19
+5604,cabify,2020-02-02,19
+5605,cabify,2020-02-09,21
+5606,cabify,2020-02-16,21
+5607,cabify,2020-02-23,20
+5608,cabify,2020-03-01,24
+5609,cabify,2020-03-08,16
+5610,cabify,2020-03-15,10
+5611,cabify,2020-03-22,7
+5612,cabify,2020-03-29,6
+5613,cabify,2020-04-05,7
+5614,cabify,2020-04-12,7
+5615,cabify,2020-04-19,5
+5616,cabify,2020-04-26,6
+5617,cabify,2020-05-03,6
+5618,cabify,2020-05-10,10
+5619,cabify,2020-05-17,7
+5620,cabify,2020-05-24,10
+5621,uber,2019-01-06,27
+5622,uber,2019-01-13,36
+5623,uber,2019-01-20,100
+5624,uber,2019-01-27,80
+5625,uber,2019-02-03,41
+5626,uber,2019-02-10,30
+5627,uber,2019-02-17,29
+5628,uber,2019-02-24,32
+5629,uber,2019-03-03,29
+5630,uber,2019-03-10,29
+5631,uber,2019-03-17,33
+5632,uber,2019-03-24,33
+5633,uber,2019-03-31,38
+5634,uber,2019-04-07,37
+5635,uber,2019-04-14,36
+5636,uber,2019-04-21,42
+5637,uber,2019-04-28,34
+5638,uber,2019-05-05,42
+5639,uber,2019-05-12,44
+5640,uber,2019-05-19,39
+5641,uber,2019-05-26,38
+5642,uber,2019-06-02,37
+5643,uber,2019-06-09,38
+5644,uber,2019-06-16,41
+5645,uber,2019-06-23,48
+5646,uber,2019-06-30,41
+5647,uber,2019-07-07,42
+5648,uber,2019-07-14,38
+5649,uber,2019-07-21,42
+5650,uber,2019-07-28,43
+5651,uber,2019-08-04,40
+5652,uber,2019-08-11,41
+5653,uber,2019-08-18,41
+5654,uber,2019-08-25,38
+5655,uber,2019-09-01,40
+5656,uber,2019-09-08,40
+5657,uber,2019-09-15,40
+5658,uber,2019-09-22,39
+5659,uber,2019-09-29,43
+5660,uber,2019-10-06,44
+5661,uber,2019-10-13,49
+5662,uber,2019-10-20,45
+5663,uber,2019-10-27,57
+5664,uber,2019-11-03,53
+5665,uber,2019-11-10,52
+5666,uber,2019-11-17,55
+5667,uber,2019-11-24,61
+5668,uber,2019-12-01,59
+5669,uber,2019-12-08,56
+5670,uber,2019-12-15,56
+5671,uber,2019-12-22,53
+5672,uber,2019-12-29,55
+5673,uber,2020-01-05,46
+5674,uber,2020-01-12,44
+5675,uber,2020-01-19,44
+5676,uber,2020-01-26,45
+5677,uber,2020-02-02,47
+5678,uber,2020-02-09,52
+5679,uber,2020-02-16,59
+5680,uber,2020-02-23,55
+5681,uber,2020-03-01,51
+5682,uber,2020-03-08,44
+5683,uber,2020-03-15,30
+5684,uber,2020-03-22,27
+5685,uber,2020-03-29,28
+5686,uber,2020-04-05,31
+5687,uber,2020-04-12,28
+5688,uber,2020-04-19,30
+5689,uber,2020-04-26,35
+5690,uber,2020-05-03,35
+5691,uber,2020-05-10,39
+5692,uber,2020-05-17,39
+5693,uber,2020-05-24,40
+5694,taxi,2019-01-06,43
+5695,taxi,2019-01-13,50
+5696,taxi,2019-01-20,100
+5697,taxi,2019-01-27,86
+5698,taxi,2019-02-03,67
+5699,taxi,2019-02-10,47
+5700,taxi,2019-02-17,45
+5701,taxi,2019-02-24,48
+5702,taxi,2019-03-03,50
+5703,taxi,2019-03-10,51
+5704,taxi,2019-03-17,53
+5705,taxi,2019-03-24,51
+5706,taxi,2019-03-31,52
+5707,taxi,2019-04-07,52
+5708,taxi,2019-04-14,57
+5709,taxi,2019-04-21,49
+5710,taxi,2019-04-28,52
+5711,taxi,2019-05-05,55
+5712,taxi,2019-05-12,53
+5713,taxi,2019-05-19,58
+5714,taxi,2019-05-26,55
+5715,taxi,2019-06-02,56
+5716,taxi,2019-06-09,61
+5717,taxi,2019-06-16,62
+5718,taxi,2019-06-23,73
+5719,taxi,2019-06-30,72
+5720,taxi,2019-07-07,74
+5721,taxi,2019-07-14,75
+5722,taxi,2019-07-21,75
+5723,taxi,2019-07-28,77
+5724,taxi,2019-08-04,82
+5725,taxi,2019-08-11,81
+5726,taxi,2019-08-18,74
+5727,taxi,2019-08-25,62
+5728,taxi,2019-09-01,63
+5729,taxi,2019-09-08,62
+5730,taxi,2019-09-15,57
+5731,taxi,2019-09-22,57
+5732,taxi,2019-09-29,57
+5733,taxi,2019-10-06,55
+5734,taxi,2019-10-13,53
+5735,taxi,2019-10-20,50
+5736,taxi,2019-10-27,53
+5737,taxi,2019-11-03,46
+5738,taxi,2019-11-10,44
+5739,taxi,2019-11-17,49
+5740,taxi,2019-11-24,46
+5741,taxi,2019-12-01,62
+5742,taxi,2019-12-08,54
+5743,taxi,2019-12-15,59
+5744,taxi,2019-12-22,65
+5745,taxi,2019-12-29,73
+5746,taxi,2020-01-05,41
+5747,taxi,2020-01-12,39
+5748,taxi,2020-01-19,42
+5749,taxi,2020-01-26,39
+5750,taxi,2020-02-02,41
+5751,taxi,2020-02-09,42
+5752,taxi,2020-02-16,45
+5753,taxi,2020-02-23,45
+5754,taxi,2020-03-01,40
+5755,taxi,2020-03-08,33
+5756,taxi,2020-03-15,32
+5757,taxi,2020-03-22,26
+5758,taxi,2020-03-29,22
+5759,taxi,2020-04-05,19
+5760,taxi,2020-04-12,21
+5761,taxi,2020-04-19,20
+5762,taxi,2020-04-26,20
+5763,taxi,2020-05-03,20
+5764,taxi,2020-05-10,21
+5765,taxi,2020-05-17,21
+5766,taxi,2020-05-24,22
+5767,en familia,2019-01-06,56
+5768,en familia,2019-01-13,67
+5769,en familia,2019-01-20,63
+5770,en familia,2019-01-27,62
+5771,en familia,2019-02-03,67
+5772,en familia,2019-02-10,72
+5773,en familia,2019-02-17,74
+5774,en familia,2019-02-24,57
+5775,en familia,2019-03-03,61
+5776,en familia,2019-03-10,60
+5777,en familia,2019-03-17,55
+5778,en familia,2019-03-24,64
+5779,en familia,2019-03-31,64
+5780,en familia,2019-04-07,60
+5781,en familia,2019-04-14,66
+5782,en familia,2019-04-21,54
+5783,en familia,2019-04-28,54
+5784,en familia,2019-05-05,56
+5785,en familia,2019-05-12,62
+5786,en familia,2019-05-19,59
+5787,en familia,2019-05-26,52
+5788,en familia,2019-06-02,57
+5789,en familia,2019-06-09,57
+5790,en familia,2019-06-16,57
+5791,en familia,2019-06-23,52
+5792,en familia,2019-06-30,52
+5793,en familia,2019-07-07,50
+5794,en familia,2019-07-14,56
+5795,en familia,2019-07-21,50
+5796,en familia,2019-07-28,48
+5797,en familia,2019-08-04,61
+5798,en familia,2019-08-11,57
+5799,en familia,2019-08-18,51
+5800,en familia,2019-08-25,54
+5801,en familia,2019-09-01,51
+5802,en familia,2019-09-08,49
+5803,en familia,2019-09-15,49
+5804,en familia,2019-09-22,55
+5805,en familia,2019-09-29,56
+5806,en familia,2019-10-06,53
+5807,en familia,2019-10-13,61
+5808,en familia,2019-10-20,60
+5809,en familia,2019-10-27,68
+5810,en familia,2019-11-03,67
+5811,en familia,2019-11-10,56
+5812,en familia,2019-11-17,68
+5813,en familia,2019-11-24,58
+5814,en familia,2019-12-01,62
+5815,en familia,2019-12-08,54
+5816,en familia,2019-12-15,58
+5817,en familia,2019-12-22,84
+5818,en familia,2019-12-29,82
+5819,en familia,2020-01-05,59
+5820,en familia,2020-01-12,59
+5821,en familia,2020-01-19,64
+5822,en familia,2020-01-26,64
+5823,en familia,2020-02-02,61
+5824,en familia,2020-02-09,61
+5825,en familia,2020-02-16,64
+5826,en familia,2020-02-23,56
+5827,en familia,2020-03-01,58
+5828,en familia,2020-03-08,51
+5829,en familia,2020-03-15,97
+5830,en familia,2020-03-22,100
+5831,en familia,2020-03-29,83
+5832,en familia,2020-04-05,86
+5833,en familia,2020-04-12,85
+5834,en familia,2020-04-19,79
+5835,en familia,2020-04-26,96
+5836,en familia,2020-05-03,97
+5837,en familia,2020-05-10,100
+5838,en familia,2020-05-17,90
+5839,en familia,2020-05-24,93
