@@ -52,15 +52,21 @@ The Gdelt Queries are based on the shared knowledge with the Data Team of Labeli
 
 - **https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-of-marketing-analysts-62e586cc0343**
 
--------------------------
+--------------------------------
+--------------------------------
+--------------------------------
 
-# ***Golden rules for Cloud Services***:
+
+**TROUBLESHOOTING TIME 1:** ***Golden rules for Cloud Services***:
 
 - **1. Your wallet is your sacred temple:** If you won't read all Google documentation carefully, at least go to billing and create a budget with alerts for your project, in case you do something wrong, receiving custom alerts before you spend a lot without noticing. Don't end up living under a bridge. 
 
 - **2. Your sacred temple has no protection by default:** Budget alerts won't cap payment when the limit is reached. They just alert you so you have time to turn everything down in case of panic. It can be configured to cap tho. 
 - **3. Worship Location:** While working on the different stages of your project, pay attention to put all your stuff in the very same region. Beware of headaches if don't. 
 - **4. Don't panic:** That's all.
+
+---------------------
+---------------------
 ---------------------
 
 ### Used tools to analyse the internet in Spain:
@@ -126,12 +132,21 @@ https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?_ga=
 
 https://console.cloud.google.com/storage/create-bucket?
         
-- Configure it: Due to our requirements we will use region location (**Europe West1**). Be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
+- Configure it: Due to our requirements we will use region location (**Europe Multi-region**). Be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
 
 
-### Pytrends (keywords without accents or capital letters. Script available in Cloud Function). The chosen keywords for this project:
+### Python script
 
-    - Videocalls: Zoom, Skype, Hangouts.
+*The Python script I'm using is available in the Cloud Function folder*.
+
+- Make sure it runs fine in your PC before uploading to Cloud Function. Than means you need to be able to write in Cloud Storage. 
+
+- If you are following my steps (gcsfs library) and a NotFounderror arises while trying to upload to Cloud Storage, try the first time uploading manually the requested csv(s) to Cloud, and after that you'll automate the reading/overwriting of this csv(s))
+
+
+Pytrends (keywords without accents or capital letters. Script available in Cloud Function). The chosen keywords for this project:
+
+    - Videocalls: Zoom, Skype, Hangouts.        
 
     - Politics: Refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica, protesta, manifestación.
 
@@ -179,18 +194,33 @@ If you want another approach, this is an awesome tutorial:
 
 - https://github.com/albertovpd/pytrends_cloud_function_example
 
-(Python script available in Cloud Function folder)
+---------------------------------------
+---------------------------------------
+---------------------------------------
 
-At this point the script works perfectly writing form my pc to cloud storage, nevertheless it fails when I use the cloud function. I'm following this thread and I'll write the causes and how to avoid them (when I know)
+**TROUBLESHOOTING TIME 2:** 
 
-- https://stackoverflow.com/questions/61284352/an-unknown-error-has-occurred-in-cloud-function-gcp-python
-
+If you can deploy your funciton perfectly but testing it you get the following error:
 
 ![alt](pics/cloud_function_error.png " ")
 
-I am starting to give more access than "originally necessary" to credentials and playing with timeouts... I'll stop until support team answers before keep doing black magic.
+Try debugging the following:
 
-![alt](pics/roles.png " ")
+1. When configuring the CF, use a large timeout and memory, in that order. If it works, start reducing that parameters until you use the minimum and still works (if you are going to work with increasing data with time you should foresee that first before assigning the minimal capacity).
+
+2. If nothing seems to work out you should double-check the permissions associated to the used Credentials Accounts.
+
+I have been stuck some time with this error. Maybe some information found here can be useful:
+
+- https://stackoverflow.com/questions/62064082/unknown-error-has-occurred-in-cloud-functions/62119865#62119865
+
+- https://www.reddit.com/r/googlecloud/comments/gs2gd9/an_unknown_error_has_occurred_in_cloud_functions/
+
+- https://www.reddit.com/r/cloudfunctions/comments/gu37ye/huge_amout_of_allocated_memory_needed_for/
+
+-------------------
+-------------------
+-------------------
 
 
 
@@ -343,25 +373,15 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 # Developer notes. 
 
-***Stuff we need to have at hand: Running schedules:***
-
-**Python script.** The old ones, modify to **mondays**
-
-- Cloud Storage: Region (lowest latency). Bucket in Europe West1
-
-- Dataprep settings: Europe West1-a
-
-- Dataprep project:
-
-===============
-
-- Cloud Scheduler: 00 20 * * 0 Europe(Paris). It means it will run every sunday at 20:00. Run the job in cloud scheduler doesn't mean the cloud function that is activated for that runs. It means it can do it right (as far as I am concerned at 09.05.20).
+- Cloud Storage: Bucket in Europe multi-region.
 
 - Cloud Function: Testing it will modify the outcome in Cloud Storage.
 
-- Dataprep: Weekly at sundays 8:30 pm, Europe/Paris (it has a different time format than Cloud Scheduler). Running jobs will modify what is in BigQuery.
+- Cloud Scheduler: 0 3 * * 1 Europe(Paris). It means it will run every monday at 3:00.
 
-- BigQuery: This schedule will run Every Sun at 21:00 Europe/Paris, starting Sun May 10 2020
+- Dataprep: 
+
+- BigQuery: 
 
 **Gdelt BigQuery.**
 
