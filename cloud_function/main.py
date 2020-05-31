@@ -1,5 +1,3 @@
-# PARA CORRER DEBUG ENTRAR EN ESTA CARPETA Y DESDE AQUÍ LLAMAR AL SCRIPT
-
 import os
 from os import listdir
 from os.path import isfile, join
