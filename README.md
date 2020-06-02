@@ -118,6 +118,10 @@ This is the price of curiosity. We are eager to work hard and enjoy for fun prog
 
 In Cloud environment, select your project, go to billing, and take a glance. Just select a weekly/monthly budget to your project, remember that it is linked to your bank account and a wrong action can cost a lot of money if you don't pay attention.
 
+In Notification Channels you can choose a lot of options, whatever suits you.
+
+![alt](pics/budget_alert.png " ")
+
 
 
 ### Create a new project and get your credentials here:
@@ -126,6 +130,7 @@ https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?_ga=
 
 - Service Account: Give it a nice name.
 - Role: Storage Object Admin, Cloud Function
+
 
 
 ### Create a bucket in Cloud Storage
@@ -218,6 +223,7 @@ I have been stuck some time with this error. Maybe some information found here c
 
 - https://www.reddit.com/r/cloudfunctions/comments/gu37ye/huge_amout_of_allocated_memory_needed_for/
 
+
 -------------------
 -------------------
 -------------------
@@ -226,12 +232,18 @@ I have been stuck some time with this error. Maybe some information found here c
 
 
 
-### Go to Cloud Scheduler to schedule your topic
+### Go to Cloud Scheduler to schedule your topic.
 
 - https://console.cloud.google.com/cloudscheduler/appengine
 
 1. Select the same region than all before
-2. Follow instructions and check your cronjob works :)
+2. Follow instructions and run your job to make sure it works :)
+- Be careful copypasting your Pub/Sub. "trigger" and "trigger " are not obviously the same.
+
+### Bigquery 1:
+
+- Create a dataset with the same location than the rest of the project.
+- Create a table with the elements of the Cloud Storage bucket (this will be updated with DataPrep)
 
 ### Dataprep:
 
@@ -246,7 +258,7 @@ Dataprep will load and transform files from Cloud Storage to BigQuery tables in 
 - In the workflow, use the calendar icon to schedule it (beware of time formats between Cloud Function, Dataprep, BigQuery... Use always the same location (if you can)).
 
 
-### Bigquery:
+### Bigquery 2:
 
 1. Go there.
 2. Create a scheduled query requesting from the tables periodically fed by Dataprep, and save them in other tables.
@@ -373,11 +385,11 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 # Developer notes. 
 
-- Cloud Storage: Bucket in Europe multi-region.
+- Cloud Storage: Bucket in Europe multi-region (dataprep has not Europe-London location)
 
 - Cloud Function: Testing it will modify the outcome in Cloud Storage.
 
-- Cloud Scheduler: 0 3 * * 1 Europe(Paris). It means it will run every monday at 3:00.
+- Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2)
 
 - Dataprep: 
 
