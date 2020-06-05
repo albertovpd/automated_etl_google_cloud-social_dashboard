@@ -247,15 +247,43 @@ I have been stuck some time with this error. Maybe some information found here c
 
 ### Dataprep:
 
-Dataprep will load and transform files from Cloud Storage to BigQuery tables in a scheduled process.
+Dataprep will load and transfer files from Cloud Storage to BigQuery tables in a scheduled process.
 
 - Select your project
-- **Very important:** Go to Settings/profile and locate your Dataprep folder in the same region than the rest of your other Google tools. Personally, I created a new bucket in Cloud Storage, with my Location and subfolders tmp and run_job. 
-- Select the Cloud Storage bucket (dataset or datasets).
-- Create a recipe.
-- Select an output for the recipe, Select the BigQuery table you will populate for manual and schedule job.
-- Select wether you want to append or modify the existing tables in BigQuery.
-- In the workflow, use the calendar icon to schedule it (beware of time formats between Cloud Function, Dataprep, BigQuery... Use always the same location (if you can)).
+
+- **Very important:** Go to <Settings/profile> and <Settings/project/Dataflow Execution> to locate your Dataprep folder in the same region than the rest of your other Google tools. 
+
+- Go to Cloud Storage and check the location of the dataprep-stagging bucket. If it is not in the location of your project, create a new bucket. In Dataprep/Preferences/Profile modify location of temp directory, job run directory and upload directory.
+
+- Workflow: Manual Job (for testing):
+
+        - Select the Cloud Storage bucket (dataset or datasets).
+        - Create a recipe.
+        - Select an output for the recipe, Select the BigQuery table you will feed (I think it should be done in Bigquery First).
+        - Select wether you want to append or modify the existing tables in BigQuery.
+        - In the workflow, use the calendar icon to schedule it (beware of time formats between Cloud Function, Dataprep, BigQuery... Use always the same location (if you can)).
+
+- When the job works fine, do exactly the same but with a scheduled job.
+
+--------------------------------
+--------------------------------
+--------------------------------
+
+
+**TROUBLESHOOTING TIME 3:**:
+
+Follow all mentioned above. Dataprep processes are veeery slow, so you can waste a lot of time waiting for the job to be done and going to the log console.
+
+----------------------
+--------------------------------
+--------------------------------
+
+In our case:
+
+        - Dataflow Execution Settings: Europe-West1 (Belgium)
+        - AutoZone
+        - n1 standard
+        - Truncate table in Bigquery (we'll overwrite continuously the Google Trends data due to how Google Trends works)
 
 
 ### Bigquery 2:
@@ -391,7 +419,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2)
 
-- Dataprep: 
+- Dataprep: Europe(Madrid). Weekly, on Monday  at 03:30 AM (Germany = Spain in time zones)
 
 - BigQuery: 
 
