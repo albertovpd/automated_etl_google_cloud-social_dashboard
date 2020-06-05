@@ -1,9 +1,18 @@
 # Socioeconomic Pytrends project.
 
-This is a personal to develop an ETL process in Google Cloud: From raw data acquisition to the final dashboard. Thanks to it, we've been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, pipelines, trigger schedulers with different time format... Quaratine fun.
+Motivation:
 
-![alt](pics/monguerteam.png " ")
+Is there a non expensive way to monitor the impact of the global crisis in Spain? I believe so, and this is the motivation to develop this **automated** ETL process in Google Cloud involving **Google Trends**, sentiment analysis and influence in news through the **Gdelt Project** and **Twitter**, from raw data acquisition to the final dashboard. Thanks to it, I have been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, Cloud Functions, pipelines, trigger schedulers with different time format, Dataprep global updates, etc... And I learned a lot in the way, quaratine fun! :D
 
+Thanks to Patricia, who worked in very interesting methodologies with Twitter. Unfortunately there is no cheap way of monitoring this social network the way we want... But we could (if we had enough money to burn hundred of euros monthly in cool nonprofit projects).
+
+
+![alt](pics/interactive_dashboard.png " ")
+
+The final dashboard (in process):
+- https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+
+-------------------------------
 
 1. **Introduction**
 2. **How to use**
@@ -337,20 +346,13 @@ People will spend more money on non necessary purchases like ordering food from 
 
 Remote working will last after the crisis?
  
-People will loose confidence in WhatsApp privacy? Tiktok will be part of our culture as a result of the lockdown?
-
-At this date, wednesday 22.04.20, it is not easy to give an answer, nevertheless this dashboard would help us to understand the short term past, the present, and maybe the close future.
-
-The result can be found here: 
-https://datastudio.google.com/s/lmWzf76qh90
+At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless this dashboard would help us to understand the short term past, the present, and maybe the close future.
 
 -----------------------
 
 # 5. Conclusion 
 
-Personally, this project has help me to reinforce my skills developing an ETL pipeline in Google Cloud environment.
-
-I am exited to start the improvements, improve the Gdelt part, and use Twitter API to generate a dashboard portraying the spanish social situation.
+(we're still developing)
 
 ---------------------
 
@@ -395,7 +397,7 @@ Many thanks to:
 
 ---------------------
 
-
+![alt](pics/monguerteam.png " ")
 Project by **Patricia Carmona** and **Alberto Vargas**.
 
 
@@ -422,10 +424,6 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 - Dataprep: Europe(Madrid). Weekly, on Monday  at 03:30 AM (Germany = Spain in time zones)
 
 - BigQuery: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020 
-
-**Gdelt BigQuery.**
-
-(Still in development)
 
 ------------------
 ------------------
