@@ -1,4 +1,4 @@
-# Socioeconomic Pytrends project.
+# Socioeconomic Portrait Project.
 
 Motivation:
 
@@ -22,11 +22,6 @@ The final dashboard (in process):
 6. **Further improvements**
 7. **Documentation**
 
-
-
-- Dashboard in progress:
-![alt](pics/trends_example.png)
-*An automated dashboard is worth a thousand words.* 
 
 
 
@@ -158,25 +153,7 @@ https://console.cloud.google.com/storage/create-bucket?
 - If you are following my steps (gcsfs library) and a NotFounderror arises while trying to upload to Cloud Storage, try the first time uploading manually the requested csv(s) to Cloud, and after that you'll automate the reading/overwriting of this csv(s))
 
 
-Pytrends (keywords without accents or capital letters. Script available in Cloud Function). The chosen keywords for this project:
-
-    - Videocalls: Zoom, Skype, Hangouts.        
-
-    - Politics: Refugiados, inmigración, nacionalismo, corrupción, estado de alarma, comparecencia, independentismo, crisis política, barómetro, crisis económica, protesta, manifestación.
-
-    - Political parties: Bildu, Ciudadanos Compromís, ERC, Más País, PNV, Podemos, PP, PSOE, VOX.
-
-    - Employment: Teletrabajo, remoto, cursos online, productividad, autónomo, negocio online, emprendimiento,formación.
-
-    - Unemployment / Consequences: ERTE, paro, SEPE, desempleo, deshaucio, comedor social, banco alimentos, Cruz Roja, Cáritas.
-
-    - Home: Ayuda alquiler,  compartir piso, divorcio, embarazo, hipoteca, idealista, Badi, piso barato.
-
-    - Health: Coronavirus, pandemia, infección, médico, residencia ancianos, desescalada. 
-
-    - Education: Clases online, exámenes, menú escolar, bullying.
-
-    - Leisure / Habits: Netflix, Disney, Amazon, Cabify, Uber, Taxi, HBO, Steam, Glovo, Just Eat, Deliveroo, Uber Eats, hacer deporte, en casa, yoga, meditación, videollamada, videoconferencia, Tinder, Meetic, en familia.
+Pytrends (keywords without accents or capital letters. Script available in Cloud Function). The chosen keywords for this project are in the ***cloud_function/requesting_from_pytrends.py***  folder.
 
 
 - Google Trends has the option of selection in which category you want to find your keywords. We have our reasons to not include categories in the code.
