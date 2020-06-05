@@ -291,7 +291,7 @@ In our case:
 1. Go there.
 2. Create a scheduled query requesting from the tables periodically fed by Dataprep, and save them in other tables.
 
-In this folder you will find the sql query, in case you want to take a glance.
+In ***bigquery/tables_python_api*** is available the sql query of Pytrends, in case you want to take a glance.
 
 ### Data Studio:
 
@@ -421,7 +421,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Dataprep: Europe(Madrid). Weekly, on Monday  at 03:30 AM (Germany = Spain in time zones)
 
-- BigQuery: 
+- BigQuery: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020 
 
 **Gdelt BigQuery.**
 

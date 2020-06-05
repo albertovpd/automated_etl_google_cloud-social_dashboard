@@ -25,7 +25,7 @@ keywords=[
     "comparecencia","independentismo","crisis política","barometro","crisis economica",
     "protesta","manifestacion",
 
-    "vox","pp","psoe","podemos","pnv","mas pais","compromis","erc","bildu",
+    "bildu","ciudadanos","compromis","erc","mas pais", "pnv","podemos","pp","psoe","vox",
 
     "teletrabajo","remoto","cursos online","productividad","autonomo",
     "negocio online","emprendimiento", "formacion",
