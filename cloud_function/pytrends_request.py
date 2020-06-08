@@ -17,7 +17,6 @@ from datetime import datetime, date, time, timedelta
 dates="2019-01-01"+" "+str(datetime.now().date()) 
 print(dates)
 
-
 keywords=[
     "zoom","skype","hangouts",
 
