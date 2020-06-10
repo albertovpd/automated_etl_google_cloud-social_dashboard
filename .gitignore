@@ -6,3 +6,4 @@ upload_gcs_real.py
 *.zip
 input/
 *.ipynb 
+twitter_folder/.ipynb_checkpoints/
