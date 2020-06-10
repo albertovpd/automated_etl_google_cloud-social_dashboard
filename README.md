@@ -103,15 +103,12 @@ The Gdelt Project is a database with all the news of the world, updated every 15
 
 ***Twitter***: 
 
-- Python. 
-- "****" library.
-
 This if the price of working with Twitter:
 
 ![alt](pics/twitter_fees.png " ")
-This is the price of curiosity. We are eager to work hard and enjoy for fun programming, but we are not Amancio Ortega.
+This is the price of curiosity. We are eager to work hard and enjoy programming for fun , but our curiosity has a limit budget to spend in leisure projects.
 
-*PatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriTextPatriText*
+- Patricia will make the Twitter code public soon :)
 
 -------------------------------
 -------------------------------

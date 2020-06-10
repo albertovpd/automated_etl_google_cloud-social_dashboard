@@ -4,3 +4,4 @@ tmp
 *.json
 upload_gcs_real.py
 *.zip
+input/
