@@ -1,3 +1,5 @@
+-- Due to how Google Trends works, I overwrite continuously the Google Trends tables with the newest info
+
 CREATE OR REPLACE TABLE
   your_table_name.videocall_searches AS
 SELECT

@@ -1,7 +1,8 @@
 import pandas as pd
-# took all newspapers from here, I think it's pretty full https://www.enterat.com/actualidad/periodicos-digitales-espana.php
+# this is for creating the dataset of spanish newspaperes.
+# https://www.enterat.com/actualidad/periodicos-digitales-espana.php
 raw_list=[
-    "www.abc.es",
+    "https://www.abc.es/",
     "https://www.elmundo.es/",
     "https://elpais.com/",
     "https://www.larazon.es/",

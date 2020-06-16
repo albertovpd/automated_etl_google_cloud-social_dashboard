@@ -81,28 +81,22 @@ The Gdelt Queries are based on the shared knowledge with the Data Team of Labeli
 
 ***Google Trends***:
 
--  Python. 
+- Python. 
 - Pytrends library.
 
 Google Trends is a Google tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
 
-Google trends searches the maximum on the specified period, makes that maximum the 100% of Trend Index and everything else is averaged by that top. If you request information weekly, you will have a point with 100% of Trend Index each week, regardless how popular it is.
+Google trends searches the maximum on the specified period, makes that maximum the 100% of Trend Index and everything else in the requested dates averaged by that top. If you request information weekly, you will have a point with 100% of Trend Index each week, regardless how popular it is. 
 
 - If you request a list of elements, all elements will be averaged by the top one.
 
 - If you request each of your keywords separately, each keyword will be averaged on time by its own top.
 
+So basically there are 2 ways of using it: Compare the evolution in time of different keywords, or checking the evolution in time of every keyword, each one separately. We took the 2nd path.
+
 
 -----------------------
 
-***Gdelt Project***: 
-
-- SQL. 
-- Bigquery.
-
-The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available in almost 70 languages via BigQuery.
-
-------------------------------
 
 ***Twitter***: 
 
@@ -122,6 +116,30 @@ By the way, work *seriously* with twitter is quite expensive, and we do love pro
 ![alt](pics/twitter_fees.png " ")
 
 -------------------------------
+
+***Gdelt Project***: 
+
+- SQL. 
+- Bigquery.
+
+The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available in almost 70 languages via BigQuery.
+
+We want to monitor what spanish news say about certain topics, so the process is the following:
+
+1. Create a dataset with all the spanish newspapers (real and digital ones). In *bigquery/spanish_newspapers.py* you can figure out the created dataset (254 different media).
+
+2. Make a bigquery table with that dataset.
+
+3. Select the *themes* you want to monitor in Gdelt. In *bigquery/bigquery_gdelt_themes_list.sql* you can find all themes available.
+
+4. Make a query filtering by your goals, contrasting against the created table of spanish media and loading the data into a new table. 
+
+5. Run the fisrt query from 01.01.2019. After that, just schedule queries to append to that table.
+
+6. Plot it in Data Studio.
+
+------------------------------
+
 -------------------------------
 
 # 2. How to:
@@ -347,14 +365,7 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 
 # 6. Further improvements.
 
-- All themes available in Gdelt:
-
-                WITH nested AS (
-                SELECT SPLIT(RTRIM(Themes,';'),';') themes FROM `gdelt-bq.gdeltv2.gkg_partitioned` WHERE _PARTITIONTIME >= "2019-09-04 00:00:00" AND _PARTITIONTIME < "2019-09-05 00:00:00" and length(Themes) > 1
-                ) select theme, count(1) cnt from nested, UNNEST(themes) as theme group by theme order by cnt desc
-
-I am sure there are more themes than I used here that worth monitoring across the country. There is a need of improving news location.
-
+- Better research on themes to follow in Gdelt.
 - Use Python APis to track Stock Markets on time.
 
 ----------------------------
