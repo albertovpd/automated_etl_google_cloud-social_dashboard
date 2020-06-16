@@ -138,6 +138,8 @@ We want to monitor what spanish news say about certain topics, so the process is
 
 6. Plot it in Data Studio.
 
+- Jesús gave me a hand with this final approach :) https://www.linkedin.com/in/jralvarez1986/ 
+
 ------------------------------
 
 -------------------------------
@@ -435,7 +437,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Dataprep: Europe(Madrid). Weekly, on Monday  at 03:30 AM (Germany = Spain in time zones)
 
-- BigQuery: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020 
+- BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020 
 
 ------------------
 ------------------
