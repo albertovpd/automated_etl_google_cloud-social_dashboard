@@ -5,6 +5,7 @@
 -- idea:
 -- https://blog.gdeltproject.org/mapping-the-media-a-geographic-lookup-of-gdelts-sources/
 
+-- VERSION 1
 SELECT
   EXTRACT (date
   FROM
@@ -45,3 +46,36 @@ WHERE
   v2counts LIKE '%#SP#%'
   and V2Locations like '%#SP#%'
   AND DATE(_PARTITIONTIME) >= "2019-01-01";
+
+-- =========================================
+
+-- VERSION 2
+
+SELECT
+-- this select is just here to use the final where, filtering the created nulls in news_in_Spain
+  *
+FROM (
+  SELECT
+    EXTRACT (date
+    FROM
+      PARSE_TIMESTAMP('%Y%m%d%H%M%S',CAST(date AS string))) AS Date,
+    DocumentIdentifier,
+    ROUND(CAST(SPLIT(V2Tone, ",") [
+      OFFSET
+        (0)] AS FLOAT64),2) AS Sentiment,
+    (CASE
+        WHEN V2Themes LIKE "%ECON_STOCKMARKET%" THEN "stock_market"
+    END
+      ) AS news_in_Spain
+  FROM
+    `gdelt-bq.gdeltv2.gkg_partitioned`
+  WHERE
+    --v2counts LIKE '%#SP#%'
+    --and counts like '%#SP#%'
+    --and V2Locations like '%#SP#%'
+    V2Themes IS NOT NULL
+    AND DocumentIdentifier LIKE "%abc.es%"
+    AND DATE(_PARTITIONTIME) >= "2020-01-01" )
+    
+WHERE
+  news_in_Spain IS NOT NULL
