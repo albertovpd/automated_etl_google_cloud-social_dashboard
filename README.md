@@ -2,15 +2,18 @@
 
 Motivation:
 
-Is there a non expensive way to monitor the impact of the global crisis in Spain? I believe so, and this is the motivation to develop this **automated** ETL process in Google Cloud involving **Google Trends**, sentiment analysis and influence in news through the **Gdelt Project** and **Twitter**, from raw data acquisition to the final dashboard. Thanks to it, I have been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, Cloud Functions, pipelines, trigger schedulers with different time format, Dataprep global updates, etc... And I learned a lot in the way, quaratine fun! :D
+Is there a way of monitoring some aspects of the global crisis in Spain? I believe so, and this is the motivation to develop this **automated** ETL process in Google Cloud involving **Google Trends**, sentiment analysis and influence in news through the **Gdelt Project** and **Twitter**, from raw data acquisition to the final dashboard. Thanks to it, I have been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, Cloud Functions, pipelines, trigger schedulers with different time format, Dataprep global updates, etc... And I learned a lot in the way, quaratine fun! :D
 
-Thanks to Patricia, who worked in very interesting methodologies with Twitter. Unfortunately there is no cheap way of monitoring this social network the way we want... But we could (if we had enough money to burn hundred of euros monthly in cool nonprofit projects).
-
+Thanks to Patricia, who worked in very interesting methodologies with Twitter.
 
 ![alt](pics/interactive_dashboard.png " ")
 
 The final dashboard (in process):
 - https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+
+Twitter code and how-to:
+- https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f
+
 
 -------------------------------
 
@@ -103,12 +106,20 @@ The Gdelt Project is a database with all the news of the world, updated every 15
 
 ***Twitter***: 
 
-This if the price of working with Twitter:
+Using Tweepy, the Python's library for Twitter requests to generate dataframes for each query.  The built-in function Cursor help to develop a function to create a dataframe and include all tweets from the last 7 days related to a word, recording date, user, id and text for each tweet. The function search includes a complex query, geolocation and language to get only tweets from Spanish people.
+
+We used Twitter Standard API, the *freemium* service, so results were limited up to 7 days and a maximum of mixed results from popular and recent tweets.
+
+This helped us to know what were people talking about unemployment and its effects during COVID-19.
+
+In the twitter folder there is merging-datasets script, you can find the twitter requesting script here, and the process here: 
+
+- **https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f**
+
+
+By the way, work *seriously* with twitter is quite expensive, and we do love programming, but our budget, as our leisure time, is limited.
 
 ![alt](pics/twitter_fees.png " ")
-This is the price of curiosity. We are eager to work hard and enjoy programming for fun , but our curiosity has a limit budget to spend in leisure projects.
-
-- Patricia will make the Twitter code public soon :)
 
 -------------------------------
 -------------------------------
@@ -160,8 +171,6 @@ Pytrends (keywords without accents or capital letters. Script available in Cloud
 If you want another approach, this is an awesome tutorial:
 
 - https://searchengineland.com/learn-how-to-chart-and-track-google-trends-in-data-studio-using-python-329119
-
-
 
 ### Deploy the scripts on Google Cloud Function:
 
@@ -326,7 +335,12 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 
 # 5. Conclusion 
 
-(we're still developing)
+- This project has being very useful to reinforce my Google Cloud domain, which is the main goal, and it is accomplished.
+
+- The second goal is to get more expertise working with Gdelt, performing more accurate filters. I'm on that right now.
+
+- It is a drawback the fact that Google Trends delivers information in a *quite weird manner*, it is already processed, and for instance, requesting weekly is pointless for our purposes, you have to request all the period you want to analyse at once. Also doing that implies that the information is delivered by blocks, so if I request information every monday from 1st january 2019, I will get all the info grouped by week, without the last week, making the dashboard look like not up to date.
+- Working with Twitter in a professional manner is also very expensive for resources and money, because you request all written twitters in a region/time, and then you analyse what info you want to extract. We did not see a cheap way of requesting just the number of times a concrete word appears, for example. The requesting is also very slow... I don't want to imagine how expensive could be to have a VM instance requesting and processing 24/7.
 
 ---------------------
 
@@ -339,7 +353,7 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
                 SELECT SPLIT(RTRIM(Themes,';'),';') themes FROM `gdelt-bq.gdeltv2.gkg_partitioned` WHERE _PARTITIONTIME >= "2019-09-04 00:00:00" AND _PARTITIONTIME < "2019-09-05 00:00:00" and length(Themes) > 1
                 ) select theme, count(1) cnt from nested, UNNEST(themes) as theme group by theme order by cnt desc
 
-I am sure there are more themes than I used here that worth monitoring across the country.
+I am sure there are more themes than I used here that worth monitoring across the country. There is a need of improving news location.
 
 - Use Python APis to track Stock Markets on time.
 
@@ -356,6 +370,19 @@ I am sure there are more themes than I used here that worth monitoring across th
 - The "real" Google Trends: https://towardsdatascience.com/google-trends-api-for-python-a84bc25db88f
 - A great tutorial https://searchengineland.com/learn-how-to-chart-and-track-google-trends-in-data-studio-using-python-329119
 
+
+- https://github.com/albertovpd/pytrends_cloud_function_example
+
+
+- The Python ETL pipeline is based on this article **https://towardsdatascience.com/creation-of-an-etl-in-google-cloud-platform-for-automated-reporting-8a0309ee8a78**
+
+- The Gdelt Queries are based on the shared knowledge with the Data Team of Labelium España: **https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-of-marketing-analysts-62e586cc0343**
+
+- The final dashboard (in process): - https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+
+- Twitter code and how-to: **https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f**
+
+- https://github.com/albertovpd/automated_etl_google_cloud-social_dashboard
 
 
 --------------------------------
@@ -402,6 +429,3 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 ------------------
 ------------------
 -----------------
-
-
-
