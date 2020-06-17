@@ -117,3 +117,46 @@ FROM (
     AND DATE(_PARTITIONTIME) >= "2020-01-01" )
 WHERE
   news_in_Spain IS NOT NULL
+
+
+-- =========================================================
+-- VERSION 4
+-- =========================================================
+
+SELECT
+  -- este select está solo para usar el where al final y eliminar los null que se generan en news_in_Spain
+  *
+FROM (
+  SELECT
+    EXTRACT (date
+    FROM
+      PARSE_TIMESTAMP('%Y%m%d%H%M%S',CAST(date AS string))) AS Date,
+    SourceCommonName,
+    
+    ROUND(CAST(SPLIT(V2Tone, ",") [
+      OFFSET
+        (0)] AS FLOAT64),2) AS Sentiment,
+        
+    (CASE
+        WHEN V2Themes LIKE "%ECON_STOCKMARKET%" THEN "stock_market"
+    END
+      ) AS news_in_Spain
+      
+      ,v2counts,
+      v2locations
+  FROM
+    `gdelt-bq.gdeltv2.gkg_partitioned`
+  WHERE
+    v2counts LIKE '%#SP#%'
+    and counts like '%#SP#%'
+    and V2Locations like '%#SP#%'
+    and
+    --DocumentIdentifier LIKE "%abc.es%"
+    ( SourceCommonName IN (
+      SELECT
+        spanish_newspapers
+      FROM
+        `project-test-3105.gdelt_info_filtering.spanish_newspapers_SourceCommonName_160620`))
+    AND DATE(_PARTITIONTIME) >= "2020-01-01" )
+WHERE
+  news_in_Spain IS NOT NULL

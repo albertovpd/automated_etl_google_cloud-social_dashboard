@@ -380,6 +380,8 @@ raw_list=[
 
 ]
 
+
+
 spanish_media=set(raw_list)
 #print("initial list: ", len(raw_list),"\n",     "removing duplicates: ", len(spanish_media))
 

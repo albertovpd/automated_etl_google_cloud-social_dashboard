@@ -8,5 +8,6 @@ input/
 *.json
 *.zip
 upload_gcs_real.py
+spanish_newspapers_SourceCommonName.py
 
 
