@@ -1,5 +1,9 @@
 # Socioeconomic Portrait Project.
 
+![alt](pics/automated_dashboard_preview.gif "uy mola")
+The final dashboard:
+- https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+
 Motivation:
 
 Is there a way of monitoring some aspects of the global crisis in Spain? I believe so, and this is the motivation to develop this **automated** ETL process in Google Cloud involving **Google Trends**, sentiment analysis and influence in news through the **Gdelt Project** and **Twitter**, from raw data acquisition to the final dashboard. Thanks to it, I have been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, Cloud Functions, pipelines, trigger schedulers with different time format, Dataprep global updates, etc... And I learned a lot in the way, quaratine fun! :D
@@ -8,8 +12,7 @@ Thanks to Patricia, who worked in very interesting methodologies with Twitter.
 
 ![alt](pics/interactive_dashboard.png " ")
 
-The final dashboard (in process):
-- https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+
 
 Twitter code and how-to:
 - https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f
