@@ -2,15 +2,13 @@
 
 ![alt](pics/automated_dashboard_preview.gif "uy mola")
 
-Static preview:
+- Above buttons enable a better visualization: select wanted keywords you want to study and exclude the others:
 ![alt](pics/interactive_dashboard.png " ")
-
 
 The final dashboard:
 - https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
 
-- Above buttons enable a better visualization: select wanted keywords you want to study and exclude the others:
-![alt](pics/interactive_dashboard.png " ")
+
 
 -----------------------------
 
