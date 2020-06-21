@@ -27,9 +27,6 @@ Thanks to Patricia, who worked in very interesting methodologies with Twitter. H
 
 
 
-
-
-
 ------------------------------
 
 
@@ -83,7 +80,7 @@ The Gdelt Queries are based on the shared knowledge with the Data Team of Labeli
 - Python. 
 - Pytrends library.
 
-Google Trends is a Google tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
+Google Trends is a tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
 
 Google trends searches the maximum on the specified period, makes that maximum the 100% of Trend Index and everything else in the requested dates averaged by that top. If you request information weekly, you will have a point with 100% of Trend Index each week, regardless how popular it is. 
 
