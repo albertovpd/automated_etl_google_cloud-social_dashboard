@@ -52,7 +52,7 @@ Let's show a social point of view of the pandemic's impact in Spain, through an 
 - Pub/Sub topic: Triggers (activates) the Cloud Function.
 - Cloud Scheduler: Schedule a Pub/Sub topic.
 - Cloud Storage: Data Lake. Gets fed periodically with the python script.
-- Dataprep: Load periodically from Cloud Storage to BigQuery.
+- Transfer: Load periodically from Cloud Storage to BigQuery (done before with Dataprep, but on September 2020 they will change their pricing and it is going to be unaffordable for any personal project).
 - BigQuery: Data Warehouse. 
         - Creates different tables with the output of dataprep. 
         - Performs a weekly query modifying tables.
@@ -264,7 +264,19 @@ I have been stuck some time with this error. Maybe some information found here c
 - Create a dataset with the same location than the rest of the project.
 - Create a table with the elements of the Cloud Storage bucket (this will be updated with DataPrep)
 
+### Transfer:
+
+- Go to Bigquery => Transfer. 
+
+From there, it is really user-friendly to find your data in Cloud Storage, choose a dataset in Bigquery, append/overwrite the table within the dataset (in our case, append), and schedule it.
+
+There is also the option of triggering it with Pub/Sub, but it is not necessary for me.
+
+A cool option is, once the data is loaded from Cloud Storage to Bigquery, you can configure Transfer to erase the Cloud Storage bucket content (I understand this can save money if you are dealing with heavy volumes of data).
+
 ### Dataprep:
+
+**This is not part of the pipeline anymore. It has been changed by Transfer. Nevertheless I leave here the information, in case someone finds it useful.**
 
 Dataprep will load and transfer files from Cloud Storage to BigQuery tables in a scheduled process.
 
@@ -305,10 +317,14 @@ In our case:
         - Truncate table in Bigquery (we'll overwrite continuously the Google Trends data due to how Google Trends works)
 
 
+-------------------------------------------------
+
 ### Bigquery 2:
 
 1. Go there.
-2. Create a scheduled query requesting from the tables periodically fed by Dataprep, and save them in other tables.
+2. Create a scheduled query requesting from the tables periodically fed by Transfer, and save them in other tables.
+
+The motivation for this is the following: Data Studio is the cheapest when the dashboarded data is allocated in BigQuery tables. So, if you have all the needed info in a BigQuery table, is a good option to create as much tables as graphs you will have in your Data Studio. Don't create tables randomly, just plan beforehand what you want to show in your dashboard, and how do you want to show it. 
 
 In ***bigquery/tables_python_api*** is available the sql query of Pytrends, in case you want to take a glance.
 
@@ -434,6 +450,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 ---------------------------
 -----------------------------
 
+
 # Developer notes. 
 
 - Cloud Storage: Bucket in Europe multi-region (dataprep has not Europe-London location)
@@ -442,9 +459,10 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2)
 
-- Dataprep: Europe(Madrid). Weekly, on Monday  at 03:30 AM (Germany = Spain in time zones)
+- Transfer: Germany. Weekly, on Monday  at 03:30 AM GTM+2(Germany = Spain in time zones)
 
 - BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020 
+
 
 ------------------
 ------------------
