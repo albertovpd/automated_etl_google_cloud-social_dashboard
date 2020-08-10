@@ -9,7 +9,7 @@ SELECT
   Date,
   Sentiment
 FROM
-  `project-test-3105.gdelt_info_filtering.filtered_spanish_news`
+  `myproject-mydataset.gdelt_info_filtering.filtered_spanish_news`
 WHERE
   news_in_Spain = "agresion_sexual"
   OR news_in_Spain = "inmigracion"

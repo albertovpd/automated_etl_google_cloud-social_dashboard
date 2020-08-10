@@ -3,13 +3,13 @@
 
 
 CREATE OR REPLACE TABLE
-  `project-test-3105.gdelt_info_filtering.dashboard_spanish_news_economical` AS
+  `myproject-mydataset.gdelt_info_filtering.dashboard_spanish_news_economical` AS
 SELECT
   news_in_Spain AS economical,
   Date,
   Sentiment
 FROM
-  `project-test-3105.gdelt_info_filtering.filtered_spanish_news`
+  `myproject-mydataset.gdelt_info_filtering.filtered_spanish_news`
 WHERE
   news_in_Spain = "stock_market"
   OR news_in_Spain = "incertidumbre_economica"
@@ -28,13 +28,13 @@ WHERE
   OR news_in_Spain ="precio_petroleo" ;
   -- ------------------------------------
 CREATE OR REPLACE TABLE
-  `project-test-3105.gdelt_info_filtering.dashboard_spanish_news_political` AS
+  `myproject-mydataset.gdelt_info_filtering.dashboard_spanish_news_political` AS
 SELECT
   news_in_Spain AS political,
   Date,
   Sentiment
 FROM
-  `project-test-3105.gdelt_info_filtering.filtered_spanish_news`
+  `myproject-mydataset.gdelt_info_filtering.filtered_spanish_news`
 WHERE
   news_in_Spain = "inestabilidad_politica"
   OR news_in_Spain = "rebelion"
@@ -53,13 +53,13 @@ WHERE
   OR news_in_Spain ="violencia_politica_y_guerra_civil";
   -- -------------------------
 CREATE OR REPLACE TABLE
-  `project-test-3105.gdelt_info_filtering.dashboard_spanish_news_social` AS
+  `myproject-mydataset.gdelt_info_filtering.dashboard_spanish_news_social` AS
 SELECT
   news_in_Spain AS social,
   Date,
   Sentiment
 FROM
-  `project-test-3105.gdelt_info_filtering.filtered_spanish_news`
+  `myproject-mydataset.gdelt_info_filtering.filtered_spanish_news`
 WHERE
   news_in_Spain = "agresion_sexual"
   OR news_in_Spain = "inmigracion"

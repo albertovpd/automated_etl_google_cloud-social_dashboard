@@ -6,7 +6,7 @@
 -- to get just the new weekly info. This info will be appended to the important tables.
 
 CREATE OR REPLACE TABLE
-  `project-test-3105.gdelt_info_filtering.filtered_spanish_news` AS
+  `myproject-mydataset.gdelt_info_filtering.filtered_spanish_news` AS
   -- list of themes http://data.gdeltproject.org/api/v2/guides/LOOKUP-GKGTHEMES.TXT
 SELECT
   -- este select está solo para usar el where al final y eliminar los null que se generan en news_in_Spain
@@ -92,6 +92,6 @@ FROM (
       SELECT
         spanish_newspapers
       FROM
-        `project-test-3105.gdelt_info_filtering.spanish_newspapers_SourceCommonName_160620`)))
+        `myproject-mydataset.gdelt_info_filtering.spanish_newspapers_SourceCommonName_160620`)))
 WHERE
   news_in_Spain IS NOT NULL
