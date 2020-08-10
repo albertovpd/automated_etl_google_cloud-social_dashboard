@@ -1,6 +1,7 @@
 -- 1st query request all info and save it to make a concrete graph in Dashboard
 -- 2nd query create tables dividing the Gdelt info, to make other Graphs by theme
 
+
 CREATE OR REPLACE TABLE
   `project-test-3105.gdelt_info_filtering.dashboard_spanish_news_economical` AS
 SELECT
@@ -29,7 +30,7 @@ WHERE
 CREATE OR REPLACE TABLE
   `project-test-3105.gdelt_info_filtering.dashboard_spanish_news_political` AS
 SELECT
-  news_in_Spain AS economical,
+  news_in_Spain AS political,
   Date,
   Sentiment
 FROM
@@ -43,7 +44,6 @@ WHERE
   OR news_in_Spain ="corrupcion"
   OR news_in_Spain ="protestas"
   OR news_in_Spain ="extremismo"
-  OR news_in_Spain = "pobreza"
   OR news_in_Spain = "refugiados"
   OR news_in_Spain ="vigilancia"
   OR news_in_Spain = "autoridades_anticorrupcion"
@@ -55,7 +55,7 @@ WHERE
 CREATE OR REPLACE TABLE
   `project-test-3105.gdelt_info_filtering.dashboard_spanish_news_social` AS
 SELECT
-  news_in_Spain AS economical,
+  news_in_Spain AS social,
   Date,
   Sentiment
 FROM
@@ -69,10 +69,12 @@ WHERE
   OR news_in_Spain ="emprendimiento"
   OR news_in_Spain ="emergencia_sanitaria"
   OR news_in_Spain ="precio_vivienda"
-  OR news_in_Spain = "pobreza"
   OR news_in_Spain = "energias_renovables"
   OR news_in_Spain ="pandemia"
   OR news_in_Spain = "subsidios"
   OR news_in_Spain ="racismo"
   OR news_in_Spain ="vacunas"
-  OR news_in_Spain ="censura_en_medios";
+  OR news_in_Spain ="censura_en_medios"
+  OR news_in_Spain = "enfermedades_muy_infecciosas"  -- https://blog.gdeltproject.org/infectious-disease-mapping-and-early-warning-with-gdelt/
+  OR news_in_Spain = "numero_de_contagios_covid%"
+  OR news_in_Spain = "fallecimiento_por_covid";

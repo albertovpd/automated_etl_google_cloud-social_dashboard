@@ -1,6 +1,7 @@
 -- 1st query request all info and save it to make a concrete graph (percentaje of news according to the selected topics)
 -- 2nd query create tables dividing the Gdelt info, to make other Graphs by theme
 
+-- The definitive version is the number 5
 
 -- VERSION 1
 SELECT
@@ -165,6 +166,9 @@ WHERE
 -- ===========================================================
 -- ===========================================================
   -- list of themes http://data.gdeltproject.org/api/v2/guides/LOOKUP-GKGTHEMES.TXT
+CREATE OR REPLACE TABLE
+  `project-test-3105.gdelt_info_filtering.filtered_spanish_news` AS
+  -- list of themes http://data.gdeltproject.org/api/v2/guides/LOOKUP-GKGTHEMES.TXT
 SELECT
   -- este select está solo para usar el where al final y eliminar los null que se generan en news_in_Spain
   *
@@ -178,14 +182,12 @@ FROM (
       OFFSET
         (0)] AS FLOAT64),2) AS Sentiment,
     (CASE
-      -- discarded at the moment
       --WHEN V2Themes LIKE "%IDEOLOGY%" THEN "ideologia"
       -- WHEN V2Themes LIKE "%CRISISLEX_CRISISLEXREC%" THEN "use_of_social_media_for_crisis_and_disaster_response" --https://blog.gdeltproject.org/crisislex-taxonomies-now-available-in-gkg/
       -- WHEN V2Themes LIKE "%EPU_POLICY_GOVERNMENT%" THEN "epu_policy_goverment"
       --WHEN V2Themes LIKE "%ARMEDCONFLICT%" THEN "conflicto_armado"
       --WHEN V2Themes LIKE "%TRANSPARENCY%" THEN "transparencia"
       --WHEN V2Themes LIKE "%SCANDAL%" THEN "escandalo"
-
       -- ECONOMICAL
         WHEN V2Themes LIKE "%ECON_STOCKMARKET%" THEN "stock_market"
         WHEN V2Themes LIKE "%EPU_POLICY%" THEN "incertidumbre_economica" -- https://blog.gdeltproject.org/economic-policy-uncertainty-is-driving-economic-uncertainty-in-the-era-of-trump/
@@ -233,6 +235,9 @@ FROM (
         WHEN v2themes LIKE "%DISCRIMINATION_RACE_RACISM%" THEN "racismo"
         WHEN v2themes LIKE "%HEALTH_VACCINATION%" THEN "vacunas"
         WHEN v2themes LIKE "%MEDIA_CENSORSHIP%" THEN "censura_en_medios"
+        WHEN V2THEMES LIKE "%TAX_DISEASE%" THEN "enfermedades_muy_infecciosas"  -- https://blog.gdeltproject.org/infectious-disease-mapping-and-early-warning-with-gdelt/
+        WHEN v2themes LIKE "%TAX_DISEASE_CORONAVIRUS_INFECTIONS%" THEN "numero_de_contagios_covid%"
+        WHEN v2themes LIKE "%TAX_DISEASE_CORONAVIRUS%" THEN "fallecimiento_por_covid"
     END
       ) AS news_in_Spain,
     v2counts,
@@ -242,13 +247,13 @@ FROM (
   WHERE
     v2counts LIKE '%#SP#%'
     AND counts LIKE '%#SP#%'
-    AND V2Locations LIKE '%#SP#%' AND
-    --DocumentIdentifier LIKE "%abc.es%"
-    ( SourceCommonName IN (
+    AND V2Locations LIKE '%#SP#%'
+    AND DATE(_PARTITIONTIME) >= "2019-01-01"
+    AND DATE(_PARTITIONTIME) <="2020-06-14"
+    AND ( SourceCommonName IN (
       SELECT
         spanish_newspapers
       FROM
-        `project-test-3105.gdelt_info_filtering.spanish_newspapers_SourceCommonName_160620`))
-    AND DATE(_PARTITIONTIME) >= "2020-01-01" )
+        `project-test-3105.gdelt_info_filtering.spanish_newspapers_SourceCommonName_160620`)))
 WHERE
   news_in_Spain IS NOT NULL

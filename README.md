@@ -1,11 +1,14 @@
 # Socioeconomic Portrait Project.
 
 ![alt](pics/automated_dashboard_preview.gif "uy mola")
-The final dashboard:
-- https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
 
 - Above buttons enable a better visualization: select wanted keywords you want to study and exclude the others:
 ![alt](pics/interactive_dashboard.png " ")
+
+The final dashboard:
+- https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+
+
 
 -----------------------------
 
@@ -13,14 +16,7 @@ Motivation:
 
 Is there a way of monitoring some aspects of the global crisis in Spain? I believe so, and this is the motivation to develop this **automated** ETL process in Google Cloud involving **Google Trends**, sentiment analysis and influence in news through the **Gdelt Project** and **Twitter**, from raw data acquisition to the final dashboard. Thanks to it, I have been fighting with credentials, permissions, storage locations, processing locations, 3rd party authentications, Cloud Functions, pipelines, trigger schedulers with different time format, Dataprep global updates, etc... And I learned a lot in the way, quaratine fun! :D
 
-Thanks to Patricia, who worked in very interesting methodologies with Twitter.
-
-
-
-
-Twitter code and how-to:
-- https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f
-
+Thanks to Patricia, who worked in very interesting methodologies with Twitter. Here you can find her content => https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f
 
 -------------------------------
 
@@ -31,9 +27,6 @@ Twitter code and how-to:
 5. **Conclusion**
 6. **Further improvements**
 7. **Documentation**
-
-
-
 
 
 
@@ -48,7 +41,6 @@ Let's show a social point of view of the pandemic's impact in Spain, through an 
 - Billing: create a maximum budget to avoid unexpected fees (10€,20€,300€... What suits your project).
 - Cloud Function number: Python script sending data to Cloud Storage.
         - Requesting data from Google Trends API.
-        - Requesting data from other API (in progress).
 - Pub/Sub topic: Triggers (activates) the Cloud Function.
 - Cloud Scheduler: Schedule a Pub/Sub topic.
 - Cloud Storage: Data Lake. Gets fed periodically with the python script.
@@ -91,7 +83,7 @@ The Gdelt Queries are based on the shared knowledge with the Data Team of Labeli
 - Python. 
 - Pytrends library.
 
-Google Trends is a Google tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
+Google Trends is a tool that analyses the popularity of top search queries in Google Search across various regions and languages. Basically, what people are looking for in Google.
 
 Google trends searches the maximum on the specified period, makes that maximum the 100% of Trend Index and everything else in the requested dates averaged by that top. If you request information weekly, you will have a point with 100% of Trend Index each week, regardless how popular it is. 
 
@@ -101,6 +93,7 @@ Google trends searches the maximum on the specified period, makes that maximum t
 
 So basically there are 2 ways of using it: Compare the evolution in time of different keywords, or checking the evolution in time of every keyword, each one separately. We took the 2nd path.
 
+- César discovered how tricky is Pytrends. The idea of requesting all at once but separately is his => https://www.linkedin.com/in/cesar-castanon/
 
 -----------------------
 
@@ -131,21 +124,35 @@ By the way, work *seriously* with twitter is quite expensive, and we do love pro
 
 The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available in almost 70 languages via BigQuery.
 
+- https://www.gdeltproject.org/
+
 We want to monitor what spanish news say about certain topics, so the process is the following:
 
-1. Create a dataset with all the spanish newspapers (real and digital ones). In *bigquery/spanish_newspapers.py* you can figure out the created dataset (254 different media).
+1. Create a dataset with all the spanish newspapers (paper version and digital ones). Taking a glance to  *bigquery/spanish_newspapers.py* you can figure out the created dataset (>150 different media).
 
 2. Make a bigquery table with that dataset.
 
-3. Select the *themes* you want to monitor in Gdelt. In *bigquery/bigquery_gdelt_themes_list.sql* you can find all themes available.
+3. Select the *themes* you want to monitor in the Gdelt database. In *bigquery/bigquery_gdelt_themes_list.sql* you can find all themes available.
 
-4. Make a query filtering by your goals, contrasting against the created table of spanish media and loading the data into a new table. 
+4. Make a query filtering by your goals, contrasting against the created table of spanish media and loading the data into a new table, the *main table*. 
 
-5. Run the fisrt query from 01.01.2019. After that, just schedule queries to append to that table.
+5. Divide the info of the *main table* in different tables, for different graphs in Data Studio (to get a faster visualization in Data Studio)
 
-6. Plot it in Data Studio.
+6. Schedule the overwriting of *main table*, to get periodical updates.
 
-- Jesús gave me a hand with this final approach :) https://www.linkedin.com/in/jralvarez1986/ 
+7. Schedule the appending of new info to the dashboarding tables.
+
+Updating tables:
+![alt](pics/updating_gdelt_tables.png)
+
+List of scheduled queries (Google Trends included)
+![alt](pics/list_of_scheduled_queries.png)
+
+8. Plot it in Data Studio.
+
+- Alex taught me how to UNNEST and EXTRACT. Kudos for the sentiment extraction => https://www.linkedin.com/in/alexmasip/
+
+- Jesús gave me a hand with some final SQL statements :) => https://www.linkedin.com/in/jralvarez1986/ 
 
 ------------------------------
 
@@ -372,7 +379,7 @@ People will spend more money on non necessary purchases like ordering food from 
 
 Remote working will last after the crisis?
  
-At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless this dashboard would help us to understand the short term past, the present, and maybe the close future.
+At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless this project could set the basis of how understanding the short term past, the present, and maybe the close future.
 
 -----------------------
 
@@ -380,10 +387,11 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 
 - This project has being very useful to reinforce my Google Cloud domain, which is the main goal, and it is accomplished.
 
-- The second goal is to get more expertise working with Gdelt, performing more accurate filters. I'm on that right now.
+- The second goal is to get more expertise working with Gdelt, performing more accurate filters. After creating my own tables, testing the Gdelt info against it, extracting, unnesting, requesting by last week regardless the day... I think I learned a lot, and also had fun. I do love Gdelt and starting to really appreciate and understand the power of Bigquery SQL.
 
-- It is a drawback the fact that Google Trends delivers information in a *quite weird manner*, it is already processed, and for instance, requesting weekly is pointless for our purposes, you have to request all the period you want to analyse at once. Also doing that implies that the information is delivered by blocks, so if I request information every monday from 1st january 2019, I will get all the info grouped by week, without the last week, making the dashboard look like not up to date.
-- Working with Twitter in a professional manner is also very expensive for resources and money, because you request all written twitters in a region/time, and then you analyse what info you want to extract. We did not see a cheap way of requesting just the number of times a concrete word appears, for example. The requesting is also very slow... I don't want to imagine how expensive could be to have a VM instance requesting and processing 24/7.
+- It is a drawback the fact that Google Trends delivers information in a *quite weird manner*, it is already processed, and for instance, requesting weekly is pointless for our purposes, you have to request all the period you want to analyse at once. Also doing that implies that the information is delivered by blocks, so if I request information every monday from 1st january 2019, I will get all the info grouped by week, without the last week, making the dashboard look like it is not up to date.
+
+- Working with Twitter in a professional manner is very expensive, out-of-fun-budget. You need to request all written twitters in a region/time, and then analyse that info. We did not see a cheap way of requesting just the number of times a concrete word appears, for example. The requesting is also very slow... I don't want to imagine how expensive could be to have a VM instance requesting and processing 24/7.
 
 ---------------------
 
@@ -391,7 +399,7 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 # 6. Further improvements.
 
 - Better research on themes to follow in Gdelt.
-- Use Python APis to track Stock Markets on time.
+- Use Python APis to track Stock Markets on time, and add it to the dashboard :)
 
 ----------------------------
 
@@ -414,7 +422,7 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 
 - The Gdelt Queries are based on the shared knowledge with the Data Team of Labelium España: **https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-of-marketing-analysts-62e586cc0343**
 
-- The final dashboard (in process): - https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
+- The final dashboard: - https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
 
 - Twitter code and how-to: **https://medium.com/@patricrp/buscando-contenido-con-la-api-de-twitter-f3c12994a77f**
 
@@ -430,6 +438,8 @@ Many thanks to:
 
 - **Alex Masip**, Head of Data at Labelium España https://www.linkedin.com/in/alexmasip/
 - **César Castañón**: https://www.linkedin.com/in/cesar-castanon/
+- **Jesús Rodríguez**:https://www.linkedin.com/in/jralvarez1986/ 
+
 
 
 ---------------------
@@ -453,15 +463,25 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 # Developer notes. 
 
-- Cloud Storage: Bucket in Europe multi-region (dataprep has not Europe-London location)
+- Cloud Storage: Bucket in Europe multi-region (dataprep has not Europe-London location).
 
 - Cloud Function: Testing it will modify the outcome in Cloud Storage.
 
-- Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2)
+- Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2).
 
 - Transfer: Germany. Weekly, on Monday  at 03:30 AM GTM+2(Germany = Spain in time zones)
 
-- BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020 
+- BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020.
+
+- BigQuery Gdelt.
+
+        - Overwriting the *main table*: This schedule will run Every Sun at 23:59 Europe/Paris, starting Sun Jun 21 2020.
+
+        - Appending to dashboard tables: This schedule will run Every Mon at 02:00 Europe/Paris, starting Mon Jun 22 2020
+
+
+
+**Very important**: My project is in EU but Gdelt is in US. My Gdelt dataset is also in US => don't forget processing location US
 
 
 ------------------
