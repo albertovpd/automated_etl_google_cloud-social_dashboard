@@ -281,6 +281,8 @@ There is also the option of triggering it with Pub/Sub, but it is not necessary 
 
 A cool option is, once the data is loaded from Cloud Storage to Bigquery, you can configure Transfer to erase the Cloud Storage bucket content (I understand this can save money if you are dealing with heavy volumes of data).
 
+In our case, I MIRROR the bucket info to the BQ table (because, as explained here, Google Trends works weirdly and the receiving info varies regarding the date interval the user is requesting).
+
 ### Dataprep:
 
 **This is not part of the pipeline anymore. It has been changed by Transfer. Nevertheless I leave here the information, in case someone finds it useful.**
