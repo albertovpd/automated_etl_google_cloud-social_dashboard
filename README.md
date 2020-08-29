@@ -190,15 +190,19 @@ https://console.cloud.google.com/storage/create-bucket?
 
 *The Python script I'm using is available in the Cloud Function folder*.
 
-- Make sure it runs fine in your PC before uploading to Cloud Function. Than means you need to be able to write in Cloud Storage. 
+- Make sure it runs fine in your PC before uploading to Cloud Function. It is a hassle debugging in the Cloud.
 
-- If you are following my steps (gcsfs library) and a NotFounderror arises while trying to upload to Cloud Storage, try the first time uploading manually the requested csv(s) to Cloud, and after that you'll automate the reading/overwriting of this csv(s))
+- If you are following my steps (gcsfs library) and a *NotFounderror* arises while trying to upload to Cloud Storage, try the first time uploading manually the requested csv(s) to Cloud, and after that you'll automate the reading/overwriting of this csv(s)
 
 
 Pytrends (keywords without accents or capital letters. Script available in Cloud Function). The chosen keywords for this project are in the ***cloud_function/requesting_from_pytrends.py***  folder.
 
 
-- Google Trends has the option of selection in which category you want to find your keywords. We have our reasons to not include categories in the code.
+- Google Trends: 
+        - Has the option of select in which category you want to find your keywords. We have our reasons to not include categories in the code.
+        - **Important**: When the requested information is more than a month, it is delivered grouped by week. That means you need to choose carefully when you will start requesting.
+
+It is important to clarify the second point: In my script, I was weekly requesting information from 2019-01-01 to the last sunday, and the script was activated every monday. The problem is the following: 2019-01-01 was Tuesday. Due to the fact that my wanted information was delivered grouped by week, it didn't reach every last sunday, it reached until every last tuesday, so I always was missing 5 days of valuable information and at the end of the week it seemed like I had a 2-week delay for some unknown reason. (I realised while having a shower :D)
 
 - Moreover, instead of appending new information to our tables each week, we are overwriting them intentionally. This is due to how Google process and delivers information from Trends.
 
