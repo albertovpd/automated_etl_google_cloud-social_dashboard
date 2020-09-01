@@ -285,7 +285,12 @@ There is also the option of triggering it with Pub/Sub, but it is not necessary 
 
 A cool option is, once the data is loaded from Cloud Storage to Bigquery, you can configure Transfer to erase the Cloud Storage bucket content (I understand this can save money if you are dealing with heavy volumes of data).
 
-In our case, I MIRROR the bucket info to the BQ table (because, as explained here, Google Trends works weirdly and the receiving info varies regarding the date interval the user is requesting).
+In our case:
+- MIRROR the bucket info to the BQ table (because, as explained here, Google Trends works weirdly and the receiving info varies regarding the date interval the user is requesting).
+- Ignore 0 errors
+- "," as delimitation field
+- Exclude 1st row (1st row has the column names)
+
 
 ### Dataprep:
 
@@ -475,7 +480,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2).
 
-- Transfer: Germany. Weekly, on Monday  at 03:30 AM GTM+2(Germany = Spain in time zones)
+- Transfer: Germany. Weekly, on Monday  at 05:00 AM GTM+2(Germany = Spain in time zones)
 
 - BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020.
 
