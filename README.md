@@ -9,7 +9,6 @@ The final dashboard:
 - https://datastudio.google.com/reporting/755f3183-dd44-4073-804e-9f7d3d993315
 
 
-
 -----------------------------
 
 Motivation:
@@ -32,9 +31,11 @@ Thanks to Patricia, who worked in very interesting methodologies with Twitter. H
 
 ------------------------------
 
-
 # 1. Introduction.
-
+<details>
+  <summary>Click to expand</summary>
+  
+----------------- 
 
 Let's show a social point of view of the pandemic's impact in Spain, through an automated ETL involving the following tools in Google Cloud:
 
@@ -58,12 +59,12 @@ The Gdelt Queries are based on the shared knowledge with the Data Team of Labeli
 
 - **https://medium.com/@a.vargas.pina/biqquery-and-the-gdelt-project-beyond-dreams-of-marketing-analysts-62e586cc0343**
 
---------------------------------
---------------------------------
---------------------------------
 
 
-**TROUBLESHOOTING TIME 1:** ***Golden rules for Cloud Services***:
+### **TROUBLESHOOTING TIME 1:** ***Golden rules for Cloud Services***:
+<details>
+  <summary>Click to expand</summary>
+---------------------------------
 
 - **1. Your wallet is your sacred temple:** If you won't read all Google documentation carefully, at least go to billing and create a budget with alerts for your project, in case you do something wrong, receiving custom alerts before you spend a lot without noticing. Don't end up living under a bridge. 
 
@@ -71,12 +72,18 @@ The Gdelt Queries are based on the shared knowledge with the Data Team of Labeli
 - **3. Worship Location:** While working on the different stages of your project, pay attention to put all your stuff in the very same region. Beware of headaches if don't. 
 - **4. Don't panic:** That's all.
 
----------------------
----------------------
----------------------
+</details>
+
+
+
+--------------------
+
+
 
 ### Used tools to analyse the internet in Spain:
-
+<details>
+  <summary>Click to expand</summary>
+-----------------------------------
 
 ***Google Trends***:
 
@@ -117,6 +124,7 @@ By the way, work *seriously* with twitter is quite expensive, and we do love pro
 
 -------------------------------
 
+
 ***Gdelt Project***: 
 
 - SQL. 
@@ -125,6 +133,10 @@ By the way, work *seriously* with twitter is quite expensive, and we do love pro
 The Gdelt Project is a database with all the news of the world, updated every 15 minutes. It also classifies the incoming data, so you can search topics, themes, people, related people to them... It is impressive, and available in almost 70 languages via BigQuery.
 
 - https://www.gdeltproject.org/
+
+</details>
+
+-------------------------------------------
 
 We want to monitor what spanish news say about certain topics, so the process is the following:
 
@@ -154,14 +166,27 @@ List of scheduled queries (Google Trends included)
 
 - Jesús gave me a hand with some final SQL statements :) => https://www.linkedin.com/in/jralvarez1986/ 
 
-------------------------------
 
+
+</details>
+
+
+------------------------------
 -------------------------------
 
 # 2. How to:
 
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
+
 ### Billing.
 
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 In Cloud environment, select your project, go to billing, and take a glance. Just select a weekly/monthly budget to your project, remember that it is linked to your bank account and a wrong action can cost a lot of money if you don't pay attention.
 
 In Notification Channels you can choose a lot of options, whatever suits you.
@@ -169,24 +194,49 @@ In Notification Channels you can choose a lot of options, whatever suits you.
 ![alt](pics/budget_alert.png " ")
 
 
+</details>
+
+--------------------
+
 
 ### Create a new project and get your credentials here:
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?_ga=2.187077160.1256540572.1587286598-806021438.1579453370&pli=1&supportedpurview=project
 
 - Service Account: Give it a nice name.
 - Role: Storage Object Admin, Cloud Function
 
+</details>
 
+----------------
 
 ### Create a bucket in Cloud Storage
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 https://console.cloud.google.com/storage/create-bucket?
         
 - Configure it: Due to our requirements we will use region location (**Europe Multi-region**). Be careful, it can give you a hard headache, mainly if working with BigQuery or data from other regions that are not your selected one. Always locate all buckets where all data sources you are using for the same project. 
 
+</details>
+
+----------------
 
 ### Python script
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
+
 
 *The Python script I'm using is available in the Cloud Function folder*.
 
@@ -210,7 +260,14 @@ If you want another approach, this is an awesome tutorial:
 
 - https://searchengineland.com/learn-how-to-chart-and-track-google-trends-in-data-studio-using-python-329119
 
+</details>
+
 ### Deploy the scripts on Google Cloud Function:
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 1. Create a function here
         
@@ -229,11 +286,17 @@ If you want another approach, this is an awesome tutorial:
 
 - https://github.com/albertovpd/pytrends_cloud_function_example
 
----------------------------------------
----------------------------------------
----------------------------------------
+</details>
 
-**TROUBLESHOOTING TIME 2:** 
+----------------------
+
+
+### **TROUBLESHOOTING TIME 2:** 
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 If you can deploy your funciton perfectly but testing it you get the following error:
 
@@ -253,16 +316,20 @@ I have been stuck some time with this error. Maybe some information found here c
 
 - https://www.reddit.com/r/cloudfunctions/comments/gu37ye/huge_amout_of_allocated_memory_needed_for/
 
+</details>
 
 -------------------
--------------------
--------------------
 
 
+### Scheduling
 
-
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 ### Go to Cloud Scheduler to schedule your topic.
+
 
 - https://console.cloud.google.com/cloudscheduler/appengine
 
@@ -275,7 +342,14 @@ I have been stuck some time with this error. Maybe some information found here c
 - Create a dataset with the same location than the rest of the project.
 - Create a table with the elements of the Cloud Storage bucket (this will be updated with DataPrep)
 
+</details>
+
 ### Transfer:
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 - Go to Bigquery => Transfer. 
 
@@ -291,8 +365,14 @@ In our case:
 - "," as delimitation field
 - Exclude 1st row (1st row has the column names)
 
+</details>
 
 ### Dataprep:
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 **This is not part of the pipeline anymore. It has been changed by Transfer. Nevertheless I leave here the information, in case someone finds it useful.**
 
@@ -314,18 +394,19 @@ Dataprep will load and transfer files from Cloud Storage to BigQuery tables in a
 
 - When the job works fine, do exactly the same but with a scheduled job.
 
---------------------------------
---------------------------------
+</details>
+
 --------------------------------
 
 
-**TROUBLESHOOTING TIME 3:**:
+### **TROUBLESHOOTING TIME 3:**
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 Follow all mentioned above. Dataprep processes are veeery slow, so you can waste a lot of time waiting for the job to be done and going to the log console.
-
-----------------------
---------------------------------
---------------------------------
 
 In our case:
 
@@ -334,10 +415,16 @@ In our case:
         - n1 standard
         - Truncate table in Bigquery (we'll overwrite continuously the Google Trends data due to how Google Trends works)
 
+</details>
 
 -------------------------------------------------
 
 ### Bigquery 2:
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 1. Go there.
 2. Create a scheduled query requesting from the tables periodically fed by Transfer, and save them in other tables.
@@ -346,31 +433,44 @@ The motivation for this is the following: Data Studio is the cheapest when the d
 
 In ***bigquery/tables_python_api*** is available the sql query of Pytrends, in case you want to take a glance.
 
-### Data Studio:
+</details>
 
+### Data Studio:
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 Find your tables in BigQuery and make some art.
 
 **Warning:** I learnt by the hard way not to use Custom Query option in DataStudio, because every time someone opens the dashboard, the query will be performed, and it can cost you kind of A LOT. So always, create your dashboards from BigQuery tables.
 
 Hopefully reddit has a great BigQuery community, and it worth taking a glance there. This was the issue if you're curious: https://www.reddit.com/r/bigquery/comments/gdk5mo/some_help_to_understand_how_i_burnt_the_300_and/
 
+</details>
 
+------------------------------
 
 **- Gdelt Project.**
 
-This is currently under construction, we need to study how to optimize costs and processing (the query available here process more than 300GB, and costs some money. It is better to invest that money in queries from the same date or in storage? We do not know, yet :) )
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
-Target:
-- Filter by country.
+- Filter by country with the help of a personal table, with all main national news (not all national webpage as the .es domain).
 - Analyse the sentiment of each filtered news.
-
-An example of what we want is here, to check certain topics in Spain and analyse the related sentiment:
-
-![alt](pics/gdelt_sketch.png " " )
 
 The query is available in this folder: ***bigquery_gdelt_project_sql***
 
+</details>
+
+</details>
+
+
+
 ---------------------------
+-------------------------
+
 
 # 3. Results
 
@@ -379,7 +479,14 @@ Results can be found here:
 https://datastudio.google.com/s/iV7dE0FHYSM
 
 -------------------------
+------------------------
+
+
 # 4. Analyzing results
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 
 Do you remember when refugees or nationalism were main topic on TV in Spain? The topic will come back for other reasons like an economical crisis across Europe?  How long is going to be the keyword "economical war" the main topic of some politicians?
@@ -392,9 +499,18 @@ Remote working will last after the crisis?
  
 At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless this project could set the basis of how understanding the short term past, the present, and maybe the close future.
 
+</details>
+
+-----------------------
 -----------------------
 
 # 5. Conclusion 
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
+
 
 - This project has being very useful to reinforce my Google Cloud domain, which is the main goal, and it is accomplished.
 
@@ -404,17 +520,37 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 
 - Working with Twitter in a professional manner is very expensive, out-of-fun-budget. You need to request all written twitters in a region/time, and then analyse that info. We did not see a cheap way of requesting just the number of times a concrete word appears, for example. The requesting is also very slow... I don't want to imagine how expensive could be to have a VM instance requesting and processing 24/7.
 
+</details>
+
+---------------------
 ---------------------
 
 
 # 6. Further improvements.
 
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
+
 - Better research on themes to follow in Gdelt.
 - Use Python APis to track Stock Markets on time, and add it to the dashboard :)
+- I am in the process of automating an ML algorithm to infere how many times the keyword ***"unemployment"*** is searched in Google one week ahead. 
+
+
+</details>
+
+
 
 ----------------------------
+-------------------------------
 
 # 7. Documentation:
+
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 - What is Google Trends (no code)   https://www.karinakumykova.com/2019/03/calculate-search-interest-with-pytrends-api-and-python/
 
@@ -439,10 +575,10 @@ At this date, friday 05/06/2020, it is not easy to give an answer, nevertheless 
 
 - https://github.com/albertovpd/automated_etl_google_cloud-social_dashboard
 
+</details>
 
 --------------------------------
---------------------------------
-
+-------------------------------
 
 
 Many thanks to:
@@ -467,12 +603,14 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 
 
----------------------------
----------------------------
------------------------------
+----------------
+----------------
 
-
-# Developer notes. 
+# Developer notes.
+<details>
+  <summary>Click to expand</summary>
+ 
+------------------------
 
 - Cloud Storage: Bucket in Europe multi-region (dataprep has not Europe-London location).
 
@@ -495,6 +633,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 **Very important**: My project is in EU but Gdelt is in US. My Gdelt dataset is also in US => don't forget processing location US
 
 
-------------------
-------------------
------------------
+</details>
+
+------------------------------
+------------------------------
