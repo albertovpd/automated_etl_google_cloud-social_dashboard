@@ -1,5 +1,5 @@
--- 1st query request all info and save it to make a concrete graph in Dashboard
--- 2nd query create tables dividing the Gdelt info, to make other Graphs by theme
+-- The 1st query request all info and save it to make a concrete graph in Dashboard
+-- This 2nd query create tables dividing the Gdelt info, to make other Graphs by theme
 
 
 CREATE OR REPLACE TABLE
