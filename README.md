@@ -616,23 +616,29 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
  
 ------------------------
 
+## Python script automation.
+
 - Cloud Storage: Bucket in Europe multi-region (dataprep has not Europe-London location).
 
 - Cloud Function: Testing it will modify the outcome in Cloud Storage.
 
-- Cloud Scheduler for triggering the Cloud Function: 0 7 * * 1 Europe(Germany). It means it will run every monday at 7:00 (GTM2. 0=Sunday => 1=Monday).
+- Cloud Scheduler for triggering the Cloud Function: 0 3 * * 1 Europe(Germany). It means it will run every monday at 7:00 (GTM2. 0=Sunday => 1=Monday).
 
-- Transfer to load from Storage to BigQuery: Germany. Weekly, on Monday at 26/10/2020, 08:30. *Be careful, if you modify the content of Cloud Storage it will last at least 1 hour to be appreciated by Transfer, as said in this thread https://stackoverflow.com/questions/61126019/not-able-to-update-big-query-table-with-transfer-from-a-storage-file you'll get an nice log like "no changes have bee appreciated to modify the table*
+- Transfer (Load from Storage to BigQuery): Germany. Weekly, on Monday at 26/10/2020, 05:00. 
 
-- BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020.
+*Be careful, if you modify the content of Cloud Storage it will last at least 1 hour to be appreciated by Transfer, as said in this thread https://stackoverflow.com/questions/61126019/not-able-to-update-big-query-table-with-transfer-from-a-storage-file you'll get an nice log like "no changes have bee appreciated to modify the table. This caused a 2-week delay in Pytrends results.*
 
-- BigQuery Gdelt.
+- BigQuery pytrends: This schedule will run Every Mon at 06:00 Europe/Berlin, starting Mon Jun 08 2020.
 
-        - Overwriting the *main table*: This schedule will run Every Sun at 23:59 Europe/Paris, starting Sun Jun 21 2020.
+*Processed in EU.*
 
-        - Appending to dashboard tables: This schedule will run Every Mon at 02:00 Europe/Paris, starting Mon Jun 22 2020
+## Gdelt automation.
 
+- Overwriting the *main table*: This schedule will run Every Sun at 23:59 Europe/Paris, starting Sun Jun 21 2020.
 
+- Appending to dashboard tables: This schedule will run Every Mon at 02:00 Europe/Paris, starting Mon Jun 22 2020
+
+*Processed in US.*
 
 **Very important**: My project is in EU but Gdelt is in US. My Gdelt dataset is also in US => don't forget processing location US
 
