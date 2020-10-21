@@ -1,5 +1,7 @@
 -- Due to how Google Trends works, I overwrite continuously the Google Trends tables with the newest info
 
+-- After being ingested the data in a main BigQuery table, it is separated into many tables for the sake of Data Studio good development practices
+
 CREATE OR REPLACE TABLE
   your_table_name.videocall_searches AS
 SELECT
