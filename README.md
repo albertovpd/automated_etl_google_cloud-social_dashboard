@@ -279,8 +279,10 @@ If you want another approach, this is an awesome tutorial:
 5. Stage bucket: The bucket you created in GCS
 6. Advanced options. Region: Select the same region than the created bucket in GCS (**this is very important**)
 7. Service account: The same which you used to export your json credentials.
-8. Advanced options. Environment variables: In the code, for private stuff like paths or keywords, instead of writing them, do something like <os.getenv("PROJECT_NAME")> (check the code). Then in this section, write PROJECT_NAME and its real value, both without the str symbol (" "). It looks like it does not work with os.dotenv.
+8. Advanced options. Environment variables: In the code, for private stuff like paths or keywords, instead of writing them, do something like <os.getenv("PROJECT_NAME")> (check the code). Then in this section, write PROJECT_NAME and its real value, both without the str symbol (" "). It looks like it does not work with os.dotenv. If you want to see how to use env variables => https://github.com/albertovpd/cloud_function_example_pytrends 
 9. Function to execute: main
+
+- You can measure on your pc how much your script lasts and how much memory uses. Then try using that measurements for the configuration (on RAM and timeout). If you get errors (being completely sure your script works fine and attending to the logs), raise them until it works.
  
  Why the pub/sub topic is **main** or questions about the script structure can be found here:
 
