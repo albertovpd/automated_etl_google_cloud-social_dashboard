@@ -616,7 +616,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Cloud Function: Testing it will modify the outcome in Cloud Storage.
 
-- Cloud Scheduler: 0 3 * * 1 Europe(Germany). It means it will run every monday at 3:00 (GTM2).
+- Cloud Scheduler for triggering the Cloud Function: 0 7 * * 1 Europe(Germany). It means it will run every monday at 7:00 (GTM2. 0=Sunday => 1=Monday).
 
 - Transfer: Germany. Weekly, on Monday  at 05:00 AM GTM+2(Germany = Spain in time zones)
 
