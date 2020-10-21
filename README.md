@@ -365,6 +365,8 @@ In our case:
 - "," as delimitation field
 - Exclude 1st row (1st row has the column names)
 
+*If you modify the content of Storage, wait at least 1 hour before using Transfer again, as said in this thread https://stackoverflow.com/questions/61126019/not-able-to-update-big-query-table-with-transfer-from-a-storage-file*
+
 </details>
 
 ### Dataprep:
@@ -618,7 +620,7 @@ Project by **Patricia Carmona** and **Alberto Vargas**.
 
 - Cloud Scheduler for triggering the Cloud Function: 0 7 * * 1 Europe(Germany). It means it will run every monday at 7:00 (GTM2. 0=Sunday => 1=Monday).
 
-- Transfer: Germany. Weekly, on Monday  at 05:00 AM GTM+2(Germany = Spain in time zones)
+- Transfer to load from Storage to BigQuery: Germany. Weekly, on Monday at 26/10/2020, 08:30. *Be careful, if you modify the content of Cloud Storage it will last at least 1 hour to be appreciated by Transfer, as said in this thread https://stackoverflow.com/questions/61126019/not-able-to-update-big-query-table-with-transfer-from-a-storage-file you'll get an nice log like "no changes have bee appreciated to modify the table*
 
 - BigQuery pytrends: This schedule will run Every Mon at 04:00 Europe/Berlin, starting Mon Jun 08 2020.
 
