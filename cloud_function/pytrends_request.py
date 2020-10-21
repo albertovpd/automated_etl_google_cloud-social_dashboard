@@ -1,5 +1,5 @@
-import os
-import gcsfs
+# import os
+# import gcsfs
 import pandas as pd
 import random
 import pytrends
@@ -14,7 +14,7 @@ from datetime import datetime, date, time, timedelta
 #--------------------------------------
 # date
 #yesterday=(datetime.now()-timedelta(days=1)).date()
-dates="2019-01-03"+" "+str(datetime.now().date()) 
+dates="2019-01-06"+" "+str(datetime.now().date()) 
 print(dates)
 
 keywords=[
