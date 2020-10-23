@@ -2,6 +2,7 @@ ipynb_checkpoints/
 twitter_folder/.ipynb_checkpoints/
 *.ipynb 
 .env
+cloud_function_backup 
 tmp
 output/
 input/
