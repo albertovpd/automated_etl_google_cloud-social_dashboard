@@ -293,14 +293,14 @@ If you want another approach, this is an awesome tutorial:
 ----------------------
 
 
-### **TROUBLESHOOTING TIME 2:** 
+### **TROUBLESHOOTING TIME 2: CF problems** 
 
 <details>
   <summary>Click to expand</summary>
  
 ------------------------
 
-If you can deploy your funciton perfectly but testing it you get the following error:
+- If you can deploy your function perfectly but testing it you get the following error:
 
 ![alt](pics/cloud_function_error.png " ")
 
@@ -317,6 +317,8 @@ I have been stuck some time with this error. Maybe some information found here c
 - https://www.reddit.com/r/googlecloud/comments/gs2gd9/an_unknown_error_has_occurred_in_cloud_functions/
 
 - https://www.reddit.com/r/cloudfunctions/comments/gu37ye/huge_amout_of_allocated_memory_needed_for/
+
+- Another issue that looks like black magic to me at this time: *I am sending from a dataframe a csv to Cloud Storage. If there is no file in Storage with the very same name than the csv you are trying to send, you will get an error. It is like instead of sending, you are overwriting one file (I am writing this warning before checking out what is going on. I do not have all the time I want for my projects, so this is a problem for myself from the future).*
 
 </details>
 
@@ -366,6 +368,7 @@ In our case:
 - Ignore 0 errors
 - "," as delimitation field
 - Exclude 1st row (1st row has the column names)
+- **Do not erase the file in Storage after sending it to BigQuery.** Your Cloud Function will not work.
 
 *If you modify the content of Storage, wait at least 1 hour before using Transfer again, as said in this thread https://stackoverflow.com/questions/61126019/not-able-to-update-big-query-table-with-transfer-from-a-storage-file*
 
