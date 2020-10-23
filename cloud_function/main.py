@@ -4,7 +4,7 @@ from os.path import isfile, join
 
 def main (data,context):
     
-    processes= ("pytrends_request.py","upload_gcs_real.py","remove_files.py")
+    processes= ["pytrends_request.py","upload_gcs_real.py","remove_files.py"]
 
     for p in processes:
         print(p)
