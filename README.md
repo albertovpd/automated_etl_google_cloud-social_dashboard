@@ -483,7 +483,7 @@ The query is available in this folder: ***bigquery_gdelt_project_sql***
 
 Results can be found here:
 
-https://datastudio.google.com/s/iV7dE0FHYSM
+https://datastudio.google.com/s/lE64HKGyR8w
 
 -------------------------
 ------------------------
